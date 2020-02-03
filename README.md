@@ -1,4 +1,4 @@
-# noob_project
+# GirlScript Chennai Community App
 
 A new Flutter project.
 
