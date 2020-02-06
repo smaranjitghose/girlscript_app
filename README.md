@@ -1,6 +1,7 @@
-# GirlScript Chennai Community App
+# GirlScript Community App Boilerplate
 
-A new Flutter project.
+This is an app built using Flutter for GirlScipt Chennai Chapter that is to be used by the tech community associated with it and to later serve as a template for other tech communities as well.  From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance.
+
 
 ## Requirements to contribute
 
@@ -16,3 +17,11 @@ A new Flutter project.
 +  [Firebase and Flutter  App Build](https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC)
 +  [Reso Code's Youtube Channel for best practices](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA/featured)
 +  [Official Flutter Documentation](https://flutter.dev/docs)
+
+## Tasks and Features
+
+* Improve the UI
+* Work on the improvement and building the various pages of the app
+* Database integration with  Firebase
+* Have a corresponding Web App for this
+* Analyze further design requirements and integrate
