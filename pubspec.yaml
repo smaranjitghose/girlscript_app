@@ -21,6 +21,7 @@ dependencies:
     sdk: flutter
 
   url_launcher: ^5.4.1
+  intl: ^0.16.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -46,15 +47,19 @@ flutter:
     - family: plz
       fonts:
         - asset: fonts/plz.ttf
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa.ttf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - images/GSsoc Type Logo Black.png
-  - michael-dam-mEZ3PoFGs_k-unsplash.jpg
+  assets:
+    - assets/images/
+    - images/GSsoc Type Logo Black.png
+    - michael-dam-mEZ3PoFGs_k-unsplash.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
