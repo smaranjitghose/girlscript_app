@@ -1,4 +1,4 @@
-![](https://drive.google.com/open?id=1vJpplLQ4B10F04oumOUYm5aqgN9KzLwi)
+![](https://twitter.com/girlscriptsoc/header_photo)
 
 # GirlScript Community App Boilerplate
 
