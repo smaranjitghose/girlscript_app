@@ -25,3 +25,14 @@ This is an app built using Flutter for different GirlScipt Chapters that is to b
 * Database integration with  Firebase
 * Have a corresponding Web App for this
 * Analyze further design requirements and integrate
+
+## Mentors:
+* [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
+* [Saswat Nayak](https://github.com/swat1998)
+* [Anush Bhatia](https://github.com/anushbhatia)
+* [Suhrid Datta](https://github.com/suhriddatta)
+
+## Project Admin:
+* [Smaranjit Ghose](https://github.com/smaranjitghose)
+
+
