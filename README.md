@@ -1,4 +1,4 @@
-![](https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc.jfif)
+![](https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png)
 
 # GirlScript Community App Boilerplate
 
