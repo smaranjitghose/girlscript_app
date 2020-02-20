@@ -1,4 +1,4 @@
-![](https://twitter.com/girlscriptsoc/header_photo)
+![](https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc.jfif)
 
 # GirlScript Community App Boilerplate
 
