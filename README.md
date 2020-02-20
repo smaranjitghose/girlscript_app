@@ -1,6 +1,6 @@
 # GirlScript Community App Boilerplate
 
-This is an app built using Flutter for GirlScipt Chennai Chapter that is to be used by the tech community associated with it and to later serve as a template for other tech communities as well.  From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance.
+This is an app built using Flutter for different GirlScipt Chapters that is to be used by the community associated with it and to later serve as a template for other tech communities as well. From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance and being a open source project for beginners to learn and contribute to is a cherry on the cake. 
 
 
 ## Requirements to contribute
