@@ -34,7 +34,7 @@ This is an app built using Flutter for different GirlScipt Chapters that is to b
 * [Anush Bhatia](https://github.com/anushbhatia)
 * [Ousnik Poley](https://github.com/ousnik)
 
-## Project Admin:
+## Get in touch with the Project Admin:
 * [Smaranjit Ghose](https://github.com/smaranjitghose)
 <a href="https://www.linkedin.com/in/smaranjitghose/"><img src="https://github.com/smaranjitghose/DeepDataDump/blob/master/desciption/linkedIn_logo.png" width="32px" height="32px"></a>
 <a href="https://twitter.com/smaranjitghose"><img src="https://github.com/smaranjitghose/DeepDataDump/blob/master/desciption/twitter_logo.png" width="32px" height="32px"></a>
