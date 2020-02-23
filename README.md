@@ -32,7 +32,7 @@ This is an app built using Flutter for different GirlScipt Chapters that is to b
 * [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
 * [Saswat Nayak](https://github.com/swat1998)
 * [Anush Bhatia](https://github.com/anushbhatia)
-* [Suhrid Datta](https://github.com/suhriddatta)
+* [Ousnik Poley](https://github.com/ousnik)
 
 ## Project Admin:
 * [Smaranjit Ghose](https://github.com/smaranjitghose)
