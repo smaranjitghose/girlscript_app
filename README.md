@@ -1,4 +1,12 @@
-![](https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png)
+<p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Pub](https://img.shields.io/badge/pub-v0.4.0-orange)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 # GirlScript Community App Boilerplate
 
@@ -28,6 +36,7 @@ This is an app built using Flutter for different GirlScript Chapters that is to 
 * Have a corresponding Web App for this
 * Analyze further design requirements and integrate
 
+
 ## Mentors:
 * [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
 * [Saswat Nayak](https://github.com/swat1998)
@@ -41,3 +50,18 @@ This is an app built using Flutter for different GirlScript Chapters that is to 
 <a href="https://twitter.com/smaranjitghose"><img src="https://github.com/smaranjitghose/DeepDataDump/blob/master/desciption/twitter_logo.png" width="32px" height="32px"></a>
 
 
+## Sample Output 
+
+<p>
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250"> 
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
+  <br></br>
+  <br></br>
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
+  <br></br>
+  <br></br>
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
+</p>
