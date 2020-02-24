@@ -52,12 +52,8 @@ This is an app built using Flutter for different GirlScript Chapters that is to 
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250"> 
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
-  <br></br>
-  <br></br>
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
-  <br></br>
-  <br></br>
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
 </p>
