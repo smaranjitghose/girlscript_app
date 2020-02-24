@@ -21,18 +21,6 @@ This is an app built using Flutter for different GirlScript Chapters that is to 
 - UI/UX Design skills are appreciable but not mandatory
 - Some idea about Firebase or willingness to learn it
 
-## Sample Output 
-
-<p>
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250"> 
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
-</p>
-
 ##  Resources to get started with:
 +  [Dart Programming](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
 +  [Flutter Crash Course](https://www.youtube.com/watch?v=pTJJsmejUOQ)
@@ -57,3 +45,17 @@ This is an app built using Flutter for different GirlScript Chapters that is to 
 
 ## Project Admin:
 * [Smaranjit Ghose](https://github.com/smaranjitghose)
+
+
+
+## Sample Output 
+
+<p>
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250"> 
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
+</p>
