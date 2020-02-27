@@ -1,0 +1,4 @@
+#Thu Feb 27 16:50:35 IST 2020
+base.0=/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/app/intermediates/transforms/dexMerger/profile/0
+path.0=classes.dex
+renamed.0=classes.dex

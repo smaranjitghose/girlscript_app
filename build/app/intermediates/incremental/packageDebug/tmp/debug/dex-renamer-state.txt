@@ -1,4 +1,4 @@
-#Sun Feb 02 00:29:31 IST 2020
-base.0=C\:\\Users\\saswa\\noob_project\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Feb 27 16:46:14 IST 2020
+base.0=/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

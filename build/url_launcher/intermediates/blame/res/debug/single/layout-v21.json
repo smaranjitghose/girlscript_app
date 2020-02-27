@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/sanket/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c10e35ef60bc47ff0f46d131b6426e34/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/sanket/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c10e35ef60bc47ff0f46d131b6426e34/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/sanket/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c10e35ef60bc47ff0f46d131b6426e34/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/sanket/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c10e35ef60bc47ff0f46d131b6426e34/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

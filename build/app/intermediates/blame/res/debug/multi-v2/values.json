@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\saswa\\noob_project\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\saswa\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\28fbda6be227aba32058f69caad86767\\res\\values\\values.xml",
+                    "source": "/home/sanket/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c10e35ef60bc47ff0f46d131b6426e34/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,13,56,88,125,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,26 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\saswa\\noob_project\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "353"
-                    },
-                    "to": {
-                        "startLines": "266",
-                        "startColumns": "4",
-                        "startOffsets": "15702",
-                        "endLines": "270",
-                        "endColumns": "12",
-                        "endOffsets": "15994"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\saswa\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-28.0.0.aar\\3ee73c34878a7e494056db9fa05546aa\\res\\values\\values.xml",
+                    "source": "/home/sanket/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3752cb1918f4d01b30b7dfe205ff87f9/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,13,102",
                         "startColumns": "4,4,4,4",
@@ -58,6 +39,25 @@
                         "endLines": "2,23,112,286",
                         "endColumns": "60,24,24,12",
                         "endOffsets": "111,1281,6492,17036"
+                    }
+                },
+                {
+                    "source": "/home/sanket/Desktop/test/GSSOC/girlscript-app/girlscript_app/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "266",
+                        "startColumns": "4",
+                        "startOffsets": "15702",
+                        "endLines": "270",
+                        "endColumns": "12",
+                        "endOffsets": "15994"
                     }
                 }
             ]
