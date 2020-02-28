@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:noob_project/Contactus.dart';
-import 'package:noob_project/Project.dart';
+import 'package:noob_project/aboutUs.dart';
 import 'package:noob_project/events.dart';
+import 'package:noob_project/project.dart';
 import 'package:noob_project/team.dart';
-import 'Project.dart';
 import 'Announcements.dart';
 import 'Sponsors.dart';
 import 'Contactus.dart';
@@ -91,7 +91,7 @@ class _HelloState extends State<Hello> {
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Projectpage(),)
+                    MaterialPageRoute(builder: (context) => Project(),)
                 );
               },
               leading: Icon(Icons.code),
@@ -142,9 +142,9 @@ class _HelloState extends State<Hello> {
           children: <Widget>[
             Home(),
             Events(),
-            Center(child:Text("data 1")),
+            Project(),
             Team(),
-            Center(child:Text("data 3")),
+            ABoutUs(),
           ],
           onPageChanged: (int index){
             setState(() {

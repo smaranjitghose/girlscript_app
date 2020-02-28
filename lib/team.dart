@@ -47,6 +47,18 @@ class _TeamState extends State<Team> {
               ),
             ),
           ),
+          Container(
+            height: 200.0,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 15.0,
+                  backgroundColor: Colors.blueAccent,
+                ),
+              ],
+            ),
+          ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[

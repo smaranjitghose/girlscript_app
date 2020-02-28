@@ -20,12 +20,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  url_launcher: ^5.4.1
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   carousel_slider: ^1.4.1
+  url_launcher: ^5.4.1
 
 dev_dependencies:
   flutter_test:
@@ -53,10 +52,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - images/GSsoc Type Logo Black.png
-  - images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/GSsoc Type Logo Black.png
+    - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
+    - assets/images/GitHub_Mark.png
+    - assets/images/fb.png
+    - assets/images/yt.png
+    - assets/images/insta.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
