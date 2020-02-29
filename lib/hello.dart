@@ -59,75 +59,90 @@ class _HelloState extends State<Hello> {
       // ),
       backgroundColor: Colors.white,
       drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.red,
-              ),
-              child: Text(
-                'Options',
-                style: TextStyle(
-                  color: Colors.yellow,
-                  fontSize: 24,
+        child: Container(
+          color: Colors.red,
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: <Widget>[
+              DrawerHeader(
+                decoration: BoxDecoration(
+                  color: Colors.red,
                 ),
+                child: Image.asset('assets/images/gslogo.png')
               ),
-            ),
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Announcementspage(),)
-                );
-              },
-              leading: Icon(Icons.announcement),
-              title: Text('Announcements',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Project(),)
-                );
-              },
-              leading: Icon(Icons.code),
-              title: Text('Projects',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),
-            ),
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Sponsorspage(),)
-                );
-              },
-              leading: Icon(Icons.monetization_on),
-              title: Text('Sponsors',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Contactuspage(),)
-                );
-              },
-              leading: Icon(Icons.contacts),
-              title: Text('Contant us',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-          ],
+              ListTile(
+                onTap: () {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => Announcementspage(),)
+                  );
+                },
+                leading: Icon(
+                  Icons.announcement,
+                  color: Colors.white,
+                  size: 26.0,
+                ),
+                title: Text('Announcements',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15
+                    )
+                  ),
+                ),
+              ListTile(
+                onTap: () {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => Project(),)
+                  );
+                },
+                leading: Icon(
+                  Icons.code,
+                  color: Colors.white,
+                  size: 26.0,
+                ),
+                title: Text('Projects',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15
+                    )),
+              ),
+              ListTile(
+                onTap: () {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => Sponsorspage(),)
+                  );
+                },
+                leading: Icon(
+                  Icons.monetization_on,
+                  color: Colors.white,
+                  size: 26.0,
+                ),
+                title: Text('Sponsors',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15
+                    )),),
+              ListTile(
+                onTap: () {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => Contactuspage(),)
+                  );
+                },
+                leading: Icon(
+                  Icons.call,
+                  color: Colors.white,
+                  size: 26.0,
+                  ),
+                title: Text('Contant us',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15
+                    )),),
+            ],
+          ),
         ),
       ),
       // body: ListView(
