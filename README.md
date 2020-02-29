@@ -13,10 +13,10 @@
 This is an app built using Flutter for different GirlScript Chapters that is to be used by the community associated with it and to later serve as a template for other tech communities as well. From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance and being a open source project for beginners to learn and contribute to is a cherry on the cake. 
 
 
-### Requirements to contribute
+### Requirements to contribute:
 
 - Basic knowledge of programming is mandatory
--  The ability to use Git and GitHub
+- The ability to use Git and GitHub
 - Some knowledge of Dart and how to use Flutter is preferrable for a head start.
 - UI/UX Design skills are appreciable but not mandatory
 - Some idea about Firebase or willingness to learn it
@@ -57,7 +57,7 @@ git checkout -b <your_branch_name>
 git push -u origin <your_branch_name>
 ```
 
-**8.** Create a PR!
+**8.** Create a Pull Request!
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
 
