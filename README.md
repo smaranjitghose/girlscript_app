@@ -1,8 +1,12 @@
 # GirlScript Community App Boilerplate
 <p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
+
+
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app?style=for-the-badge)
 ![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
 
 This is an app built using Flutter for different GirlScript Chapters that is to be used by the community associated with it and to later serve as a template for other tech communities as well. From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance and being a open source project for beginners to learn and contribute to is a cherry on the cake. 
 
@@ -19,8 +23,7 @@ This is an app built using Flutter for different GirlScript Chapters that is to 
 
 ![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
 
-![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
-![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
+
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
 
