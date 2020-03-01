@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    }
+]

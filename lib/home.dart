@@ -163,7 +163,6 @@ class Hello extends StatelessWidget {
                         ),
                         child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
                       ),
-                      RichText(),
                     ],
                   ),
                   Container(),
