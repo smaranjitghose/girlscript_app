@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:noob_project/SocialIcons.dart';
 
 class Projectpage extends StatelessWidget{
   @override
@@ -10,7 +11,7 @@ class Projectpage extends StatelessWidget{
         backgroundColor: Color(0xffff4a4a),
         title: Text('Pojects', style: TextStyle(fontSize: 28, fontFamily: 'Playball')),
       ),
-      body: Text('hello1'),
+      body: const Icon(SocialIcons.facebook_squared),
     );
   }
 }
