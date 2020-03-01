@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:noob_project/Contactus.dart';
 import 'package:noob_project/Project.dart';
+import 'package:noob_project/notification.dart';
 import 'Project.dart';
 import 'Announcements.dart';
 import 'Sponsors.dart';
@@ -22,7 +23,7 @@ class Hello extends StatelessWidget {
               TextSpan(text: 'GIRLSCRIPT', style: TextStyle(color: Color(0xff7d7d7d), fontFamily: 'Moonhouse', decoration: TextDecoration.none, fontSize: 26)),
               TextSpan(text: ' <Chennai>', style: TextStyle(color: Color(0xff7d7d7d), fontFamily: 'Moonhouse', decoration: TextDecoration.none, fontSize: 20)),
             ],
-          )
+          ),
         ),
         leading: Builder(
           builder: (BuildContext context) {
@@ -38,6 +39,14 @@ class Hello extends StatelessWidget {
           },
         ),
         backgroundColor: Color(0xffffc929),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.notifications), 
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>Notifications()));
+            }
+          )
+        ],
       ),
       drawer: Drawer(
         child: ListView(
