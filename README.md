@@ -1,10 +1,11 @@
 # GirlScript Community App Boilerplate
 <p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)
 
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app?style=for-the-badge)
-![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
 
