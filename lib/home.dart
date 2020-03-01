@@ -2,10 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:noob_project/Contactus.dart';
 import 'package:noob_project/Project.dart';
-import 'Project.dart';
-import 'Announcements.dart';
-import 'Sponsors.dart';
-import 'Contactus.dart';
+import 'package:noob_project/Announcements.dart';
+import 'package:noob_project/Sponsors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
@@ -117,7 +115,7 @@ class Hello extends StatelessWidget {
       body: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
-          _buildgstile(context)
+          _buildgstile(context),
           _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc Type Logo Black.png', 'Girlscript Chennai had their app lanched', null)
         ],
       ),
@@ -163,7 +161,7 @@ class Hello extends StatelessWidget {
                         ),
                         child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
                       ),
-                      RichText(),
+                      // RichText(),
                     ],
                   ),
                   Container(),
