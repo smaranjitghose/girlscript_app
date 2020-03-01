@@ -117,8 +117,8 @@ class Hello extends StatelessWidget {
       body: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
-          _buildgstile(context)
-          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc Type Logo Black.png', 'Girlscript Chennai had their app lanched', null)
+          _buildgstile(context),
+          _buildupdate1(context, 'Launch of the app', 'images/GSsocTypeLogoBlack.png', 'Girlscript Chennai had their app lanched', null)
         ],
       ),
     );
@@ -134,7 +134,7 @@ class Hello extends StatelessWidget {
           height: 100.0,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/images/GSsoc type logo black.png')
+              image: AssetImage('images/GSsoctypelogoblack.png')
             ),
           ),
         ),
@@ -161,9 +161,13 @@ class Hello extends StatelessWidget {
                         decoration: BoxDecoration(
                           shape: BoxShape.rectangle,
                         ),
-                        child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
+                        child: Image.asset('images/unsplash.jpg'),
                       ),
-                      RichText(),
+                      RichText(
+                        text: TextSpan(
+                          text: "Placeholder Text"
+                        ),
+                      ),
                     ],
                   ),
                   Container(),
