@@ -117,8 +117,8 @@ class Hello extends StatelessWidget {
       body: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
-          _buildgstile(context)
-          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc Type Logo Black.png', 'Girlscript Chennai had their app lanched', null)
+          _buildgstile(context),
+          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc Type Logo Black.png', 'Girlscript Chennai had their app lanched', null),
         ],
       ),
     );
@@ -163,7 +163,6 @@ class Hello extends StatelessWidget {
                         ),
                         child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
                       ),
-                      RichText(),
                     ],
                   ),
                   Container(),
