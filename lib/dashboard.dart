@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:noob_project/home.dart';
+import 'package:noob_project/aboutUs.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -9,6 +10,12 @@ class Dashboard extends StatefulWidget {
 class _DashboardState extends State<Dashboard> {
   int _currentIndex=0;
   PageController _pageController;
+
+  @override
+  void initState(){
+    super.initState();
+    _pageController = PageController();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +28,7 @@ class _DashboardState extends State<Dashboard> {
             Center(child:Text("Events()")),
             Center(child:Text("Project()")),
             Center(child:Text("Team())")),
-            Center(child:Text("AboutUs()")),
+            AboutUs(),
           ],
           onPageChanged: (int index){
             setState(() {
