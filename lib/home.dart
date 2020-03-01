@@ -9,7 +9,7 @@ import 'Contactus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
-class Hello extends StatelessWidget {
+class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
@@ -39,81 +39,85 @@ class Hello extends StatelessWidget {
         ),
         backgroundColor: Color(0xffffc929),
       ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.red,
-              ),
-              child: Text(
-                'Options',
-                style: TextStyle(
-                  color: Colors.yellow,
-                  fontSize: 24,
-                ),
-              ),
-            ),
-
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Announcementspage(),)
-                );
-              },
-              leading: Icon(Icons.announcement),
-              title: Text('Announcements',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Projectpage(),)
-                );
-              },
-              leading: Icon(Icons.code),
-              title: Text('Projects',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),
-            ),
-
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Sponsorspage(),)
-                );
-              },
-              leading: Icon(Icons.monetization_on),
-              title: Text('Sponsors',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Contactuspage(),)
-                );
-              },
-              leading: Icon(Icons.contacts),
-              title: Text('Contant us',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-          ],
-        ),
-      ),
+      // drawer: Drawer(
+      //   child: ListView(
+      //     padding: EdgeInsets.zero,
+      //     children: <Widget>[
+      //       DrawerHeader(
+      //         decoration: BoxDecoration(
+      //           color: Colors.red,
+      //         ),
+      //         child: Text(
+      //           'Options',
+      //           style: TextStyle(
+      //             color: Colors.yellow,
+      //             fontSize: 24,
+      //           ),
+      //         ),
+      //       ),
+      //       ListTile(
+      //         onTap: () {
+      //           Navigator.of(context).pop();
+      //           Navigator.of(context).push(
+      //               MaterialPageRoute(builder: (context) => Announcementspage(),)
+      //           );
+      //         },
+      //         leading: Icon(Icons.announcement),
+      //         title: Text('Announcements',
+      //           style: TextStyle(
+      //             color: Color(0xffff4a4a),
+      //             fontSize: 14
+      //           )
+      //         ),
+      //       ),
+      //       ListTile(
+      //         onTap: () {
+      //           Navigator.of(context).pop();
+      //           Navigator.of(context).push(
+      //               MaterialPageRoute(builder: (context) => Projectpage(),)
+      //           );
+      //         },
+      //         leading: Icon(Icons.code),
+      //         title: Text('Projects',
+      //           style: TextStyle(
+      //               color: Color(0xffff4a4a),
+      //               fontSize: 14
+      //           )
+      //         ),
+      //       ),
+      //       ListTile(
+      //         onTap: () {
+      //           Navigator.of(context).pop();
+      //           Navigator.of(context).push(
+      //               MaterialPageRoute(builder: (context) => Sponsorspage(),)
+      //           );
+      //         },
+      //         leading: Icon(Icons.monetization_on),
+      //         title: Text('Sponsors',
+      //           style: TextStyle(
+      //               color: Color(0xffff4a4a),
+      //               fontSize: 14
+      //           )
+      //         ),
+      //       ),
+      //       ListTile(
+      //         onTap: () {
+      //           Navigator.of(context).pop();
+      //           Navigator.of(context).push(
+      //               MaterialPageRoute(builder: (context) => Contactuspage(),)
+      //           );
+      //         },
+      //         leading: Icon(Icons.contacts),
+      //         title: Text('Contant us',
+      //           style: TextStyle(
+      //               color: Color(0xffff4a4a),
+      //               fontSize: 14
+      //           )
+      //         ),
+      //       ),
+      //     ],
+      //   ),
+      // ),
       body: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
@@ -134,7 +138,7 @@ class Hello extends StatelessWidget {
           height: 100.0,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/images/GSsoc type logo black.png')
+              image: AssetImage("assets/images/GSsoc Type Logo Black.png")
             ),
           ),
         ),
@@ -161,9 +165,8 @@ class Hello extends StatelessWidget {
                         decoration: BoxDecoration(
                           shape: BoxShape.rectangle,
                         ),
-                        child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
+                        child: Image.asset("assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg"),
                       ),
-                      RichText(),
                     ],
                   ),
                   Container(),
