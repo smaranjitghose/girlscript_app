@@ -39,13 +39,16 @@ flutter:
   fonts:
     - family: Playball
       fonts:
-          - asset: fonts/Playball-q6o1.ttf
+          - asset: assets/fonts/Playball-q6o1.ttf
     - family: Moonhouse
       fonts:
-          - asset: fonts/moonhouse.ttf
+          - asset: assets/fonts/moonhouse.ttf
     - family: plz
       fonts:
-        - asset: fonts/plz.ttf
+        - asset: assets/fonts/plz.ttf
+    - family:  SocialIcons
+      fonts:
+       - asset: assets/icons/SocialIcons.ttf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

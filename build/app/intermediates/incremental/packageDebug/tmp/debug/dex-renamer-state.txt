@@ -1,4 +1,4 @@
-#Sun Mar 01 14:15:40 IST 2020
+#Sun Mar 01 16:53:54 IST 2020
 base.0=E\:\\GSSoC 2020\\girlscript_app\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
