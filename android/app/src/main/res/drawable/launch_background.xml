@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Modify this file to customize your launch splash screen -->
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:drawable="@android:color/holo_red_light" />
 
     <!-- You can insert your own image assets here -->
+    <item
+        android:height="192dp"
+        android:width="192dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <stroke android:width="4dp" android:color="@android:color/white" />
+        </shape>
+    </item>
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/gs_logo" />
+            android:src="@mipmap/gs_logo"
+            android:mipMap="true" />
         <rotate
             android:fromDegrees="0"
             android:toDegrees="360"/>
     </item>
+    <item
+        android:height="8dp"
+        android:width="8dp"
+        android:gravity="center"
+        android:top="256dp">
+        <shape android:shape="oval">
+            <stroke android:width="4dp" android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item
+        android:height="8dp"
+        android:width="8dp"
+        android:gravity="center"
+        android:top="256dp"
+        android:left="24dp">
+        <shape android:shape="oval">
+            <stroke android:width="4dp" android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <item
+        android:height="8dp"
+        android:width="8dp"
+        android:gravity="center"
+        android:top="256dp"
+        android:right="24dp">
+        <shape android:shape="oval">
+            <stroke android:width="4dp" android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <item
+        android:top="312dp">
+        <bitmap android:src="@mipmap/code_for_freedom"
+            android:gravity="center"/>
+    </item>
+
+
 </layer-list>
