@@ -127,7 +127,7 @@ class Hello extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           _buildgstile(context),
-          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc Type Logo Black.png', 'Girlscript Chennai had their app lanched', null),
+          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc-Type-Logo-Black.png', 'Girlscript Chennai had their app lanched', null),
         ],
       ),
     );
@@ -143,7 +143,7 @@ class Hello extends StatelessWidget {
           height: 100.0,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/GSsoctypelogoblack.png')
+              image: AssetImage('assets/images/GSsoc-Type-Logo-Black.png')
             ),
           ),
         ),
@@ -170,7 +170,7 @@ class Hello extends StatelessWidget {
                         decoration: BoxDecoration(
                           shape: BoxShape.rectangle,
                         ),
-                        child: Image.asset('images/unsplash.jpg'),
+                        child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
                       ),
                       RichText(
                         text: TextSpan(
