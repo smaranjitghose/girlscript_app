@@ -2,12 +2,15 @@
 <p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)
+[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 
 GirlScript foundation has a Flutter app that is to be used by the community associated with it, and later to serve as a template for other tech communities as well.
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
