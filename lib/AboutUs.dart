@@ -7,7 +7,7 @@ class ABoutUs extends StatelessWidget {
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.only(top:90.0),
+          padding: const EdgeInsets.only(top:90.0, bottom: 30.0),
           child: Container(
             child: Column(
               children: <Widget>[
@@ -47,8 +47,8 @@ class ABoutUs extends StatelessWidget {
                         padding: const EdgeInsets.only(top:15.0,bottom: 15.0),
                         child: Column(
                           children: <Widget>[
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
+                            new Wrap(
+                              //mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
                                 RichText(
                                   textAlign: TextAlign.center,
@@ -295,7 +295,7 @@ class ABoutUs extends StatelessWidget {
             ),
           ),
         ),
-      ),
+        ),
     );
   }
 }
