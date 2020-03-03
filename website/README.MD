@@ -47,7 +47,7 @@ This is a website to compliment the app built using Flutter for different GirlSc
 
 ### How to contribute
 
-![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
+![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge&url=https://www.gssoc.tech/)
 
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
@@ -87,24 +87,19 @@ git push -u origin <your_branch_name>
 
 
 ## Tasks
-  -Create the website corresponding to the underlying design of the app
-    - Home Page
-    - Events Page
-    - Achievements Page
-    - Gallery
-    - Team
-    - Blog (redirecting to medium)
-    - Contact Us
+
+- Create the website corresponding to the underlying design of the app
+- Home Page
+- Events Page
+- Achievements Page
+- Gallery
+- Team
+- Blog (redirected to medium)
+- Contact Us Page
 
 
 
 ## Team
-
-## Project Admin
-
-- [Smaranjit Ghose](https://github.com/smaranjitghose)
-
-![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 
 ## Mentors
@@ -112,3 +107,9 @@ git push -u origin <your_branch_name>
 - [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
 - [Saswat Nayak](https://github.com/swat1998)
 - [Ousnik Polley](https://github.com/ousnik)
+
+## Project Admin
+
+- [Smaranjit Ghose](https://github.com/smaranjitghose)
+
+![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
