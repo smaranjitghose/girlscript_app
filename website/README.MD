@@ -7,8 +7,8 @@
 
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app?style=for-the-badge)
-![Issues](https://github.com/smaranjitghose/girlscript_app/issues)
-![Pull Requests](https://github.com/smaranjitghose/girlscript_app/pulls)
+![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
 
 This is a website to compliment the app built using Flutter for different GirlScript Chapters that is to be used by the community associated with it and to later serve as a template for other tech communities as well. From having the option to portray the members' achievements to announcements regarding various local opportunities, we want it to be knit into a single platform. Programming enthusiasts and even exerienced developers would be able to seek the information they require to be an active part of our community. Since the website is made by the community for the community, it is something that shall add on to its elegance being an open source project. It is also a good opportunity for beginners to learn and contribute, to add a cherry on the cake.
 
@@ -47,7 +47,7 @@ This is a website to compliment the app built using Flutter for different GirlSc
 
 ### How to contribute
 
-![GSSOC'20](https://www.gssoc.tech/)
+![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
 
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
