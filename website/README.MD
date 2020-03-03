@@ -45,9 +45,9 @@ This is a website to compliment the app built using Flutter for different GirlSc
 - UI/UX Design skills are appreciated but not mandatory.
 - Some idea about Firebase or willingness to learn it.
 
-### How to contribute
+## How to contribute
 
-![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge&url=https://www.gssoc.tech/)
+![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
 
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
@@ -81,7 +81,7 @@ git checkout -b <your_branch_name>
 git push -u origin <your_branch_name>
 ```
 
-**8.** Create a Pull Request! 
+**8.** Create a Pull Request!
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project. Wait for your PR to be reviewed by the mentors.
 
@@ -101,20 +101,15 @@ git push -u origin <your_branch_name>
 
 ## Team
 
-## Project Admin
+### Project Admin
 
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
 
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
-## Mentors
+### Mentors
 
 - [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
 - [Saswat Nayak](https://github.com/swat1998)
 - [Ousnik Polley](https://github.com/ousnik)
 
-## Project Admin
-
-- [Smaranjit Ghose](https://github.com/smaranjitghose)
-
-![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
