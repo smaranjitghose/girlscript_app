@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:noob_project/Contactus.dart';
+//Adding the new AboutUs renamed file...
+import 'package:noob_project/AboutUs.dart';
 import 'package:noob_project/Project.dart';
 import 'package:noob_project/notification.dart';
 import 'Project.dart';
@@ -25,19 +27,7 @@ class Hello extends StatelessWidget {
             ],
           ),
         ),
-        leading: Builder(
-          builder: (BuildContext context) {
-            return IconButton(
-              icon: const Icon(Icons.menu),
-              onPressed: () {
-                Scaffold.of(context).openDrawer();
-              },
-              tooltip: MaterialLocalizations
-                  .of(context)
-                  .openAppDrawerTooltip,
-            );
-          },
-        ),
+
         backgroundColor: Color(0xffffc929),
         actions: <Widget>[
           IconButton(
@@ -48,86 +38,32 @@ class Hello extends StatelessWidget {
           )
         ],
       ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.red,
-              ),
-              child: Text(
-                'Options',
-                style: TextStyle(
-                  color: Colors.yellow,
-                  fontSize: 24,
-                ),
-              ),
-            ),
-
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Announcementspage(),)
-                );
-              },
-              leading: Icon(Icons.announcement),
-              title: Text('Announcements',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Projectpage(),)
-                );
-              },
-              leading: Icon(Icons.code),
-              title: Text('Projects',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),
-            ),
-
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Sponsorspage(),)
-                );
-              },
-              leading: Icon(Icons.monetization_on),
-              title: Text('Sponsors',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-            ListTile(
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => Contactuspage(),)
-                );
-              },
-              leading: Icon(Icons.contacts),
-              title: Text('Contant us',
-                  style: TextStyle(
-                      color: Color(0xffff4a4a),
-                      fontSize: 14
-                  )),),
-          ],
-        ),
+      floatingActionButtonLocation: 
+      FloatingActionButtonLocation.centerDocked,
+    floatingActionButton: FloatingActionButton(
+      child: const Icon(Icons.code), onPressed: () {
+          Navigator.of(context).push(
+          MaterialPageRoute(builder: (context) => Projectpage(),));
+      },),
+    bottomNavigationBar: BottomAppBar(
+      shape: CircularNotchedRectangle(),
+      notchMargin: 4.0,
+      child: new Row(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          IconButton(icon: Icon(Icons.menu), onPressed: () {
+            _menu(context);
+          },),
+          /*IconButton(icon: Icon(Icons.search), onPressed: () {},),*/
+        ],
       ),
+    ),
       body: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           _buildgstile(context),
-          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc Type Logo Black.png', 'Girlscript Chennai had their app lanched', null),
+          _buildupdate1(context, 'Launch of the app', '/assets/images/GSsoc-Type-Logo-Black.png', 'Girlscript Chennai had their app lanched', null),
         ],
       ),
     );
@@ -143,7 +79,7 @@ class Hello extends StatelessWidget {
           height: 100.0,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/GSsoctypelogoblack.png')
+              image: AssetImage('assets/images/GSsoc-Type-Logo-Black.png')
             ),
           ),
         ),
@@ -170,7 +106,7 @@ class Hello extends StatelessWidget {
                         decoration: BoxDecoration(
                           shape: BoxShape.rectangle,
                         ),
-                        child: Image.asset('images/unsplash.jpg'),
+                        child: Image.asset('assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg'),
                       ),
                       RichText(
                         text: TextSpan(
@@ -179,13 +115,81 @@ class Hello extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Container(),
-                  Row(),
-                  Row(),
                 ],
               ),
             ),
         )
     );
   }
+
+
+void _menu(context){
+    showModalBottomSheet(
+      context: context,
+      builder: (BuildContext bc){
+          return Container(
+            child: new Wrap(
+            children: <Widget>[
+          new ListTile(
+            leading: new Icon(Icons.announcement),
+            title: new Text('Announcements',
+                  style: TextStyle(
+                      color: Color(0xffff4a4a),
+                      fontSize: 14)
+                      ),
+            onTap: () => {
+              Navigator.of(context).pop(),
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => Announcementspage(),)
+                ),
+            }          
+          ),
+          new ListTile(
+            leading: new Icon(Icons.monetization_on),
+            title: new Text('Sponsors',
+                  style: TextStyle(
+                      color: Color(0xffff4a4a),
+                      fontSize: 14))
+                      ,
+            onTap: () => {
+              Navigator.of(context).pop(),
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => Sponsorspage(),)
+                ),
+            },          
+          ),
+          new ListTile(
+            leading: new Icon(Icons.account_box),
+            title: new Text('About us',
+                  style: TextStyle(
+                      color: Color(0xffff4a4a),
+                      fontSize: 14))
+                      ,
+            onTap: () => {
+              Navigator.of(context).pop(),
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ABoutUs(),)
+                ),
+            },          
+          ),
+          new ListTile(
+            leading: new Icon(Icons.perm_phone_msg),
+            title: new Text('Contact us',
+                  style: TextStyle(
+                      color: Color(0xffff4a4a),
+                      fontSize: 14))
+                      ,
+            onTap: () => {
+              Navigator.of(context).pop(),
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => Contactuspage(),)
+                ),
+            },          
+          ),
+            ],
+          ),
+          );
+      }
+    );
+}
 }

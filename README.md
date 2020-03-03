@@ -2,23 +2,68 @@
 <p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)
+[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
 
-This is an app built using Flutter for different GirlScript Chapters that is to be used by the community associated with it and to later serve as a template for other tech communities as well. From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance and being a open source project for beginners to learn and contribute to is a cherry on the cake. 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
+
+GirlScript foundation has a Flutter app that is to be used by the community associated with it, and later to serve as a template for other tech communities as well.
+This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
+Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake. 
 
 
-### Requirements to contribute:
+### Features
+- Sign up and login facility
+- View and register to Girlscript events
+- View the list of projects to contribute on them
+- Get to know the leads of various teams in Girlscript community
 
-- Basic knowledge of programming is mandatory
-- The ability to use Git and GitHub
-- Some knowledge of Dart and how to use Flutter is preferrable for a head start.
-- UI/UX Design skills are appreciable but not mandatory
-- Some idea about Firebase or willingness to learn it
+### Prerequisites to contribute
+- Basic knowledge of programming
+- Ability to use Git and Github
+- Basic knowledge of Dart
+- Working knowledge of Flutter is preferable
+- Basic knowledge of Firebase and willingness to learn more
+- UI/UX skills are appreciable but not mandatory
+
+### Tech Stack 
+- Flutter
+- Dart
+- Google Firebase
+- HTML
+- CSS
+- JavaScript
+- UI / UX
+
+### Why Flutter
+- Flutter is a cross-platform app development language. 
+- It means that a single code will run for Android, iOS, and web apps. There is no need for separate code for different OS. Just with a single codebase you can develop apps for Android, iOS, and web. 
+- The base language of Flutter is Dart. 
+- The major advantage of using Flutter is that it gives the user a native feel and experience of the app. 
+- The user won’t be able to figure out whether this app is made using any cross-platform app language or any native app development language (Swift, Android, etc.) because Flutter makes use of native app components to give native app feel. 
+- The Hot Reload feature of flutter makes development much faster. This feature lets us save the changes and display us the output in real time.
+
+Check out the Flutter widgets to get an overall idea of its awesomeness - https://flutter.dev/docs/development/ui/widgets
+
+### Working and Screenshots
+This app opens up where you will see the option to sign up/log in to your account. After successfully logging in, you will have multiple tabs to go through. Each tab has a specific purpose. For example, the “Events” tab will list all the events taking place at certain places where you can register and attend those events.
+
+Following are some of the screenshots:
+
+<p>
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250"> 
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
+  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
+</p>
 
 ### How to contribute:
 
@@ -59,7 +104,15 @@ git push -u origin <your_branch_name>
 
 **8.** Create a Pull Request!
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
+**Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
+
+
+### Tasks 
+- Improve the UI
+- Work on the improvement and building the various pages of the app
+- Database integration with Firebase
+- Have a corresponding Web App for this
+- Analyze further design requirements and integrate
 
 
 ###  Resources to get started with:
@@ -69,37 +122,15 @@ git push -u origin <your_branch_name>
 +  [Reso Code's Youtube Channel for best practices](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA/featured)
 +  [Official Flutter Documentation](https://flutter.dev/docs)
 
-### Tasks and Features
+## Team
 
-* Improve the UI
-* Work on the improvement and building the various pages of the app
-* Database integration with  Firebase
-* Have a corresponding Web App for this
-* Analyze further design requirements and integrate
-
-
-
-## Mentors:
-* [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
-* [Saswat Nayak](https://github.com/swat1998)
-* [Anush Bhatia](https://github.com/anushbhatia)
-* [Ousnik Polley](https://github.com/ousnik)
-
-## Project Admin:
+### Project Admin:
 * [Smaranjit Ghose](https://github.com/smaranjitghose)
 
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
-
-
-## Sample Output 
-
-<p>
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250"> 
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
-</p>
+### Mentors:
+* [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
+* [Saswat Nayak](https://github.com/swat1998)
+* [Anush Bhatia](https://github.com/anushbhatia)
+* [Ousnik Polley](https://github.com/ousnik)
