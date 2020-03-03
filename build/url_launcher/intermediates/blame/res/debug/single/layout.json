@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\layout\\notification_template_part_chronometer.xml"
+    }
+]
