@@ -54,7 +54,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/
+    - assets/images/GSsoc-Type-Logo-Black.png
+    - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
   # To add assets to your application, add an assets section, like this:
   
   #  - images/a_dot_ham.jpeg
