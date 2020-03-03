@@ -101,6 +101,11 @@ git push -u origin <your_branch_name>
 
 ## Team
 
+## Project Admin
+
+- [Smaranjit Ghose](https://github.com/smaranjitghose)
+
+![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ## Mentors
 
