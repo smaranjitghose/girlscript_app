@@ -87,9 +87,7 @@
     </header>
 
     <section class="about-us-section spad">
-        <form class="gform pure-form pure-form-stacked" method="POST" data-email="ajinkyataranekar@email.net"
-        action="https://script.google.com/macros/s/AKfycbyrF0vtkndziSibyAs9QH0kInBje4Pst7jOtl0mOg/exec">
-            <!-- sheet link sends response to ajinkyataranekar@gmail.com -->
+        <form class="gform pure-form pure-form-stacked" id="test_form" >
 
                 <div class="messages"></div>
 
@@ -98,7 +96,7 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="form_name">Firstname *</label>
-                                <input id="form_name" type="text" name="First Name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                                <input id="form_name" type="text" name="first_name" class="form-control" placeholder="Please enter your firstname *" required="required"
                                     data-error="Firstname is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -106,7 +104,7 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="form_lastname">Lastname *</label>
-                                <input id="form_lastname" type="text" name="Last Name" class="form-control" placeholder="Please enter your lastname *" required="required"
+                                <input id="form_lastname" type="text" name="last_name" class="form-control" placeholder="Please enter your lastname *" required="required"
                                     data-error="Lastname is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -116,7 +114,7 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="form_email">Email *</label>
-                                <input id="form_email" type="email" name="E-mail" class="form-control" placeholder="Please enter your email *" required="required"
+                                <input id="form_email" type="email" name="e-mail" class="form-control" placeholder="Please enter your email *" required="required"
                                     data-error="Valid email is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -124,14 +122,14 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="form_phone">Phone</label>
-                                <input id="form_phone" type="tel" name="Phone" class="form-control" placeholder="Please enter your phone">
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="form_message">Message *</label>
-                        <textarea id="form_message" name="Message" class="form-control" placeholder="Message for us *" rows="4" required="required"
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="4" required="required"
                             data-error="Please, leave us a message."></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
@@ -141,8 +139,9 @@
                         <input id="honeypot" type="text" name="honeypot" value="" />
                     </div>
 
-                    <input type="submit" class="button button-success button-send" style="margin: 0.5em 5em 1em;" value="Send message">
-
+                    <div style="margin-left: 85px;">
+                        <button style="background-color: greenyellow;  border-radius: 10px; height: 50px; width: 100px" type="submit"id="submit-form">Submit</button>
+                    </div>
                 </div>
                 <div style="display:none" class="thankyou_message">
                     <!-- You can customize the thankyou message by editing the code below -->
@@ -178,5 +177,7 @@
             </div>
         </div>
     </section>
-    <script data-cfasync="false" type="text/javascript" src="./scripts/form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="./scripts/google-script-just-email.js"></script>
 </body>
+
+<!--Here's the form link https://docs.google.com/spreadsheets/d/1ArDWwdczmGMnIlpP0mYDLKCrbPq5HxeoPJsrCGBxO-g/edit?usp=sharing-->
