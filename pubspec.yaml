@@ -49,12 +49,20 @@ flutter:
     - family:  SocialIcons
       fonts:
        - asset: assets/icons/SocialIcons.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 400
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/
+    - assets/images/GSsoc-Type-Logo-Black.png
+    - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
+    - assets/images/back.png
   # To add assets to your application, add an assets section, like this:
   
   #  - images/a_dot_ham.jpeg
