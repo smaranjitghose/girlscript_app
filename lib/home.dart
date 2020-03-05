@@ -44,7 +44,7 @@ class Hello extends StatelessWidget {
     floatingActionButton: FloatingActionButton(
       child: const Icon(Icons.code), onPressed: () {
           Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => ProjectDetails(),));
+          MaterialPageRoute(builder: (context) => Projectpage(),));
       },),
     bottomNavigationBar: BottomAppBar(
       shape: CircularNotchedRectangle(),
