@@ -14,7 +14,7 @@
 
 GirlScript foundation has a Flutter app that is to be used by the community associated with it, and later to serve as a template for other tech communities as well.
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
-Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake. 
+Additionally, this app developer by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake. 
 
 
 ### Features
