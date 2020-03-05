@@ -5,6 +5,7 @@ import 'package:noob_project/Contactus.dart';
 import 'package:noob_project/AboutUs.dart';
 import 'package:noob_project/Project.dart';
 import 'package:noob_project/notification.dart';
+import 'package:noob_project/projectDetail.dart';
 import 'Project.dart';
 import 'Announcements.dart';
 import 'Sponsors.dart';
@@ -43,7 +44,7 @@ class Hello extends StatelessWidget {
     floatingActionButton: FloatingActionButton(
       child: const Icon(Icons.code), onPressed: () {
           Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => Projectpage(),));
+          MaterialPageRoute(builder: (context) => ProjectDetails(),));
       },),
     bottomNavigationBar: BottomAppBar(
       shape: CircularNotchedRectangle(),
@@ -168,7 +169,7 @@ void _menu(context){
             onTap: () => {
               Navigator.of(context).pop(),
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => ABoutUs(),)
+                    MaterialPageRoute(builder: (context) => AboutUs(),)
                 ),
             },          
           ),
