@@ -18,6 +18,17 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_launcher_icons: "^0.7.3"
+  
+# If the icons doesn't changes after merging then run
+#   flutter packages get
+#   flutter packages pub run flutter_launcher_icons:main
+ 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/gs_icon.png"
+
 # The following section is specific to Flutter.
 flutter:
   fonts:
