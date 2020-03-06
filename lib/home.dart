@@ -8,7 +8,6 @@ import 'package:noob_project/notification.dart';
 import 'package:noob_project/Events.dart';
 import 'Project.dart';
 import 'Announcements.dart';
-import 'Sponsors.dart';
 import 'Contactus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -176,17 +175,7 @@ class Hello extends StatelessWidget {
                     )),
                   },
                 ),
-                new ListTile(
-                  leading: new Icon(Icons.monetization_on),
-                  title: new Text('Sponsors',
-                      style: TextStyle(color: Color(0xffff4a4a), fontSize: 14)),
-                  onTap: () => {
-                    Navigator.of(context).pop(),
-                    Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => Sponsorspage(),
-                    )),
-                  },
-                ),
+              
                 new ListTile(
                   leading: new Icon(Icons.account_box),
                   title: new Text('About us',
