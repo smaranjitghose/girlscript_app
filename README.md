@@ -134,3 +134,8 @@ git push -u origin <your_branch_name>
 * [Saswat Nayak](https://github.com/swat1998)
 * [Anush Bhatia](https://github.com/anushbhatia)
 * [Ousnik Polley](https://github.com/ousnik)
+
+### License:
+[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
+
+MIT License
