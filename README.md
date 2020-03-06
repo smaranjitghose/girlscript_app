@@ -138,4 +138,4 @@ git push -u origin <your_branch_name>
 ### License:
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 
-MIT License
+MIT License &copy; [Smaranjit Ghose](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
