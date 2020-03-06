@@ -282,7 +282,7 @@ class _ProjectDetailsState extends State<ProjectDetails> {
                     ],
                   ),
                 ),
-                Developers(),
+                Developers(name: "Himanshu",gurl: "https://www.gssoc.tech/",furl: "https://www.gssoc.tech/",iurl: "https://www.gssoc.tech/",),
                 Padding(
                   padding: const EdgeInsets.only(top:20.0),
                   child: Row(
@@ -302,7 +302,7 @@ class _ProjectDetailsState extends State<ProjectDetails> {
                     ],
                   ),
                 ),
-                Contributors()
+                Contributors(name: "ABCD",gurl: "https://www.gssoc.tech/",)
               ],
             ),
           ),

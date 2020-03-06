@@ -1,7 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Developers extends StatelessWidget {
+class Developers extends StatefulWidget {
+  final String name;
+  final String gurl;
+  final String furl;
+  final String iurl;
+  Developers({
+    this.name,
+    this.gurl,
+    this.furl,
+    this.iurl
+  });
+
+  @override
+  _DevelopersState createState() => _DevelopersState();
+}
+
+class _DevelopersState extends State<Developers> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,7 +41,7 @@ class Developers extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "Himanshu Sharma",
+                        "${widget.name}",
                         style: TextStyle(
                           fontSize: 22.0,
                           color: Colors.white,
@@ -40,9 +56,9 @@ class Developers extends StatelessWidget {
                           children: <Widget>[
                             GestureDetector(
                               onTap: () async{
-                                const url='https://www.gssoc.tech/';
-                                if(await canLaunch(url)){
-                                  await launch(url);
+                                // url='${widget.url}';
+                                if(await canLaunch('${widget.gurl}')){
+                                  await launch('${widget.gurl}');
                                 } else{
                                   throw 'Couldn\'t launch the url';
                                 }
@@ -55,9 +71,9 @@ class Developers extends StatelessWidget {
                             ),
                             GestureDetector(
                               onTap: () async{
-                                const url='https://www.gssoc.tech/';
-                                if(await canLaunch(url)){
-                                  await launch(url);
+                                // const url='https://www.gssoc.tech/';
+                                if(await canLaunch('${widget.furl}')){
+                                  await launch('${widget.furl}');
                                 } else{
                                   throw 'Couldn\'t launch the url';
                                 }
@@ -70,9 +86,9 @@ class Developers extends StatelessWidget {
                             ),
                             GestureDetector(
                               onTap: () async{
-                                const url='https://www.gssoc.tech/';
-                                if(await canLaunch(url)){
-                                  await launch(url);
+                                // const url='https://www.gssoc.tech/';
+                                if(await canLaunch('${widget.iurl}')){
+                                  await launch('${widget.iurl}');
                                 } else{
                                   throw 'Couldn\'t launch the url';
                                 }

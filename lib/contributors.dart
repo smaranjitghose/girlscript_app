@@ -1,7 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Contributors extends StatelessWidget {
+class Contributors extends StatefulWidget {
+  final String name;
+  final String gurl;
+  Contributors({
+    this.name,
+    this.gurl
+  });
+
+  @override
+  _ContributorsState createState() => _ContributorsState();
+}
+
+class _ContributorsState extends State<Contributors> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -21,7 +33,7 @@ class Contributors extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    "Name",
+                    "${widget.name}",
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
@@ -31,9 +43,9 @@ class Contributors extends StatelessWidget {
                   ),
                   GestureDetector(
                     onTap: () async{
-                      const url='https://www.gssoc.tech/';
-                      if(await canLaunch(url)){
-                        await launch(url);
+                      // const url='https://www.gssoc.tech/';
+                      if(await canLaunch('${widget.gurl}')){
+                        await launch('${widget.gurl}');
                       } else{
                         throw 'Couldn\'t launch the url';
                       }
