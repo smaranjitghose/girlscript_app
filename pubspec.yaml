@@ -25,9 +25,9 @@ dev_dependencies:
 #   flutter packages pub run flutter_launcher_icons:main
  
 flutter_icons:
-  android: true
+  android: flase
+  image_path: "assets/icons/gs_launcher.png"
   ios: true
-  image_path: "assets/icons/gs_icon.png"
 
 # The following section is specific to Flutter.
 flutter:
