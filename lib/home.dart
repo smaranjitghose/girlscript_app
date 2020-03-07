@@ -6,6 +6,7 @@ import 'package:noob_project/AboutUs.dart';
 import 'package:noob_project/Project.dart';
 import 'package:noob_project/notification.dart';
 import 'package:noob_project/Events.dart';
+import 'package:noob_project/team.dart';
 import 'Project.dart';
 import 'Announcements.dart';
 import 'Sponsors.dart';
@@ -173,6 +174,17 @@ class Hello extends StatelessWidget {
                     Navigator.of(context).pop(),
                     Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => Events(),
+                    )),
+                  },
+                ),
+                new ListTile(
+                  leading: new Icon(Icons.people),
+                  title: new Text('Team',
+                      style: TextStyle(color: Color(0xffff4a4a), fontSize: 14)),
+                  onTap: () => {
+                    Navigator.of(context).pop(),
+                    Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => TeamPage(),
                     )),
                   },
                 ),
