@@ -152,16 +152,6 @@ class EventRow extends StatelessWidget {
           ),
           new Row(
             children: <Widget>[
-              // Un-Comment below stub for adding Fee
-              /*new Text(
-                "\u20B9 " + data.fee,
-                style: new TextStyle(
-                  color: Colors.redAccent,
-                  fontSize: 18,
-                  fontFamily: 'Poppins',
-                  fontWeight: FontWeight.bold,
-                ),
-              ),*/
               new Container(
                 width: 20.0,
               ),
