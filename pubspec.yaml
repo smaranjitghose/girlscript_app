@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
 
   url_launcher: ^5.4.1
-
+  splashscreen:
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
@@ -23,11 +23,12 @@ dev_dependencies:
 # If the icons doesn't changes after merging then run
 #   flutter packages get
 #   flutter packages pub run flutter_launcher_icons:main
+# android: false; This should be false because the icons are Officially downloaded and inserted.
  
 flutter_icons:
   android: flase
-  image_path: "assets/icons/gs_launcher.png"
   ios: true
+  image_path: "assets/icons/gs_launcher.png"
 
 # The following section is specific to Flutter.
 flutter:
@@ -56,3 +57,6 @@ flutter:
     - assets/images/GSsoc-Type-Logo-Black.png
     - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
     - assets/images/back.png
+    - assets/images/gs_launcher.png
+    - assets/icons/gs_launcher.png
+  
