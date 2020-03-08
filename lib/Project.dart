@@ -51,14 +51,14 @@ class Projectpage extends StatelessWidget{
       padding: EdgeInsets.symmetric(horizontal: 4.0),
       child: Card(
         child: Container(
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.all(Radius.circular(4.0)),
+          ),
+          child: Center(
+            child: Icon(SocialIcons.github_circled),
+          ),
         ),
-        child: Center(
-          child: Icon(SocialIcons.github_circled),
-        ),
-      ),
       ),
     );
   }
