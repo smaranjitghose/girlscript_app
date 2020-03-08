@@ -5,8 +5,11 @@ import 'package:noob_project/Contactus.dart';
 import 'package:noob_project/AboutUs.dart';
 import 'package:noob_project/Project.dart';
 import 'package:noob_project/notification.dart';
+import 'package:noob_project/projectDetail.dart';
+//need to create projectDetail.dart
 import 'package:noob_project/Events.dart';
 import 'package:noob_project/team.dart';
+
 import 'Project.dart';
 import 'Announcements.dart';
 import 'Sponsors.dart';
@@ -188,16 +191,20 @@ class Hello extends StatelessWidget {
                     )),
                   },
                 ),
-                new ListTile(
-                  leading: new Icon(Icons.monetization_on),
-                  title: new Text('Sponsors',
-                      style: TextStyle(color: Color(0xffff4a4a), fontSize: 14)),
-                  onTap: () => {
-                    Navigator.of(context).pop(),
-                    Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => Sponsorspage(),
-                    )),
-                  },
+            },          
+          ),
+          new ListTile(
+            leading: new Icon(Icons.account_box),
+            title: new Text('About us',
+                  style: TextStyle(
+                      color: Color(0xffff4a4a),
+                      fontSize: 14))
+                      ,
+            onTap: () => {
+              Navigator.of(context).pop(),
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => AboutUs(),)
+
                 ),
                 new ListTile(
                   leading: new Icon(Icons.account_box),
