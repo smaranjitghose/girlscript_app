@@ -67,9 +67,9 @@ git push -u origin <your_branch_name>
 
 Unsure where to begin contributing to Atom? You can start by looking through these `good first issue`,`beginner` and `documentation` issues:
 
-* [Documentation Issues][documentation] - issues which should only require some form of documentation for the project.
-* [Good First Issues][good first issue] - issues which are considered good for newcomers.
-* [Beginner issues][beginner] - issues which should only require a few lines of code.
+* [Documentation Issues](https://github.com/smaranjitghose/girlscript_app/labels/documentation) - issues which should only require some form of documentation for the project.
+* [Good First Issues](https://github.com/smaranjitghose/girlscript_app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - issues which are considered good for newcomers.
+* [Beginner issues](https://github.com/smaranjitghose/girlscript_app/labels/beginner) - issues which should only require a few lines of code.
 
 ### Did you find a bug?
 
