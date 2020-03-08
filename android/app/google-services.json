@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "114567331130",
+    "firebase_url": "https://girlscriptapp.firebaseio.com",
+    "project_id": "girlscriptapp",
+    "storage_bucket": "girlscriptapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114567331130:android:2a547e98a708fac78a2403",
+        "android_client_info": {
+          "package_name": "com.example.noob_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114567331130-cj3h3rmfnh39iueutm102380qpj51ohm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdm2QPlTErQY7-Fn2MiobWg6WslBBZD9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114567331130-cj3h3rmfnh39iueutm102380qpj51ohm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
