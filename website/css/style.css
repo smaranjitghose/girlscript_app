@@ -7,6 +7,7 @@ body {
   background-color: white;
 }
 
+
 h1,
 h2,
 h3,
@@ -17,6 +18,22 @@ h6 {
   color: #111111;
   font-weight: 400;
   font-family: "Libre Franklin", sans-serif;
+=======
+input:focus::placeholder {
+  color: transparent;
+}
+
+
+.required {
+  color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Libre Franklin", sans-serif;
+
 }
 
 h1 {
@@ -462,7 +479,19 @@ ol {
 }
 
 .member-item .mi-text .mt-social a:last-child {
+
   margin-right: 0;
+=======
+	margin-right: 0;
+} */
+
+/*---------------------
+ Team Section
+ ----------------------*/
+ .team-section {
+	background:white;
+	padding: 50px;
+
 }
 
  .team-card {
