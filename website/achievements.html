@@ -87,16 +87,16 @@
 
       } */
 
-      
+
 
       .card:hover {
-        
+
         -webkit-box-shadow: -1px 9px 40px -12px rgba(65, 232, 234, 0.75);
         -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
         box-shadow: -1px 9px 40px -12px rgba(65, 132, 234, 0.75);
-        
+
         transform: translateY(-10px);
-        
+
 
       }
       .about--part1 {
@@ -122,61 +122,48 @@
         letter-spacing: 1px;
       }
 
-    
-     
+
+
     </style>
   </head>
 
   <body>
-    <header>
-      <header
-        class="header-section set-bg"
-        data-setbg="assets/Images/GSsoc Type Logo Black.png"
-      >
+    <header class="header-section set-bg" data-setbg="assets/Images/GSsoc Type Logo Black.png">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-2">
-              <div class="logo">
-                <a href="#">
-                  <img
-                    src="assets/Images/gslogo.png"
-                    alt=""
-                    width="100px"
-                    height="100px"
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-9 col-md-10">
-              <div class="main-menu mobile-menu">
-                <div class="container">
-                  <div class="social-links">
-                    <a href="#"><img src="assets/Images/faceBook.png"/></a>
-                    <a href="#"><img src="assets/Images/GitHub_Mark.png"/></a>
-                    <a href="#"><img src="assets/Images/YouTube.png"/></a>
-                    <a href="#"><img src="assets/Images/Instagram.png"/></a>
-                  </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-2">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/Images/gslogo.png" alt="" width="100px" height="100px">
+                        </a>
+                    </div>
                 </div>
-                <ul>
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Program</a></li>
-                  <li>
-                    <a href="#">Gallery</a>
-                    <ul class="dropdown">
-                      <li><a href="#">Naoh</a></li>
-                      <li><a href="#">Padis</a></li>
-                      <li><a href="#">Jacob</a></li>
-                      <li><a href="#">Gomez</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contactUs.html">Contact Us</a></li>
-                  <li><a href="">Achievements</a></li>
-                </ul>
-              </div>
+                <div class="col-lg-9 col-md-10">
+                    <div class="main-menu mobile-menu">
+                        <div class="container">
+
+                        </div>
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Program</a></li>
+                            <li><a href="#">Gallery</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Naoh</a></li>
+                                    <li><a href="#">Padis</a></li>
+                                    <li><a href="#">Jacob</a></li>
+                                    <li><a href="#">Gomez</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                            <li><a href="achievements.html">Achievements</a></li>
+                            <li><a href="#">Blog</a></li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div id="mobile-menu-wrap"></div>
+            <div id="mobile-menu-wrap"></div>
         </div>
         <section class="hero-section set-bg">
           <div class="container">
@@ -245,7 +232,7 @@
       </div>
     </section>
 
- 
+
 
     <div class="container card1 mt-5">
       <div class="row">
@@ -341,9 +328,9 @@
     </section>
     <script data-cfasync="false" type="text/javascript" src="./scripts/google-script-just-email.js"></script>
 
-  
 
-    
+
+
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -364,8 +351,8 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
-    
-    
+
+
 
     <script>
       jQuery(document).ready(function(){
@@ -382,28 +369,28 @@
         $(document).ready(function() {
         $('.about--part1').waypoint(function(direction) {
           $('.about--part1').addClass('animated zoomIn')
-          
+
         }, {
           offset: '60%'
         });
 
         $('.card1').waypoint(function(direction) {
           $('.card--1').addClass('animated bounceInLeft')
-          
+
         }, {
           offset: '60%'
         });
 
         $('.card--2').waypoint(function(direction) {
           $('.card--2').addClass('animated zoomIn')
-          
+
         }, {
           offset: '60%'
         });
 
         $('.card--3').waypoint(function(direction) {
           $('.card--3').addClass('animated bounceInRight')
-          
+
         }, {
           offset: '60%'
         });
