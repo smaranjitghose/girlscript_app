@@ -563,6 +563,7 @@ ol {
   border-radius: 50%;
 }
 
+
 .footer-option .fo-social a:hover {
   background: #e32879;
   font-size: 45px;
@@ -583,7 +584,14 @@ ol {
   background-size: 100% 100%;
   clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
   position: relative;
+
 }
+.d a:hover{
+	background-color:#0e76a8 ;
+
+}
+
+
 
 .header::before {
   content: "";
