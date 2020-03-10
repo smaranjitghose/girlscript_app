@@ -12,7 +12,7 @@ import 'package:noob_project/team.dart';
 
 import 'Project.dart';
 import 'Announcements.dart';
-import 'Sponsors.dart';
+//import 'Sponsors.dart';
 import 'Contactus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -191,8 +191,6 @@ class Hello extends StatelessWidget {
                     )),
                   },
                 ),
-            },          
-          ),
           new ListTile(
             leading: new Icon(Icons.account_box),
             title: new Text('About us',
@@ -203,9 +201,10 @@ class Hello extends StatelessWidget {
             onTap: () => {
               Navigator.of(context).pop(),
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => AboutUs(),)
-
-                ),
+                    MaterialPageRoute(builder: (context) => AboutUs(),
+                )),
+            },
+          ),
                 new ListTile(
                   leading: new Icon(Icons.account_box),
                   title: new Text('About us',
@@ -213,7 +212,7 @@ class Hello extends StatelessWidget {
                   onTap: () => {
                     Navigator.of(context).pop(),
                     Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => ABoutUs(),
+                      builder: (context) => AboutUs(),
                     )),
                   },
                 ),
