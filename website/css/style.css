@@ -6,6 +6,15 @@ html, body {
 	background-color: white;
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
+
+
+.required {
+  color: red;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	color: #111111;
@@ -376,7 +385,7 @@ ul, ol {
 
 /*---------------------
   Member Section
------------------------*/
+-----------------------
 
 .member-section {
 	background:white;
@@ -456,7 +465,48 @@ ul, ol {
 
 .member-item .mi-text .mt-social a:last-child {
 	margin-right: 0;
+} */
+
+/*---------------------
+ Team Section
+ ----------------------*/
+ .team-section {
+	background:white;
+	padding: 50px;
 }
+
+ .team-card {
+	background-color: transparent;
+	width: 300px;
+	height: 400px;
+	perspective: 1000px;
+  }
+  
+  .team-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .team-card:hover .team-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .team-card-front, .team-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .team-card-back {
+	transform: rotateY(180deg);
+  }
 
 /*---------------------
   Footer
