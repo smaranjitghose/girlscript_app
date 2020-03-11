@@ -18,17 +18,9 @@ The [Project Team](#join-the-project-team) looks forward to your contributions. 
   * [Request a Feature](#request-a-feature)
 * Make Something? 🤓👩🏽‍💻📜🍳
   * [Project Setup](#project-setup)
-  * [Contribute Documentation](#contribute-documentation)
-  * [Contribute Code](#contribute-code)
-* Manage Something ✅🙆🏼💃👔
-  * [Provide Support on Issues](#provide-support-on-issues)
-  * [Label Issues](#label-issues)
-  * [Clean Up Issues and PRs](#clean-up-issues-and-prs)
-  * [Review Pull Requests](#review-pull-requests)
-  * [Merge Pull Requests](#merge-pull-requests)
-  * [Tag a Release](#tag-a-release)
-  * [Join the Project Team](#join-the-project-team)
-* Add a Guide Like This One [To My Project](#attribution)? 🤖😻👻
+  * [Technology Stack Used](#technology-stack-used)
+  * [Contribution](#how-to-contribute)
+  * [Contribute Code](#code-of-conduct)
 
 ## Request Support
 
@@ -81,13 +73,7 @@ If this seems like a lot or you aren't able to do all this setup, you might also
 
 If you want to go the usual route and run the project locally, though:
 
-* [Install Node.js](https://nodejs.org/en/download/)
-* [Fork the project](https://guides.github.com/activities/forking/#fork)
-
-Then in your terminal:
-* `cd path/to/your/clone`
-* `npm install`
-* `npm test`
+* [Fork the project](#how-to-contribute)
 
 And you should be ready to go!
 
@@ -103,7 +89,7 @@ The following is a set of guide for all the contributors on how they can help an
 - Basic knowledge of Firebase and willingness to learn more
 - UI/UX skills are appreciable but not mandatory
 
-### Tech Stack 
+## Technology Stack Used
 - Flutter
 - Dart
 - Google Firebase
@@ -112,11 +98,9 @@ The following is a set of guide for all the contributors on how they can help an
 - JavaScript
 - UI / UX
 
-### How to contribute:
+## How to contribute:
 
 ![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
-
-
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
 
@@ -161,12 +145,6 @@ Unsure where to begin contributing to Atom? You can start by looking through the
 * [Good First Issues](https://github.com/smaranjitghose/girlscript_app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - issues which are considered good for newcomers.
 * [Beginner issues](https://github.com/smaranjitghose/girlscript_app/labels/beginner) - issues which should only require a few lines of code.
 
-### Did you find a bug?
-
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/smaranjitghose/girlscript_app/issues).
-
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/smaranjitghose/girlscript_app/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible.
-
 * For more detailed information for creating an issue, visit our [ Slack Channel](https://gssoc20.slack.com/archives/CUCALT345).
 
 ### Tasks 
@@ -176,7 +154,7 @@ Unsure where to begin contributing to Atom? You can start by looking through the
 - Have a corresponding Web App for this
 - Analyze further design requirements and integrate
 
-### Code of Conduct
+## Code of Conduct
 Please note we have a code of conduct, please follow it in all your interactions with the project. This project and everyone participating in it is governed by the [Girlscript Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [smaranjitghose@protonmail.com](mailto:smaranjitghose@protonmail.com).
 
 ## Team
