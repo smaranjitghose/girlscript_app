@@ -16,13 +16,13 @@ The [Project Team](#team) looks forward to your contributions. 🙌🏾✨
   * [Request Support](#request-support)
   * [Report an Error or Bug](#report-an-error-or-bug)
   * [Request a Feature](#request-a-feature)
-* Make Something? 🤓👩🏽‍💻📜🍳
+* Make Something? 🤓👩🍳
   * [Project Setup](#project-setup)
   * [Technology Stack Used](#technology-stack-used)
   * [How to Contribute?](#how-to-contribute)
   * [Contribute Code](#your-first-code-contribution)
-* [Code Of Conduct](#code-of-conduct)
-* [Team](#team)
+* [Code Of Conduct](#code-of-conduct) 📜💻
+* [Team](#team) 🙌✨
 
 ## Request Support
 
