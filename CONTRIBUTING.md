@@ -43,13 +43,13 @@ If you run into an error or bug with the project:
 
 * Open an Issue at https://github.com/smaranjitghose/girlscript_app/issues
 * Include *reproduction steps* that someone else can follow to recreate the bug or error on their own.
-* Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
+* Provide project and platform versions (dart, flutter, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
 Once it's filed:
 
 * The project team will [label the issue](#your-first-code-contribution).
-* A team member will try to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-* If the team is able to reproduce the issue, it will be marked and labelled, and the issue will be left to be [implemented by someone](#contribute-code).
+* A team member will try to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps.
+* If the team is able to reproduce the issue, it will be marked and labelled, and the issue will be left to be [implemented by someone](#your-first-code-contribution).
 
 ## Request a Feature
 
@@ -63,9 +63,9 @@ Once it's filed:
 
 * The project team will [label the issue](#your-first-code-contribution).
 * The project team will evaluate the feature request, possibly asking you more questions to understand its purpose and any relevant requirements. If the issue is closed, the team will convey their reasoning and suggest an alternative path forward.
-* If the feature request is accepted, it will be marked for implementation, which can then be done by either by a core team member or by anyone in the community who wants to [contribute code](#contribute-code).
+* If the feature request is accepted, it will be marked for implementation, which can then be done by either by a core team member or by anyone in the community who wants to [contribute code](#your-first-code-contribution).
 
-Note: The team is unlikely to be able to accept every single feature request that is filed. Please understand if they need to say no.
+**Note:** The team is unlikely to be able to accept every single feature request that is filed. Please understand if they need to say no.
 
 ## Project Setup
 
@@ -121,7 +121,9 @@ git checkout -b <your_branch_name>
 
 **5.** Make changes in source code.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can look into [issues](#your-first-code-contribution) for making changes.
+**Note: Make seperate branch from master for the contribution.**
+
+You can look into [issues](#your-first-code-contribution) for making changes.
 
 **6.** Commit your changes.
 
@@ -136,6 +138,8 @@ git push -u origin <your_branch_name>
 ```
 
 **8.** Create a Pull Request!
+
+**Note: Make Pull Request to the test branch instead of master branch.**
 
 **Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
 
