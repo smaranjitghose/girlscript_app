@@ -1,6 +1,96 @@
 # GirlScript Community App - How to Contribute?
 <p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
 
+## Introduction
+
+Thank you so much for your interest in contributing!. All types of contributions are encouraged and valued. See the [table of contents](#toc) for different ways to help and details about how this project handles them!📝
+
+Please make sure to read the relevant section before making your contribution! It will make it a lot easier for us maintainers to make the most of it and smooth out the experience for all involved. 💚
+
+The [Project Team](#join-the-project-team) looks forward to your contributions. 🙌🏾✨
+
+## Table of Content <a name="toc"></a>
+
+* [Use This Guide](#introduction)?
+* Ask or Say Something? 🤔🐛😱
+  * [Request Support](#request-support)
+  * [Report an Error or Bug](#report-an-error-or-bug)
+  * [Request a Feature](#request-a-feature)
+* Make Something? 🤓👩🏽‍💻📜🍳
+  * [Project Setup](#project-setup)
+  * [Contribute Documentation](#contribute-documentation)
+  * [Contribute Code](#contribute-code)
+* Manage Something ✅🙆🏼💃👔
+  * [Provide Support on Issues](#provide-support-on-issues)
+  * [Label Issues](#label-issues)
+  * [Clean Up Issues and PRs](#clean-up-issues-and-prs)
+  * [Review Pull Requests](#review-pull-requests)
+  * [Merge Pull Requests](#merge-pull-requests)
+  * [Tag a Release](#tag-a-release)
+  * [Join the Project Team](#join-the-project-team)
+* Add a Guide Like This One [To My Project](#attribution)? 🤖😻👻
+
+## Request Support
+
+If you have a question about this project, how to use it, or just need clarification about something:
+
+* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* Provide as much context as you can about what you're running into.
+* Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
+
+Once it's filed:
+
+* The project team will [label the issue](#label-issues).
+* Someone will try to have a response soon.
+
+## Report an Error or Bug
+
+If you run into an error or bug with the project:
+
+* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* Include *reproduction steps* that someone else can follow to recreate the bug or error on their own.
+* Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
+
+Once it's filed:
+
+* The project team will [label the issue](#label-issues).
+* A team member will try to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
+* If the team is able to reproduce the issue, it will be marked and labelled, and the issue will be left to be [implemented by someone](#contribute-code).
+
+## Request a Feature
+
+If the project doesn't do something you need or want it to do:
+
+* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* Provide as much context as you can about what you're running into.
+* Please try and be clear about why existing features and alternatives would not work for you.
+
+Once it's filed:
+
+* The project team will [label the issue](#label-issues).
+* The project team will evaluate the feature request, possibly asking you more questions to understand its purpose and any relevant requirements. If the issue is closed, the team will convey their reasoning and suggest an alternative path forward.
+* If the feature request is accepted, it will be marked for implementation, which can then be done by either by a core team member or by anyone in the community who wants to [contribute code](#contribute-code).
+
+Note: The team is unlikely to be able to accept every single feature request that is filed. Please understand if they need to say no.
+
+## Project Setup
+
+So you wanna contribute some code! That's great! This project uses GitHub Pull Requests to manage contributions, so [read up on how to fork a GitHub project and file a PR](https://guides.github.com/activities/forking) if you've never done it before.
+
+If this seems like a lot or you aren't able to do all this setup, you might also be able to [edit the files directly](https://help.github.com/articles/editing-files-in-another-user-s-repository/) without having to do any of this setup. Yes, [even code](#contribute-code).
+
+If you want to go the usual route and run the project locally, though:
+
+* [Install Node.js](https://nodejs.org/en/download/)
+* [Fork the project](https://guides.github.com/activities/forking/#fork)
+
+Then in your terminal:
+* `cd path/to/your/clone`
+* `npm install`
+* `npm test`
+
+And you should be ready to go!
+
 First off, thanks for taking the time to contribute!
 
 The following is a set of guide for all the contributors on how they can help and contribute in this project. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
