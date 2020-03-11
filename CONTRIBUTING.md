@@ -28,26 +28,26 @@ The [Project Team](#team) looks forward to your contributions. 🙌🏾✨
 
 If you have a question about this project, how to use it, or just need clarification about something:
 
-* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* Open an Issue at https://github.com/smaranjitghose/girlscript_app/issues
 * Provide as much context as you can about what you're running into.
 * Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
 Once it's filed:
 
-* The project team will [label the issue](#label-issues).
+* The project team will [label the issue](#your-first-code-contribution).
 * Someone will try to have a response soon.
 
 ## Report an Error or Bug
 
 If you run into an error or bug with the project:
 
-* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* Open an Issue at https://github.com/smaranjitghose/girlscript_app/issues
 * Include *reproduction steps* that someone else can follow to recreate the bug or error on their own.
 * Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
 Once it's filed:
 
-* The project team will [label the issue](#label-issues).
+* The project team will [label the issue](#your-first-code-contribution).
 * A team member will try to reproduce the issue with your provided steps. If there are no repro steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
 * If the team is able to reproduce the issue, it will be marked and labelled, and the issue will be left to be [implemented by someone](#contribute-code).
 
@@ -55,13 +55,13 @@ Once it's filed:
 
 If the project doesn't do something you need or want it to do:
 
-* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* Open an Issue at https://github.com/smaranjitghose/girlscript_app/issues
 * Provide as much context as you can about what you're running into.
 * Please try and be clear about why existing features and alternatives would not work for you.
 
 Once it's filed:
 
-* The project team will [label the issue](#label-issues).
+* The project team will [label the issue](#your-first-code-contribution).
 * The project team will evaluate the feature request, possibly asking you more questions to understand its purpose and any relevant requirements. If the issue is closed, the team will convey their reasoning and suggest an alternative path forward.
 * If the feature request is accepted, it will be marked for implementation, which can then be done by either by a core team member or by anyone in the community who wants to [contribute code](#contribute-code).
 
@@ -141,7 +141,7 @@ git push -u origin <your_branch_name>
 
 ## Your First Code Contribution
 
-Unsure where to begin contributing to Atom? You can start by looking through these `good first issue`,`beginner` and `documentation` issues:
+Unsure where to begin contributing? You can start by looking through these `good first issue`,`beginner` and `documentation` issues:
 
 * [Documentation Issues](https://github.com/smaranjitghose/girlscript_app/labels/documentation) - issues which should only require some form of documentation for the project.
 * [Good First Issues](https://github.com/smaranjitghose/girlscript_app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - issues which are considered good for newcomers.
