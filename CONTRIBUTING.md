@@ -1,5 +1,5 @@
 # GirlScript Community App - How to Contribute?
-<p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
+<p align="center"><img width=30% src="assets/icons/gs_icon.png"></p>
 
 ## Introduction
 
