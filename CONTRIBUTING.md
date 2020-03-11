@@ -7,7 +7,7 @@ Thank you so much for your interest in contributing!. All types of contributions
 
 Please make sure to read the relevant section before making your contribution! It will make it a lot easier for us maintainers to make the most of it and smooth out the experience for all involved. 💚
 
-The [Project Team](#join-the-project-team) looks forward to your contributions. 🙌🏾✨
+The [Project Team](#team) looks forward to your contributions. 🙌🏾✨
 
 ## Table of Content <a name="toc"></a>
 
@@ -19,8 +19,10 @@ The [Project Team](#join-the-project-team) looks forward to your contributions. 
 * Make Something? 🤓👩🏽‍💻📜🍳
   * [Project Setup](#project-setup)
   * [Technology Stack Used](#technology-stack-used)
-  * [Contribution](#how-to-contribute)
-  * [Contribute Code](#code-of-conduct)
+  * [How to Contribute?](#how-to-contribute)
+  * [Contribute Code](#your-first-code-contribution)
+* [Code Of Conduct](#code-of-conduct)
+* [Team](#team)
 
 ## Request Support
 
@@ -100,8 +102,6 @@ The following is a set of guide for all the contributors on how they can help an
 
 ## How to contribute:
 
-![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
-
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
 
 **2.** Clone the forked repository.
@@ -121,6 +121,8 @@ git checkout -b <your_branch_name>
 
 **5.** Make changes in source code.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can look into [issues](#your-first-code-contribution) for making changes.
+
 **6.** Commit your changes.
 
 ```terminal
@@ -137,7 +139,7 @@ git push -u origin <your_branch_name>
 
 **Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
 
-### Your First Code Contribution
+## Your First Code Contribution
 
 Unsure where to begin contributing to Atom? You can start by looking through these `good first issue`,`beginner` and `documentation` issues:
 
