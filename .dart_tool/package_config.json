@@ -56,6 +56,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "flip_card",
+      "rootUri": "file:///home/doodlily/development/flutter/.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///home/doodlily/development/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -183,7 +189,7 @@
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///home/doodlily/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.1",
+      "rootUri": "file:///home/doodlily/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.2",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -230,7 +236,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-03-09T08:51:04.786560Z",
+  "generated": "2020-03-12T13:35:22.853172Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
