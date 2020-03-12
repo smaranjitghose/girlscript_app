@@ -124,7 +124,7 @@ class TeamTile extends StatelessWidget {
       padding: EdgeInsets.only(
         top: 10.0,
         bottom: 10.0,
-        left: 30.0,
+        left: 12.0,
         right: 5.0,
       ),
       child: new Column(
