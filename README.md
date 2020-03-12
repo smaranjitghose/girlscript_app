@@ -1,14 +1,11 @@
 # GirlScript Community App Boilerplate
 
-[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 
-![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app?style=for-the-badge)
-![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app?style=for-the-badge)
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
+![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
+![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app)
+![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
+![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
 
 [![Gitter](https://badges.gitter.im/girlscript_app/community.svg)](https://gitter.im/girlscript_app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
