@@ -382,6 +382,11 @@ ol {
   background-color: white;
 }
 
+updated_footer
+---------------------
+  Member Section
+-----------------------
+
 /*---------------------
  Team Section
  ----------------------*/
@@ -389,6 +394,7 @@ ol {
 	background:white;
 	padding: 50px;
 }	
+
 
 
  .team-card {
@@ -423,6 +429,9 @@ ol {
   .team-card-back {
 	transform: rotateY(180deg);
   }
+
+
+
 
 /*---------------------
   Footer
@@ -586,9 +595,105 @@ ol {
   color: #fff;
   transform: translateY(-7px);
 }
-footer {
-  background-color: orangered;
+
+
+footer{
+  background: #EFE2BA;
+  padding: 90px 0;
 }
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+}
+
+
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+  font-size: 26px;
+
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.btn:hover{
+  opacity: .7;
+}
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*footer {
+  background-color: orangered;
+}*/
 
 .fixed-top {
   position: fixed !important;
