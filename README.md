@@ -1,12 +1,10 @@
 # GirlScript Community App Boilerplate
 
-[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
-
-![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
-![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app)
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
-
+![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
+![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app)
+[![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 [![Gitter](https://badges.gitter.im/girlscript_app/community.svg)](https://gitter.im/girlscript_app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This has a Flutter app that is to be used by the community associated with it, and later to serve as a template for other tech communities as well.
