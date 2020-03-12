@@ -1,6 +1,5 @@
 # GirlScript Community App Boilerplate
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app?style=for-the-badge)
@@ -18,10 +17,8 @@ This app is a center to various events ranging from portraying the member’s ac
 Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake. 
 
 ### Prerequisites to contribute
-- Basic knowledge of programming
 - Ability to use Git and Github
-- Basic knowledge of Dart
-- Working knowledge of Flutter is preferable
+- Basic knowledge of Dart and Flutter
 - Basic knowledge of Firebase and willingness to learn more
 - UI/UX skills are appreciable but not mandatory
 
@@ -83,13 +80,6 @@ git push -u origin <your_branch_name>
 **Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
 
 
-### Tasks 
-- Improve the UI
-- Work on the improvement and building the various pages of the app
-- Database integration with Firebase
-- Have a corresponding Web App for this
-- Analyze further design requirements and integrate
-
 
 ###  Resources to get started with:
 +  [Dart Programming](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
@@ -98,7 +88,6 @@ git push -u origin <your_branch_name>
 +  [Reso Code's Youtube Channel for best practices](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA/featured)
 +  [Official Flutter Documentation](https://flutter.dev/docs)
 
-## Team
 
 ### Project Admin:
 * [Smaranjit Ghose](https://github.com/smaranjitghose)
@@ -112,6 +101,4 @@ git push -u origin <your_branch_name>
 * [Ousnik Polley](https://github.com/ousnik)
 
 
-
-MIT License &copy; [Smaranjit Ghose](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 
