@@ -1,5 +1,4 @@
 # GirlScript Community App Boilerplate
-<p align="center"><img width=30% src="https://github.com/smaranjitghose/DeepDataDump/blob/master/gssoc3.png"></p>
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app?style=for-the-badge)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
@@ -11,6 +10,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
+
+[![Gitter](https://badges.gitter.im/girlscript_app/community.svg)](https://gitter.im/girlscript_app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This has a Flutter app that is to be used by the community associated with it, and later to serve as a template for other tech communities as well.
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
