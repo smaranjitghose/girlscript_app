@@ -1,12 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_email_sender/flutter_email_sender.dart';
 import 'package:noob_project/SocialIcons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Contactuspage extends StatelessWidget {
+
+  TextEditingController emailAddr = TextEditingController();
+  TextEditingController body = TextEditingController();
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
       body: ListView(
         scrollDirection: Axis.vertical,
         children: <Widget>[
@@ -62,6 +69,7 @@ class Contactuspage extends StatelessWidget {
                             Padding(
                               padding: EdgeInsets.all(10),
                               child: TextFormField(
+                                controller: emailAddr,
                                 decoration: InputDecoration(
                                   hintText: "Enter your Email Address",
                                   border: new OutlineInputBorder(
@@ -75,6 +83,7 @@ class Contactuspage extends StatelessWidget {
                             new Container(
                               padding: EdgeInsets.all(10),
                               child: TextFormField(
+                                controller: body,
                                 decoration: InputDecoration(
                                   hintText: "Enter your Text",
                                   border: new OutlineInputBorder(
@@ -88,7 +97,21 @@ class Contactuspage extends StatelessWidget {
                             ),
                             new Container(
                                 child: RaisedButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                _scaffoldKey.currentState.showSnackBar(
+                                  new SnackBar(duration: new Duration(seconds: 4), content:
+                                  new Row(
+                                    children: <Widget>[
+                                      new CircularProgressIndicator(),
+                                      new Text("Sending Email , Please Wait...")
+                                    ],
+                                  ),
+                                  ));
+                              sendmail()
+                                  .whenComplete(() =>
+                                  Navigator.of(context).pushNamed("/Home")
+                              );
+                              },
                               elevation: 4,
 
                               padding: EdgeInsets.symmetric(
@@ -208,5 +231,19 @@ class Contactuspage extends StatelessWidget {
     } else {
       throw 'Could not launch $url';
     }
+  }
+
+  Future<void> sendmail() async{
+    final Email email = Email(
+      body: body.text,
+      subject: 'Query , suggestions',
+      recipients: ['aswingopinathan1871@gmail.com'],
+      cc: ['aswingopinathan19@gmail.com'],
+      //bcc: ['bcc@example.com'],
+      //attachmentPath: '/path/to/attachment.zip',
+      isHTML: false,
+    );
+
+    await FlutterEmailSender.send(email);
   }
 }
