@@ -17,13 +17,6 @@ This has a Flutter app that is to be used by the community associated with it, a
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
 Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake. 
 
-
-### Features
-- Sign up and login facility
-- View and register to Girlscript events
-- View the list of projects to contribute on them
-- Get to know the leads of various teams in Girlscript community
-
 ### Prerequisites to contribute
 - Basic knowledge of programming
 - Ability to use Git and Github
@@ -32,24 +25,6 @@ Additionally, this app developed by the community, and for the community, will a
 - Basic knowledge of Firebase and willingness to learn more
 - UI/UX skills are appreciable but not mandatory
 
-### Tech Stack 
-- Flutter
-- Dart
-- Google Firebase
-- HTML
-- CSS
-- JavaScript
-- UI / UX
-
-### Why Flutter
-- Flutter is a cross-platform app development language. 
-- It means that a single code will run for Android, iOS, and web apps. There is no need for separate code for different OS. Just with a single codebase you can develop apps for Android, iOS, and web. 
-- The base language of Flutter is Dart. 
-- The major advantage of using Flutter is that it gives the user a native feel and experience of the app. 
-- The user won’t be able to figure out whether this app is made using any cross-platform app language or any native app development language (Swift, Android, etc.) because Flutter makes use of native app components to give native app feel. 
-- The Hot Reload feature of flutter makes development much faster. This feature lets us save the changes and display us the output in real time.
-
-Check out the Flutter widgets to get an overall idea of its awesomeness - https://flutter.dev/docs/development/ui/widgets
 
 ### Working and Screenshots
 This app opens up where you will see the option to sign up/log in to your account. After successfully logging in, you will have multiple tabs to go through. Each tab has a specific purpose. For example, the “Events” tab will list all the events taking place at certain places where you can register and attend those events.
@@ -69,7 +44,7 @@ Following are some of the screenshots:
 ### How to contribute:
 
 ![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
-
+![RGSOC'20](https://img.shields.io/badge/RGSOC-20-red?style=for-the-badge)
 
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
