@@ -1,5 +1,7 @@
 # GirlScript Community App Boilerplate
 
+<p align="center"><img width=30% src="website/assets/Images/GirlScriptChennaiLogo.png"></p>
+
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
