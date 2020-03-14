@@ -23,6 +23,8 @@ dev_dependencies:
   flutter_launcher_icons: "^0.7.3"
   bordered_text: ^1.0.0
   flutter_spinkit: ^4.1.2
+  carousel_slider: ^1.4.1
+
 
 # If the icons doesn't changes after merging then run
 #   flutter packages get
