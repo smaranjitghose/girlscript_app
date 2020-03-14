@@ -90,6 +90,7 @@ ol {
 
 .main-menu {
   text-align: right;
+  padding:30px;
 }
 
 .fa {
@@ -159,7 +160,7 @@ ol {
   color: #ffffff;
   font-weight: 600;
   display: inline-block;
-  padding: 25px 0 30px;
+  padding-top: 30px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -381,6 +382,11 @@ ol {
   background-color: white;
 }
 
+updated_footer
+---------------------
+  Member Section
+-----------------------
+
 /*---------------------
  Team Section
  ----------------------*/
@@ -388,6 +394,7 @@ ol {
 	background:white;
 	padding: 50px;
 }	
+
 
 
  .team-card {
@@ -422,6 +429,9 @@ ol {
   .team-card-back {
 	transform: rotateY(180deg);
   }
+
+
+
 
 /*---------------------
   Footer
@@ -585,9 +595,105 @@ ol {
   color: #fff;
   transform: translateY(-7px);
 }
-footer {
-  background-color: orangered;
+
+
+footer{
+  background: #EFE2BA;
+  padding: 90px 0;
 }
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+}
+
+
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+  font-size: 26px;
+
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.btn:hover{
+  opacity: .7;
+}
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*footer {
+  background-color: orangered;
+}*/
 
 .fixed-top {
   position: fixed !important;
@@ -595,4 +701,188 @@ footer {
 
 .loc {
   background-image: url("https://toppng.com/uploads/preview/textured-backgrounds-for-websites-1155398483840bc0kagkc.jpg") !important;
+}
+
+/*---------------------
+  Achievements Style
+-----------------------*/
+
+.wrapper {
+  text-align: center;
+}
+
+.button2 {
+  border-radius: 15px;
+}
+
+.btn-3 {
+  background-image: linear-gradient(
+    to right,
+    #84fab0 20%,
+    #8fd3f4 51%,
+    #84fab0 100%
+  );
+  color: black;
+}
+
+.btn-3:hover {
+  border: 4px solid transparent;
+}
+
+body {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(65, 232, 234, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(65, 132, 234, 0.75);
+  transform: translateY(-10px);
+  transition: all 0.2s ease-out;
+}
+.ab
+out--part1 {
+    opacity: 0;
+}
+
+.about--part1.animated {
+    opacity: 1;
+}
+
+.stat {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.stat-items h2 {
+  font-weight: bold;
+  font-size: 42px;
+  color: darkorange;
+  margin-top: 8px;
+}
+.stat-items p {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*---------------------
+  Tiny Slider
+-----------------------*/
+
+.myslider{
+  background-color: #e32879;
+}
+
+.myslider h2{
+  color:#fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.slider{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.slider-item img{
+  height: 150px;
+  width: 150px;
+}
+
+.tns-controls{
+  display: none;
+}
+
+li.tns-item{
+  text-align:center;
+}
+
+/*---------------------
+  Achievment Data
+-----------------------*/
+/*---------------------
+  Overview
+-----------------------*/
+
+#overview{
+  /* background-color: #e32879; */
+  margin-top: 30px;
+  text-align: center;
+}
+
+#overview p{
+  /* margin-top: 10px; */
+  padding: 30px;
+}
+
+#overview h3{
+  color: #e32879;
+}
+
+/*---------------------
+  Keynote
+-----------------------*/
+
+#key-note{
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 30.0;
+  /* background-color: #ff9933; */
+}
+
+.col-lg-6 p{
+  text-align: justify;
+  padding-top: 50px;
+  margin: auto;
+  display: block;
+}
+
+/*---------------------
+  Location
+-----------------------*/
+
+.location{
+  /* width: 350px; */
+  height: 200px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.location p{
+  font-size: 16px;
+}
+
+.card-title{
+  padding: 10px;
+}
+
+/*---------------------
+  Event
+-----------------------*/
+
+#event{
+  text-align: center;
+  padding-top: 50px;
+  /* background-color: #e32879; */
+}
+
+#event h4{
+  color:#ff9933;
+}
+
+.col-lg-6 p{
+  text-align: justify;
+  padding-top: 20px;
+  margin: auto;
+  display: block;
+}
+
+.col-lg-6 img{
+  background-color: #e32879;
 }

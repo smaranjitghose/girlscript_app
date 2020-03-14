@@ -21,6 +21,8 @@ dev_dependencies:
     sdk: flutter
 
   flutter_launcher_icons: "^0.7.3"
+  bordered_text: ^1.0.0
+  flutter_spinkit: ^4.1.2
 
 # If the icons doesn't changes after merging then run
 #   flutter packages get
@@ -53,12 +55,14 @@ flutter:
           weight: 600
         - asset: assets/fonts/Poppins-SemiBold.ttf
           weight: 400
+    - family: Fira Code
+      fonts:
+        - asset: assets/fonts/FiraCode-Regular.ttf
 
   uses-material-design: true
   assets:
     - assets/images/GSsoc-Type-Logo-Black.png
     - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
-
     - assets/images/gslogo.png
     - assets/icons/social/fb.png
     - assets/icons/social/facebook.png
