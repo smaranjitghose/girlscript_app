@@ -1,6 +1,7 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
+import com.sidlatau.flutteremailsender.FlutterEmailSenderPlugin;
 import io.flutter.plugins.urllauncher.UrlLauncherPlugin;
 
 /**
@@ -11,6 +12,7 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
+    FlutterEmailSenderPlugin.registerWith(registry.registrarFor("com.sidlatau.flutteremailsender.FlutterEmailSenderPlugin"));
     UrlLauncherPlugin.registerWith(registry.registrarFor("io.flutter.plugins.urllauncher.UrlLauncherPlugin"));
   }
 
