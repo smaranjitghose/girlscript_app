@@ -1,18 +1,18 @@
 [
     {
-        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable\\notification_icon_background.xml"
+        "merged": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable\\notification_bg_low.xml"
+        "merged": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\drawable\\notification_bg.xml"
+        "merged": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\drawable\\notification_bg_low.xml"
     }
 ]

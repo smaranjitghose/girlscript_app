@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'EventRegistration.dart';
+
 final baseTextStyle = const TextStyle(fontFamily: 'Poppins');
 
 final headerTextStyle = baseTextStyle.copyWith(
@@ -9,6 +11,7 @@ final regularTextStyle = baseTextStyle.copyWith(
     color: Colors.black87, fontSize: 12.0, fontWeight: FontWeight.w500);
 
 final subHeaderTextStyle = regularTextStyle.copyWith(fontSize: 14.0);
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -21,6 +24,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class Events extends StatefulWidget {
   @override
   _EventsState createState() => _EventsState();
@@ -156,6 +160,10 @@ class EventRow extends StatelessWidget {
                 width: 20.0,
               ),
               new RaisedButton(
+                onLongPress: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => EventRegisteration()));
+                },
                 child: new Text(
                   "Register",
                   style: new TextStyle(
@@ -198,7 +206,9 @@ class EventRow extends StatelessWidget {
 
     final eventCard = new Container(
       height: 180.0,
-      margin: new EdgeInsets.only(left: 42.0,),
+      margin: new EdgeInsets.only(
+        left: 42.0,
+      ),
       decoration: new BoxDecoration(
           color: Colors.orange[50],
           shape: BoxShape.rectangle,
@@ -244,37 +254,36 @@ class EventBody extends StatelessWidget {
   }
 }
 
-class _EventsState extends State<Events> with SingleTickerProviderStateMixin  { 
-    @override
+class _EventsState extends State<Events> with SingleTickerProviderStateMixin {
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: NestedScrollView(
-        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
-          return <Widget>[
-            SliverAppBar(
-              expandedHeight: 180.0,
-              floating: false,
-              pinned: true,
-              flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Text("EVENTS",
-                      style: new TextStyle(
-                    color: Colors.white,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w800,
-                    fontFamily: 'Poppins',
-                  )),
-                  background: 
-                  Image.asset("assets/images/GSsoc-Type-Logo-Black.png")
-                  ),
-            ),
-          ];
-        },
-        body: SingleChildScrollView(
-          child: Container(
+      headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+        return <Widget>[
+          SliverAppBar(
+            expandedHeight: 180.0,
+            floating: false,
+            pinned: true,
+            flexibleSpace: FlexibleSpaceBar(
+                centerTitle: true,
+                title: Text("EVENTS",
+                    style: new TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w800,
+                      fontFamily: 'Poppins',
+                    )),
+                background:
+                    Image.asset("assets/images/GSsoc-Type-Logo-Black.png")),
+          ),
+        ];
+      },
+      body: SingleChildScrollView(
+        child: Container(
           width: MediaQuery.of(context).size.width,
           padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 6.0),
-          child: new Column( 
+          child: new Column(
             children: <Widget>[
               new Container(
                 padding: EdgeInsets.only(
@@ -283,17 +292,14 @@ class _EventsState extends State<Events> with SingleTickerProviderStateMixin  {
                   //left: 10.0,
                   //right: 23.0,
                 ),
-                
               ),
-              
               new EventBody(),
             ],
           ),
+        ),
       ),
-      
-),
-     // backgroundColor: Colors.amber[50];
+      // backgroundColor: Colors.amber[50];
     ));
     //);
   }
-  }
+}
