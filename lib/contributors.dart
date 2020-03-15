@@ -51,7 +51,7 @@ class _ContributorsState extends State<Contributors> {
                       }
                     },
                     child: Image.asset(
-                      'assets/icons/social/GitHub_mark.png',
+                      'assets/icons/social/GitHub_Mark.png',
                       height: 32.0,
                       width: 32.0,
                     ),

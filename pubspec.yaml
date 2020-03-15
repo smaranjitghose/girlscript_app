@@ -27,11 +27,7 @@ dev_dependencies:
   bordered_text: ^1.0.0
   flutter_spinkit: ^4.1.2
   carousel_slider: ^1.4.1
-
-# If the icons doesn't changes after merging then run
-#   flutter packages get
-#   flutter packages pub run flutter_launcher_icons:main
-# android: false; This should be false because the icons are Officially downloaded and inserted.
+  bubble_bottom_bar: ^1.2.0
 
 flutter_icons:
   android: flase
