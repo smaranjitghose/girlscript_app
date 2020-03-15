@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 15 14:21:57 IST 2020
+#Sun Mar 15 14:44:31 IST 2020
 5.base=F\:\\GirlScriptSummerOfCode\\girlscript_app\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 22.path=flutter_assets/assets/icons/social/insta.png
 32.set=ASSET
