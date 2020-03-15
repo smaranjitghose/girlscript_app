@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
 
 void main() => runApp(EventRegisteration());
 
@@ -58,14 +59,25 @@ class EventRegisteration extends StatelessWidget {
                 SizedBox(
                   height: 10.0,
                 ),
-                TextField(
-                  cursorColor: Colors.orange,
+                DateTimeField(
                   decoration: InputDecoration(
-                    labelText: 'Date of Birth',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                  ),
+                      hintText: 'DD/MM/YYYY',
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(20.0)),
+                      labelStyle: TextStyle(
+                          fontSize: 15.0,
+                          backgroundColor: Colors.orange,
+                          color: Colors.orange,
+                          fontStyle: FontStyle.normal,
+                          fontWeight: FontWeight.w600)),
+                  onShowPicker: (context, currentValue) {
+                    return showDatePicker(
+                        context: context,
+                        firstDate: DateTime(1900),
+                        initialDate: currentValue ?? DateTime.now(),
+                        lastDate: DateTime(2100));
+                  },
+                  format: null,
                 ),
                 SizedBox(
                   height: 10.0,
