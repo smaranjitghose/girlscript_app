@@ -54,7 +54,7 @@ class _ProjectDetailsState extends State<ProjectDetails> {
                       }
                     },
                     child: Image.asset(
-                      'assets/icons/social/GitHub_mark.png',
+                      'assets/icons/social/GitHub_Mark.png',
                       height: 36.0,
                       width: 36.0,
                     ),

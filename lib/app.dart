@@ -17,7 +17,7 @@ class _SplashScreen extends State<MyApp> {
   }
 
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/HomeScreen');
+    Navigator.of(context).pushReplacementNamed('/Dashboard');
   }
 
   @override
@@ -41,7 +41,6 @@ class _SplashScreen extends State<MyApp> {
         ),
         ),
         child: Column(
-          // crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.asset(
@@ -79,31 +78,5 @@ class _SplashScreen extends State<MyApp> {
         ),
       ),
     );
-    // return new SplashScreen(
-    //   seconds: 10,
-    //   navigateAfterSeconds: new Hello(),
-    //   gradientBackground: LinearGradient(
-    //     begin: Alignment.topLeft,
-    //     end: Alignment.bottomRight,
-    //     // stops: [0.3, 1],
-    //     colors: [Color(0xffff4000),Color(0xffffcc66),]
-    //   ),
-    //   image: Image.asset('assets/images/gs_launcher.png',
-    //     alignment: Alignment.bottomCenter
-    //   ),
-    //   title: new Text(
-    //     '\n\n\n\n< CODE FOR FREEDOM >',
-    //     textAlign: TextAlign.center,
-    //     style: new TextStyle(
-    //       color: Colors.white,
-    //       fontWeight: FontWeight.bold,
-    //       fontFamily: 'Fira Code',
-    //       fontSize: 20.0
-    //     ),
-    //   ),     
-    //   styleTextUnderTheLoader: new TextStyle(),
-    //   photoSize: 100.0,
-    //   loaderColor: Colors.white,
-    // );
   }
 }

@@ -64,7 +64,7 @@ class _DevelopersState extends State<Developers> {
                                 }
                               },
                               child: Image.asset(
-                                'assets/icons/social/GitHub_mark.png',
+                                'assets/icons/social/GitHub_Mark.png',
                                 height: 26.0,
                                 width: 26.0,
                               ),
