@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_email_sender: ^2.2.2
+  flutter_datetime_picker: 1.2.5
+  datetime_picker_formfield: 0.4.3
 
   url_launcher: ^5.4.2
   splashscreen:
@@ -26,11 +28,6 @@ dev_dependencies:
   flutter_spinkit: ^4.1.2
   carousel_slider: ^1.4.1
   bubble_bottom_bar: ^1.2.0
-
-# If the icons doesn't changes after merging then run
-#   flutter packages get
-#   flutter packages pub run flutter_launcher_icons:main
-# android: false; This should be false because the icons are Officially downloaded and inserted.
 
 flutter_icons:
   android: flase
