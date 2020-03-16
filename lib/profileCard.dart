@@ -57,7 +57,7 @@ class _ProfileState extends State<Profile> {
                         child: TextField(
                           maxLines: 6,
                           decoration: InputDecoration.collapsed(
-                            // hintText: "Enter your text here",
+                            hintText: "Enter your text here",
                           ),
                         ),
                       ),
