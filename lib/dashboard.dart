@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:bubble_bottom_bar/bubble_bottom_bar.dart';
 import 'package:noob_project/AboutUs.dart';
 import 'package:noob_project/Contactus.dart';
+import 'package:noob_project/EventPage.dart';
+import 'package:noob_project/Events.dart';
 import 'package:noob_project/Project.dart';
 import 'package:noob_project/home.dart';
 import 'package:noob_project/team.dart';
@@ -81,9 +83,9 @@ class _DashboardState extends State<Dashboard> {
         controller: _pageController,
         children: <Widget>[
           Hello(),
-          TeamBody(),
-          AboutUs(), 
-          Contactuspage(),
+          Events(),
+          TeamPage(), 
+          AboutUs(),
         ],
         onPageChanged: (int index){
           setState(() {
