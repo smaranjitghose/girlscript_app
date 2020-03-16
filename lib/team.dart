@@ -140,27 +140,32 @@ class TeamTile extends StatelessWidget {
 class TeamBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new Column(
-      children: <Widget>[
-        new Row(
+    return SingleChildScrollView(
+      child: Container(
+        height: MediaQuery.of(context).size.height,
+        child: new Column(
           children: <Widget>[
-            new TeamTile(data[0]),
-            new TeamTile(data[1]),
+            new Row(
+              children: <Widget>[
+                new TeamTile(data[0]),
+                new TeamTile(data[1]),
+              ],
+            ),
+            new Row(
+              children: <Widget>[
+                new TeamTile(data[2]),
+                new TeamTile(data[3]),
+              ],
+            ),
+            new Row(
+              children: <Widget>[
+                new TeamTile(data[4]),
+                new TeamTile(data[5]),
+              ],
+            ),
           ],
         ),
-        new Row(
-          children: <Widget>[
-            new TeamTile(data[2]),
-            new TeamTile(data[3]),
-          ],
-        ),
-        new Row(
-          children: <Widget>[
-            new TeamTile(data[4]),
-            new TeamTile(data[5]),
-          ],
-        ),
-      ],
+      ),
     );
   }
 }
