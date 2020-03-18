@@ -1,25 +1,25 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:noob_project/SocialIcons.dart';
-import 'package:noob_project/projectDetail.dart';
+import 'package:noob_project/models/SocialIcons.dart';
+import 'package:noob_project/ui/screens/projectDetail.dart';
 
-class Projectpage extends StatelessWidget{
+class Projectpage extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xffff4a4a),
-        title: Text('Projects', style: TextStyle(fontSize: 28, fontFamily: 'Playball')),
+        title: Text('Projects',
+            style: TextStyle(fontSize: 28, fontFamily: 'Playball')),
       ),
       body: ListView.builder(
         padding: EdgeInsets.symmetric(vertical: 16.0),
         itemCount: 4,
         itemBuilder: (BuildContext context, int index) {
-          if(index % 2 == 0) {
+          if (index % 2 == 0) {
             return _buildCarousel(context, index ~/ 2);
-          }
-          else {
+          } else {
             return Divider();
           }
         },
@@ -47,14 +47,18 @@ class Projectpage extends StatelessWidget{
     );
   }
 
-  Widget _buildCarouselItem(BuildContext context, int carouselIndex, int itemIndex) {
+  Widget _buildCarouselItem(
+      BuildContext context, int carouselIndex, int itemIndex) {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 4.0),
       child: GestureDetector(
-        onTap: (){
-          Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>ProjectDetails()));
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (BuildContext context) => ProjectDetails()));
         },
-              child: Card(
+        child: Card(
           child: Container(
             decoration: BoxDecoration(
               color: Colors.white,
