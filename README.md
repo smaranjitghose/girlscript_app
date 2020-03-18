@@ -44,9 +44,9 @@ Following are some of the screenshots:
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
   <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
-  <img src="assets/images/homepage.jpg" alt="feed example"
+<!--   <img src="assets/images/homepage.jpg" alt="feed example"
   width="250" >
-  <img src="assets/images/contactus.jpg" alt="feed example" width="250" >
+  <img src="assets/images/contactus.jpg" alt="feed example" width="250" > -->
 
 </p>
 
