@@ -112,14 +112,14 @@ git push -u origin <your_branch_name>
 
 ### Mentors:
 * Sukkrit Sharma
- <a href="https://github.com/sukkritsharmaofficial"><img src="assets/icons/social/GitHub_Mark.png" width=20></a>
+ <a href="https://github.com/sukkritsharmaofficial"><img src="assets/icons/GitHub_Mark.png" width=20></a>
 
 * Saswat Nayak
-<a href="https://github.com/swat1998"><img src="assets/icons/social/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/swat1998"><img src="assets/icons/GitHub_Mark.png" width=20></a>
 
 * Anush Bhatia
-<a href="https://github.com/anushbhatia"><img src="assets/icons/social/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/anushbhatia"><img src="assets/icons/GitHub_Mark.png" width=20></a>
 
 * Ousnik Polley
-<a href="https://github.com/ousnik"><img src="assets/icons/social/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/ousnik"><img src="assets/icons/GitHub_Mark.png" width=20></a>
 
