@@ -107,19 +107,19 @@ git push -u origin <your_branch_name>
 ### Project Admin:
 * Smaranjit Ghose
 
- <a href="https://github.com/smaranjitghose"><img src="assets/icons/social/github.jpg" width=55></a>
+ <a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=55></a>
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ### Mentors:
 * Sukkrit Sharma
- <a href="https://github.com/sukkritsharmaofficial"><img src="assets/icons/GitHub_Mark.png" width=20></a>
+ <a href="https://github.com/sukkritsharmaofficial"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
 * Saswat Nayak
-<a href="https://github.com/swat1998"><img src="assets/icons/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/swat1998"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
 * Anush Bhatia
-<a href="https://github.com/anushbhatia"><img src="assets/icons/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/anushbhatia"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
 * Ousnik Polley
-<a href="https://github.com/ousnik"><img src="assets/icons/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/ousnik"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
