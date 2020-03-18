@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values\\values.xml",
+            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\values\\values.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-1.0.0.aar\\20b99bb7ac4acd417e1b1c9e89a9b880\\res\\values\\values.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-1.0.0.aar\\de04f8d545924cb9c34a0dea980f35bb\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
                         "startColumns": "4,4,4,4",
@@ -44,10 +44,10 @@
             ]
         },
         {
-            "outputFile": "E:\\GSSoC 2020\\girlscript_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\9a595a9814ab40be43a8c740ac67e9fb\\res\\values\\values.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -66,7 +66,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-1.0.0.aar\\20b99bb7ac4acd417e1b1c9e89a9b880\\res\\values\\values.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-1.0.0.aar\\de04f8d545924cb9c34a0dea980f35bb\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
                         "startColumns": "4,4,4,4",

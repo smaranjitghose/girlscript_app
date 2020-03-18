@@ -1,4 +1,5 @@
-# GirlScript Community App Boilerplate
+# Community App Boilerplate
+
 
 <p align="center"><img width=30% src="website/assets/Images/GirlScriptChennaiLogo.png"></p>
 
@@ -9,9 +10,10 @@
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
 [![Gitter](https://badges.gitter.im/girlscript_app/community.svg)](https://gitter.im/girlscript_app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This has a Flutter app that is to be used by the community associated with it, and later to serve as a template for other tech communities as well.
-This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities.
-Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake.
+
+A boiler plate for any tech community to pick up and use for their own without any hastle
+This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
+Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake. 
 
 ###  Mission
 
@@ -24,8 +26,6 @@ Additionally, this app developed by the community, and for the community, will a
 - Remove myths about tech education.
 - Spread awareness about opportunities in tier two and tier three cities .
 - Introduce tech content that is helpful for everyone.
-
-
 
 ### Prerequisites to contribute
 - Ability to use Git and Github
@@ -125,3 +125,4 @@ git push -u origin <your_branch_name>
 
 * Ousnik Polley
 <a href="https://github.com/ousnik"><img src="assets/icons/social/GitHub_Mark.png" width=20></a>
+

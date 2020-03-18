@@ -9,22 +9,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_email_sender: ^2.2.2
+  flutter_datetime_picker: 1.2.5
+  datetime_picker_formfield: 0.4.3
 
-  url_launcher: ^5.4.1
+  url_launcher: ^5.4.2
   splashscreen:
   cupertino_icons: ^0.1.2
+
+  flip_card: ^0.4.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_launcher_icons: "^0.7.3"
-  
-# If the icons doesn't changes after merging then run
-#   flutter packages get
-#   flutter packages pub run flutter_launcher_icons:main
-# android: false; This should be false because the icons are Officially downloaded and inserted.
- 
+  bordered_text: ^1.0.0
+  flutter_spinkit: ^4.1.2
+  carousel_slider: ^1.4.1
+  bubble_bottom_bar: ^1.2.0
+
 flutter_icons:
   android: flase
   ios: true
@@ -51,18 +55,20 @@ flutter:
           weight: 600
         - asset: assets/fonts/Poppins-SemiBold.ttf
           weight: 400
+    - family: Fira Code
+      fonts:
+        - asset: assets/fonts/FiraCode-Regular.ttf
 
   uses-material-design: true
   assets:
     - assets/images/GSsoc-Type-Logo-Black.png
     - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
-
     - assets/images/gslogo.png
     - assets/icons/social/fb.png
     - assets/icons/social/facebook.png
     - assets/icons/social/insta.png
     - assets/icons/social/instagram.png
-    - assets/icons/social/GitHub_mark.png
+    - assets/icons/social/GitHub_Mark.png
     - assets/icons/tech/flutter.png
     - assets/icons/tech/android.png
     - assets/icons/tech/c.png
@@ -72,5 +78,3 @@ flutter:
     - assets/images/back.png
     - assets/images/gs_launcher.png
     - assets/icons/gs_launcher.png
-
-  

@@ -7,7 +7,7 @@ class AboutUs extends StatelessWidget {
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.only(top:90.0, bottom: 30.0),
+          padding: const EdgeInsets.only(top:80.0),
           child: Container(
             child: Column(
               children: <Widget>[

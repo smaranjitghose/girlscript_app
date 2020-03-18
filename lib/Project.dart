@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:noob_project/SocialIcons.dart';
+import 'package:noob_project/projectDetail.dart';
 
 class Projectpage extends StatelessWidget{
   @override
@@ -49,14 +50,19 @@ class Projectpage extends StatelessWidget{
   Widget _buildCarouselItem(BuildContext context, int carouselIndex, int itemIndex) {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 4.0),
-      child: Card(
-        child: Container(
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.all(Radius.circular(4.0)),
-          ),
-          child: Center(
-            child: Icon(SocialIcons.github_circled),
+      child: GestureDetector(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>ProjectDetails()));
+        },
+              child: Card(
+          child: Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.all(Radius.circular(4.0)),
+            ),
+            child: Center(
+              child: Icon(SocialIcons.github_circled),
+            ),
           ),
         ),
       ),

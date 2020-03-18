@@ -21,8 +21,6 @@
       integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
       crossorigin="anonymous"
     />
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -36,103 +34,13 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-
-    <style>
-      .wrapper {
-        text-align: center;
-      }
-
-      .button2 {
-        border-radius: 15px;
-      }
-
-      .btn-3 {
-        background-image: linear-gradient(
-          to right,
-          #84fab0 20%,
-          #8fd3f4 51%,
-          #84fab0 100%
-        );
-        color: black;
-      }
-      .btn-3:hover {
-        border: 4px solid transparent;
-      }
-      body {
-        perspective: 1px;
-        transform-style: preserve-3d;
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
-
-      /* header {
-        box-sizing: border-box;
-        position: relative;
-        transform-style: inherit;
-      }
-
-      header .header:before {
-        background: 50% 50% / cover;
-      }
-
-      header::before {
-        bottom: 0;
-        content: "";
-        position: absolute;
-        display: block;
-        transform-origin: center center 0;
-        transform: translateZ((-1px) scale(2);
-        z-index: -1;
-
-      } */
-
-      
-
-      .card:hover {
-        
-        -webkit-box-shadow: -1px 9px 40px -12px rgba(65, 232, 234, 0.75);
-        -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
-        box-shadow: -1px 9px 40px -12px rgba(65, 132, 234, 0.75);
-        
-        transform: translateY(-10px);
-        
-
-      }
-      .about--part1 {
-          opacity: 0;
-      }
-      .about--part1.animated {
-          opacity: 1;
-      }
-
-      .stat {
-        padding-top: 60px;
-        padding-bottom: 80px;
-      }
-
-      .stat-items h2 {
-        font-weight: bold;
-        font-size: 42px;
-        color: darkorange;
-        margin-top: 8px;
-      }
-      .stat-items p {
-        font-weight: bold;
-        letter-spacing: 1px;
-      }
-
-    
-     
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.2/tiny-slider.css'>
   </head>
 
   <body>
     <header>
-      <header
-        class="header-section set-bg"
-        data-setbg="assets/Images/GSsoc Type Logo Black.png"
-      >
+      <header class="header-section set-bg" data-setbg="assets/Images/GSsoc Type Logo Black.png">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-2">
@@ -149,16 +57,8 @@
             </div>
             <div class="col-lg-9 col-md-10">
               <div class="main-menu mobile-menu">
-                <div class="container">
-                  <div class="social-links">
-                    <a href="#"><img src="assets/Images/faceBook.png"/></a>
-                    <a href="#"><img src="assets/Images/GitHub_Mark.png"/></a>
-                    <a href="#"><img src="assets/Images/YouTube.png"/></a>
-                    <a href="#"><img src="assets/Images/Instagram.png"/></a>
-                  </div>
-                </div>
                 <ul>
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">Program</a></li>
                   <li>
@@ -171,7 +71,7 @@
                     </ul>
                   </li>
                   <li><a href="contactUs.html">Contact Us</a></li>
-                  <li><a href="">Achievements</a></li>
+                  <li class="active"><a href="">Achievements</a></li>
                 </ul>
               </div>
             </div>
@@ -245,69 +145,85 @@
       </div>
     </section>
 
- 
+    <div class="myslider">
+      <h2>Our Sponsors</h2>
+      <div class="container">
+        <ul class="slider">
+          <li class="slider-item"><img src="assets/Images/girlscriptcar.png" ></li>
+          <li class="slider-item"><img src="assets/Images/GirlScriptChennaiLogo.png" ></li>
+          <li class="slider-item"><img src="assets/Images/gslogo1.png.png"></li>
+          <li class="slider-item"><img src="assets/Images/girlscriptcar.png" ></li>
+          <li class="slider-item"><img src="assets/Images/GirlScriptChennaiLogo.png" ></li>
+          <li class="slider-item"><img src="assets/Images/gslogo1.png.png"></li>
+          <li class="slider-item"><img src="assets/Images/gslogo.png.png"></li>
+          <li class="slider-item"><img src="assets/Images/GSsoc Type Logo Black.png.png"></li>
+          <li class="slider-item"><img src="assets/Images/girlscriptcar.png" ></li>
+          <li class="slider-item"><img src="assets/Images/girlscriptcar.png" ></li>
+        </ul>
+      </div>
+    </div>
 
     <div class="container card1 mt-5">
       <div class="row">
         <div class="col-lg-4 card--1">
           <!-- Bootstrap Card-->
-          <div class="card" style="width: 18rem;">
+          <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
             <img
               src="https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
               alt=""
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title">Best Club</h5>
+              <a href="achievementData1.html" style="text-decoration: none; text-align: center;"><h5 class="card-title">Achievement 1</h5></a>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                 dicta, sunt in incidunt quas inventore commodi quisquam nihil!
                 Cupiditate assumenda ad cumque est facilis maiores voluptate
                 obcaecati inventore qui optio?
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="achievementData1.html" class="btn btn-primary" style="margin: auto;display: block;">Read More</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 card--2">
           <!-- Bootstrap Card-->
-          <div class="card" style="width: 18rem;">
+          <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
             <img
               src="https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
               alt=""
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title">Best Club</h5>
+              <a href="achievementData1.html" style="text-decoration: none; text-align: center;"><h5 class="card-title">Achievement 1</h5></a>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                 dicta, sunt in incidunt quas inventore commodi quisquam nihil!
                 Cupiditate assumenda ad cumque est facilis maiores voluptate
                 obcaecati inventore qui optio?
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="achievementData1.html" class="btn btn-primary" style="margin: auto;display: block;">Read More</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 card--3">
           <!-- Bootstrap Card-->
-          <div class="card" style="width: 18rem;">
+          <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
             <img
               src="https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
               alt=""
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title">Best Club</h5>
+              <a href="achievementData1.html" style="text-decoration: none; text-align: center;"><h5 class="card-title">Achievement 1</h5></a>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                 dicta, sunt in incidunt quas inventore commodi quisquam nihil!
                 Cupiditate assumenda ad cumque est facilis maiores voluptate
                 obcaecati inventore qui optio?
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="achievementData1.html" class="btn btn-primary" style="margin: auto;display: block;">Read More</a>
             </div>
           </div>
         </div>
@@ -339,11 +255,34 @@
             </div>
         </div>
     </section>
+
+    <!-- Script -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.2/min/tiny-slider.js'></script>
+    <script>
+      const slider = tns({
+        container: '.slider',
+        loop: true,
+        items: 4,
+        slideBy: 'page',
+        nav: false,    
+        autoplay: true,
+        speed: 400,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        lazyload: true,
+        // controlsContainer: "#customize-controls",
+        responsive: {
+          640: {
+            items: 2,
+          },
+          768: {
+            items: 3,
+          }
+        }
+      });
+    </script>
+
     <script data-cfasync="false" type="text/javascript" src="./scripts/google-script-just-email.js"></script>
-
-  
-
-    
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -364,8 +303,6 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
-    
-    
 
     <script>
       jQuery(document).ready(function(){
@@ -374,41 +311,39 @@
           time: 1000
         });
       });
-
     </script>
-
 
     <script>
-        $(document).ready(function() {
-        $('.about--part1').waypoint(function(direction) {
-          $('.about--part1').addClass('animated zoomIn')
-          
-        }, {
-          offset: '60%'
-        });
+      $(document).ready(function() {
+      $('.about--part1').waypoint(function(direction) {
+        $('.about--part1').addClass('animated zoomIn')
+        
+      }, {
+        offset: '60%'
+      });
 
-        $('.card1').waypoint(function(direction) {
-          $('.card--1').addClass('animated bounceInLeft')
-          
-        }, {
-          offset: '60%'
-        });
+      $('.card1').waypoint(function(direction) {
+        $('.card--1').addClass('animated bounceInLeft')
+        
+      }, {
+        offset: '60%'
+      });
 
-        $('.card--2').waypoint(function(direction) {
-          $('.card--2').addClass('animated zoomIn')
-          
-        }, {
-          offset: '60%'
-        });
+      $('.card--2').waypoint(function(direction) {
+        $('.card--2').addClass('animated zoomIn')
+        
+      }, {
+        offset: '60%'
+      });
 
-        $('.card--3').waypoint(function(direction) {
-          $('.card--3').addClass('animated bounceInRight')
-          
-        }, {
-          offset: '60%'
-        });
+      $('.card--3').waypoint(function(direction) {
+        $('.card--3').addClass('animated bounceInRight')
+        
+      }, {
+        offset: '60%'
+      });
 
-        });
+      });
     </script>
-</body>
+  </body>
 </html>
