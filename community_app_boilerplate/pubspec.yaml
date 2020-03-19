@@ -1,0 +1,80 @@
+name: noob_project
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_email_sender: ^2.2.2
+  flutter_datetime_picker: 1.2.5
+  datetime_picker_formfield: 0.4.3
+
+  url_launcher: ^5.4.2
+  splashscreen:
+  cupertino_icons: ^0.1.2
+
+  flip_card: ^0.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.7.3"
+  bordered_text: ^1.0.0
+  flutter_spinkit: ^4.1.2
+  carousel_slider: ^1.4.1
+  bubble_bottom_bar: ^1.2.0
+
+flutter_icons:
+  android: flase
+  ios: true
+  image_path: "assets/icons/gs_launcher.png"
+
+# The following section is specific to Flutter.
+flutter:
+  fonts:
+    - family: Playball
+      fonts:
+        - asset: assets/fonts/Playball-q6o1.ttf
+    - family: Moonhouse
+      fonts:
+        - asset: assets/fonts/moonhouse.ttf
+    - family: plz
+      fonts:
+        - asset: assets/fonts/plz.ttf
+    - family: SocialIcons
+      fonts:
+        - asset: assets/icons/SocialIcons.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 400
+    - family: Fira Code
+      fonts:
+        - asset: assets/fonts/FiraCode-Regular.ttf
+
+  uses-material-design: true
+  assets:
+    - assets/images/GSsoc-Type-Logo-Black.png
+    - assets/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg
+    - assets/images/gslogo.png
+    - assets/icons/social/fb.png
+    - assets/icons/social/facebook.png
+    - assets/icons/social/insta.png
+    - assets/icons/social/instagram.png
+    - assets/icons/social/GitHub_Mark.png
+    - assets/icons/tech/flutter.png
+    - assets/icons/tech/android.png
+    - assets/icons/tech/c.png
+    - assets/icons/tech/swift.png
+    - assets/icons/tech/java.png
+    - assets/icons/user_placeholder.png
+    - assets/images/back.png
+    - assets/images/gs_launcher.png
+    - assets/icons/gs_launcher.png

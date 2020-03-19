@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">114567331130-cj3h3rmfnh39iueutm102380qpj51ohm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://girlscriptapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">114567331130</string>
+    <string name="google_api_key" translatable="false">AIzaSyDdm2QPlTErQY7-Fn2MiobWg6WslBBZD9A</string>
+    <string name="google_app_id" translatable="false">1:114567331130:android:2a547e98a708fac78a2403</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDdm2QPlTErQY7-Fn2MiobWg6WslBBZD9A</string>
+    <string name="google_storage_bucket" translatable="false">girlscriptapp.appspot.com</string>
+    <string name="project_id" translatable="false">girlscriptapp</string>
+</resources>
