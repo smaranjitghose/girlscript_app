@@ -1,4 +1,0 @@
-#Sun Feb 02 00:29:31 IST 2020
-base.0=C\:\\Users\\saswa\\noob_project\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
