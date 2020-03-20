@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:noob_project/cardCaursel.dart';
-import 'package:noob_project/profileCard.dart';
+import 'package:noob_project/ui/custom/cardCaursel.dart';
+import 'package:noob_project/ui/custom/profileCard.dart';
 
 class Hello extends StatelessWidget {
   @override
