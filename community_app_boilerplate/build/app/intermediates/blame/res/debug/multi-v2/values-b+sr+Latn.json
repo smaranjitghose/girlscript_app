@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "/home/algokun/GSSOC20/girlscript_app/community_app_boilerplate/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\4aaa266b6d25e4a8b2353ffbe6eb0003\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "/home/algokun/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/10c5c78a8aded329d478e00b022ada51/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5581",
+                        "endColumns": "100",
+                        "endOffsets": "5677"
+                    }
+                },
+                {
+                    "source": "/home/algokun/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/83c40ff000ac5c37529acd350a21fa14/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\0202e45108fac324680b5536715c3719\\res\\values-b+sr+Latn\\values.xml",
+                    "source": "/home/algokun/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/65d996daef71fc07322d7520e74c3d0b/res/values-b+sr+Latn/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\ff5b879704355331d75b9f1167b73191\\res\\values-b+sr+Latn\\values.xml",
+                    "source": "/home/algokun/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/67880ad3b4852872cbd52586236c21fd/res/values-b+sr+Latn/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "3987",
                         "endColumns": "188",
                         "endOffsets": "4171"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\376a73f135367db13dc49832cc1246f2\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5581",
-                        "endColumns": "100",
-                        "endOffsets": "5677"
                     }
                 }
             ]

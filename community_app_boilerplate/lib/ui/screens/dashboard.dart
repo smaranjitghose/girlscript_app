@@ -5,6 +5,8 @@ import 'package:noob_project/ui/screens/Events.dart';
 import 'package:noob_project/ui/screens/Project.dart';
 import 'package:noob_project/ui/screens/home.dart';
 import 'package:noob_project/ui/screens/team.dart';
+import 'package:noob_project/utils/blocs/theme.dart';
+import 'package:provider/provider.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -23,7 +25,25 @@ class _DashboardState extends State<Dashboard> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Provider.of<ThemeChanger>(context);
+
+    Color color = theme.isDarkModeEnabled() ? Colors.white : Colors.black;
+
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        actions: <Widget>[
+          IconButton(
+              color: Colors.orange,
+              icon: theme.isDarkModeEnabled()
+                  ? Icon(Icons.wb_sunny)
+                  : Icon(Icons.brightness_2),
+              onPressed: () {
+                theme.switchTheme();
+              })
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(
@@ -36,6 +56,8 @@ class _DashboardState extends State<Dashboard> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: BubbleBottomBar(
+        backgroundColor:
+            theme.isDarkModeEnabled() ? Colors.black : Colors.white,
         opacity: .2,
         currentIndex: _currentIndex,
         onTap: (index) {
@@ -52,14 +74,13 @@ class _DashboardState extends State<Dashboard> {
         elevation: 8,
         fabLocation: BubbleBottomBarFabLocation.end, //new
         hasNotch: true, //new
-        hasInk: true, //new, gives a cute ink effect
-        inkColor: Colors.black12, //optional, uses theme color if not specified
+        hasInk: true,
         items: <BubbleBottomBarItem>[
           BubbleBottomBarItem(
               backgroundColor: Colors.red,
               icon: Icon(
                 Icons.dashboard,
-                color: Colors.black,
+                color: color,
               ),
               activeIcon: Icon(
                 Icons.dashboard,
@@ -70,7 +91,7 @@ class _DashboardState extends State<Dashboard> {
               backgroundColor: Colors.deepPurple,
               icon: Icon(
                 Icons.people_outline,
-                color: Colors.black,
+                color: color,
               ),
               activeIcon: Icon(
                 Icons.people_outline,
@@ -81,7 +102,7 @@ class _DashboardState extends State<Dashboard> {
               backgroundColor: Colors.indigo,
               icon: Icon(
                 Icons.info_outline,
-                color: Colors.black,
+                color: color,
               ),
               activeIcon: Icon(
                 Icons.info_outline,
@@ -92,7 +113,7 @@ class _DashboardState extends State<Dashboard> {
               backgroundColor: Colors.green,
               icon: Icon(
                 Icons.mail_outline,
-                color: Colors.black,
+                color: color,
               ),
               activeIcon: Icon(
                 Icons.mail_outline,

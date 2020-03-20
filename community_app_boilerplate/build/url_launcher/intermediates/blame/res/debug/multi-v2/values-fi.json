@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-fi\\values-fi.xml",
+            "outputFile": "/home/algokun/GSSOC20/girlscript_app/community_app_boilerplate/build/url_launcher/intermediates/res/merged/debug/values-fi/values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\values-fi\\values-fi.xml",
+                    "source": "/home/algokun/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c883b98b7be0b3f1648bb9fc9a2422b/res/values-fi/values-fi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "/home/algokun/GSSOC20/girlscript_app/community_app_boilerplate/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\values-fi\\values-fi.xml",
+                    "source": "/home/algokun/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c883b98b7be0b3f1648bb9fc9a2422b/res/values-fi/values-fi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
