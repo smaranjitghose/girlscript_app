@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
-import 'package:noob_project/SocialIcons.dart';
+import 'package:noob_project/models/SocialIcons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Contactuspage extends StatelessWidget {
-
-  TextEditingController emailAddr = TextEditingController();
-  TextEditingController body = TextEditingController();
+class ContactUs extends StatelessWidget {
+  
+  final emailAddr = TextEditingController();
+  final body = TextEditingController();
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
   @override
@@ -96,39 +96,39 @@ class Contactuspage extends StatelessWidget {
                               ),
                             ),
                             new Container(
-                                child: RaisedButton(
-                              onPressed: () {
-                                _scaffoldKey.currentState.showSnackBar(
-                                  new SnackBar(duration: new Duration(seconds: 4), content:
-                                  new Row(
-                                    children: <Widget>[
-                                      new CircularProgressIndicator(),
-                                      new Text("Sending Email , Please Wait...")
-                                    ],
-                                  ),
+                              child: RaisedButton(
+                                onPressed: () {
+                                  _scaffoldKey.currentState
+                                      .showSnackBar(new SnackBar(
+                                    duration: new Duration(seconds: 4),
+                                    content: new Row(
+                                      children: <Widget>[
+                                        new CircularProgressIndicator(),
+                                        new Text(
+                                            "Sending Email , Please Wait...")
+                                      ],
+                                    ),
                                   ));
-                              sendmail()
-                                  .whenComplete(() =>
-                                  Navigator.of(context).pushNamed("/Home")
-                              );
-                              },
-                              elevation: 4,
-
-                              padding: EdgeInsets.symmetric(
-                                vertical: 4,
-                                horizontal: 30,
+                                  sendmail().whenComplete(() =>
+                                      Navigator.of(context).pushNamed("/Home"));
+                                },
+                                elevation: 4,
+                                padding: EdgeInsets.symmetric(
+                                  vertical: 4,
+                                  horizontal: 30,
+                                ),
+                                shape: new RoundedRectangleBorder(
+                                  borderRadius: new BorderRadius.circular(10),
+                                ),
+                                child: Text(
+                                  "Send Mail",
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                color: Colors.red,
                               ),
-                              shape: new RoundedRectangleBorder(
-                                borderRadius: new BorderRadius.circular(10),
-                              ),
-                              child: Text(
-                                "Send Mail",
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              color: Colors.red,
-                            ),),
+                            ),
                           ],
                         ),
                       ),
@@ -233,7 +233,7 @@ class Contactuspage extends StatelessWidget {
     }
   }
 
-  Future<void> sendmail() async{
+  Future<void> sendmail() async {
     final Email email = Email(
       body: body.text,
       subject: 'Query , suggestions',
