@@ -1,21 +1,12 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD:community_app_boilerplate/lib/Project.dart
-import 'package:noob_project/SocialIcons.dart';
-import 'package:noob_project/projectDetail.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'projectData.dart';
-import 'package:noob_project/my_flutter_app_icons.dart';
-=======
-import 'package:noob_project/models/SocialIcons.dart';
-import 'package:noob_project/ui/screens/projectDetail.dart';
->>>>>>> 9ef9396db77e824db63d1415bcfcdf512ba0665b:community_app_boilerplate/lib/ui/screens/Project.dart
 
-class Projectpage extends StatelessWidget {
+class Projectpage extends StatelessWidget{
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Scaffold(
-<<<<<<< HEAD:community_app_boilerplate/lib/Project.dart
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.white,
         onPressed: (){launch('https://www.girlscript.tech');},
@@ -205,67 +196,6 @@ class Projectpage extends StatelessWidget {
                 ],
               ),              
             ],
-=======
-      appBar: AppBar(
-        backgroundColor: Color(0xffff4a4a),
-        title: Text('Projects',
-            style: TextStyle(fontSize: 28, fontFamily: 'Playball')),
-      ),
-      body: ListView.builder(
-        padding: EdgeInsets.symmetric(vertical: 16.0),
-        itemCount: 4,
-        itemBuilder: (BuildContext context, int index) {
-          if (index % 2 == 0) {
-            return _buildCarousel(context, index ~/ 2);
-          } else {
-            return Divider();
-          }
-        },
-      ),
-    );
-  }
-
-  Widget _buildCarousel(BuildContext context, int carouselIndex) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: <Widget>[
-        Text('Scrollable Card $carouselIndex'),
-        SizedBox(
-          // you may want to use an aspect ratio here for tablet support
-          height: 300.0,
-          child: PageView.builder(
-            // store this controller in a State to save the carousel scroll position
-            controller: PageController(viewportFraction: 0.8),
-            itemBuilder: (BuildContext context, int itemIndex) {
-              return _buildCarouselItem(context, carouselIndex, itemIndex);
-            },
-          ),
-        )
-      ],
-    );
-  }
-
-  Widget _buildCarouselItem(
-      BuildContext context, int carouselIndex, int itemIndex) {
-    return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 4.0),
-      child: GestureDetector(
-        onTap: () {
-          Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (BuildContext context) => ProjectDetails()));
-        },
-        child: Card(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(4.0)),
-            ),
-            child: Center(
-              child: Icon(SocialIcons.github_circled),
-            ),
->>>>>>> 9ef9396db77e824db63d1415bcfcdf512ba0665b:community_app_boilerplate/lib/ui/screens/Project.dart
           ),
         ),
       ),
