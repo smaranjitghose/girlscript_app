@@ -37,7 +37,6 @@ class EventRegisteration extends StatelessWidget {
                   cursorColor: Colors.orange,
                   decoration: InputDecoration(
                     labelText: 'Email Id',
-                    //  helperText: 'Sell Quantity',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20.0),
                     ),
@@ -50,7 +49,6 @@ class EventRegisteration extends StatelessWidget {
                   cursorColor: Colors.orange,
                   decoration: InputDecoration(
                     labelText: 'Contact Number',
-                    //  helperText: 'Rate(Per Kg)',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20.0),
                     ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bubble_bottom_bar/bubble_bottom_bar.dart';
 import 'package:noob_project/ui/screens/AboutUs.dart';
+import 'package:noob_project/ui/screens/Contactus.dart';
 import 'package:noob_project/ui/screens/Events.dart';
 import 'package:noob_project/ui/screens/Project.dart';
 import 'package:noob_project/ui/screens/home.dart';
@@ -95,10 +96,21 @@ class _DashboardState extends State<Dashboard> {
                 color: Colors.black,
               ),
               activeIcon: Icon(
-                Icons.mail_outline,
+                Icons.book,
                 color: Colors.green,
               ),
-              title: Text("Contact"))
+              title: Text("Events")),
+          BubbleBottomBarItem(
+              backgroundColor: Colors.blue,
+              icon: Icon(
+                Icons.call,
+                color: Colors.black,
+              ),
+              activeIcon: Icon(
+                Icons.call,
+                color: Colors.blue,
+              ),
+              title: Text("ContactUs"))
         ],
       ),
       body: PageView(
@@ -108,6 +120,7 @@ class _DashboardState extends State<Dashboard> {
           TeamPage(),
           AboutUs(),
           Events(),
+          ContactUs()
         ],
         onPageChanged: (int index) {
           setState(() {
