@@ -12,20 +12,41 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
-  int _currentIndex = 0; 
+  int _currentIndex = 0;
   PageController _pageController;
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
     _pageController = PageController();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.amber[800],
+        title: Center(
+          child: Text(
+            'GirlScript',
+            textAlign: TextAlign.center,
+          ),
+        ),
+        leading: Image.asset('assets/images/gslogo.png'),
+        actions: <Widget>[
+          Icon(
+            Icons.account_circle,
+            color: Colors.white,
+            size: 40.0,
+          )
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>Projectpage()));
+        onPressed: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (BuildContext context) => Projectpage()));
         },
         child: Icon(Icons.code),
         backgroundColor: Colors.amber[800],
@@ -39,8 +60,8 @@ class _DashboardState extends State<Dashboard> {
             _currentIndex = index;
           });
           _pageController.animateToPage(
-            index, 
-            duration:Duration(milliseconds: 200),
+            index,
+            duration: Duration(milliseconds: 200),
             curve: Curves.easeIn,
           );
         },
@@ -49,32 +70,52 @@ class _DashboardState extends State<Dashboard> {
         fabLocation: BubbleBottomBarFabLocation.end, //new
         hasNotch: true, //new
         hasInk: true, //new, gives a cute ink effect
-        inkColor: Colors.black12 ,//optional, uses theme color if not specified
+        inkColor: Colors.black12, //optional, uses theme color if not specified
         items: <BubbleBottomBarItem>[
           BubbleBottomBarItem(
-            backgroundColor: Colors.red, 
-            icon: Icon(Icons.dashboard, color: Colors.black,), 
-            activeIcon: Icon(Icons.dashboard, color: Colors.red,), 
-            title: Text("Home")
-          ),
+              backgroundColor: Colors.red,
+              icon: Icon(
+                Icons.dashboard,
+                color: Colors.black,
+              ),
+              activeIcon: Icon(
+                Icons.dashboard,
+                color: Colors.red,
+              ),
+              title: Text("Home")),
           BubbleBottomBarItem(
-            backgroundColor: Colors.deepPurple, 
-            icon: Icon(Icons.people_outline, color: Colors.black,), 
-            activeIcon: Icon(Icons.people_outline, color: Colors.deepPurple,), 
-            title: Text("Team")
-          ),
+              backgroundColor: Colors.deepPurple,
+              icon: Icon(
+                Icons.people_outline,
+                color: Colors.black,
+              ),
+              activeIcon: Icon(
+                Icons.people_outline,
+                color: Colors.deepPurple,
+              ),
+              title: Text("Team")),
           BubbleBottomBarItem(
-            backgroundColor: Colors.indigo, 
-            icon: Icon(Icons.info_outline, color: Colors.black,), 
-            activeIcon: Icon(Icons.info_outline, color: Colors.indigo,), 
-            title: Text("About Us")
-          ),
+              backgroundColor: Colors.indigo,
+              icon: Icon(
+                Icons.info_outline,
+                color: Colors.black,
+              ),
+              activeIcon: Icon(
+                Icons.info_outline,
+                color: Colors.indigo,
+              ),
+              title: Text("About Us")),
           BubbleBottomBarItem(
-            backgroundColor: Colors.green, 
-            icon: Icon(Icons.mail_outline, color: Colors.black,), 
-            activeIcon: Icon(Icons.mail_outline, color: Colors.green,), 
-            title: Text("Contact")
-            )
+              backgroundColor: Colors.green,
+              icon: Icon(
+                Icons.mail_outline,
+                color: Colors.black,
+              ),
+              activeIcon: Icon(
+                Icons.mail_outline,
+                color: Colors.green,
+              ),
+              title: Text("Contact"))
         ],
       ),
       body: PageView(
@@ -82,10 +123,10 @@ class _DashboardState extends State<Dashboard> {
         children: <Widget>[
           Hello(),
           Events(),
-          TeamPage(), 
+          TeamPage(),
           AboutUs(),
         ],
-        onPageChanged: (int index){
+        onPageChanged: (int index) {
           setState(() {
             _currentIndex = index;
           });
