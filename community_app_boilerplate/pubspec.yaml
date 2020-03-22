@@ -37,9 +37,9 @@ flutter_icons:
 # The following section is specific to Flutter.
 flutter:
   fonts:
-    - family: MyFlutterApp
-      fonts:
-        - asset: assets/fonts/MyFlutterApp.ttf
+    # - family: MyFlutterApp
+    #   fonts:
+    #     - asset: assets/fonts/MyFlutterApp.ttf
     - family: Playball
       fonts:
         - asset: assets/fonts/Playball-q6o1.ttf
