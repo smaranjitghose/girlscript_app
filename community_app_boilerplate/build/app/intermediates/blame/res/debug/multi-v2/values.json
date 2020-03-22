@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "F:\\GirlScriptSummerOfCode\\girlscript_app\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -78,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

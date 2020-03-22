@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values\\values.xml",
+            "outputFile": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\values\\values.xml",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d0edfd9a3b65fa45b557d47b57bfc240\\res\\values\\values.xml",

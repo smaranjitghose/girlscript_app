@@ -105,9 +105,9 @@ class _DashboardState extends State<Dashboard> {
         controller: _pageController,
         children: <Widget>[
           Hello(),
-          Events(),
           TeamPage(),
           AboutUs(),
+          Events(),
         ],
         onPageChanged: (int index) {
           setState(() {
