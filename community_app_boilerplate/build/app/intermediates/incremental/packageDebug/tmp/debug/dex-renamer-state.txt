@@ -1,4 +1,4 @@
-#Sun Mar 15 14:44:26 IST 2020
-base.0=F\:\\GirlScriptSummerOfCode\\girlscript_app\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Mar 23 02:20:01 IST 2020
+base.0=C\:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

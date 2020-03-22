@@ -5,6 +5,7 @@ import 'package:noob_project/ui/screens/dashboard.dart';
 main(){
   return runApp(new MaterialApp(
     home: new MyApp(),
+    debugShowCheckedModeBanner: false,
     routes: <String, WidgetBuilder>{
       '/Dashboard': (BuildContext context) => Dashboard()
     },
