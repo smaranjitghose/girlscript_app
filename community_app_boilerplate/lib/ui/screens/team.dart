@@ -66,7 +66,7 @@ class TeamTile extends StatelessWidget {
       ),
       child: new Container(
         width: 120.0,
-        height: 120.0,
+        height: 80.0,
         decoration: new BoxDecoration(
           shape: BoxShape.circle,
           // Un-comment the below stub of code to display background images

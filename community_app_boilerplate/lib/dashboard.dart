@@ -136,10 +136,11 @@ class _DashboardState extends State<Dashboard> {
         controller: _pageController,
         children: <Widget>[
           // the list of pages we will be naviagting to.
-          Hello(),
+          
           Events(),
           TeamPage(),
           AboutUs(),
+          Hello(),
         ],
         onPageChanged: (int index) {
           //Called whenever the page in the center of the viewport changes.

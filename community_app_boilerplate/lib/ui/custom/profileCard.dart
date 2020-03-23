@@ -119,8 +119,9 @@ class _ProfileState extends State<Profile> {
                           )
                         ],
                       ),
+                      SizedBox(width: 10.0,),
                       Container(
-                        width: 138.0,
+                        width: 119.0,
                         height: 30.0,
                         child: RaisedButton(
                           color: Colors.amber[800],
