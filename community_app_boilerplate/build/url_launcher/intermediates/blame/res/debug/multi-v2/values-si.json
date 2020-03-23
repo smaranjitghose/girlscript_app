@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-si\\values-si.xml",
+            "outputFile": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-si\\values-si.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\26faa80578cebf26370f00fc16ffbbc6\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+            "outputFile": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\26faa80578cebf26370f00fc16ffbbc6\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

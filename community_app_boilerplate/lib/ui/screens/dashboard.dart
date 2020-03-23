@@ -72,12 +72,19 @@ class _DashboardState extends State<Dashboard> {
             activeIcon: Icon(Icons.info_outline, color: Colors.indigo,), //The icon of the active BottomNavigationItem.
             title: Text("About Us") //Text for display of BottomNavigationBar item.
           ),
+          BubbleBottomBarItem( // style of 3rd page
+            backgroundColor: Colors.indigo, //The color of the BottomNavigationBar itself.
+            icon: Icon(Icons.note, color: Colors.black,), //The icon of the BottomNavigationBar itself.
+            activeIcon: Icon(Icons.note, color: Colors.indigo,), //The icon of the active BottomNavigationItem.
+            title: Text("Events") //Text for display of BottomNavigationBar item.
+          ),
           BubbleBottomBarItem( // style of 4th page
             backgroundColor: Colors.green, //The color of the BottomNavigationBar itself.
             icon: Icon(Icons.mail_outline, color: Colors.black,), //The icon of the BottomNavigationBar itself.
             activeIcon: Icon(Icons.mail_outline, color: Colors.green,), //The icon of the active BottomNavigationItem.
             title: Text("Contact") //Text for display of BottomNavigationBar item.
-            )
+            ),
+            
         ],
       ),
       body: PageView( //Creates a scrollable list that works page by page from an explicit [List] of widgets.
@@ -85,8 +92,11 @@ class _DashboardState extends State<Dashboard> {
         children: <Widget>[ // the list of pages we will be naviagting to.
           Hello(),
           TeamPage(),
+          AboutUs(),
           Events(),
-          ContactUs()
+          ContactUs(),
+          
+          
         ],
         onPageChanged: (int index){ //Called whenever the page in the center of the viewport changes.
           setState(() {
