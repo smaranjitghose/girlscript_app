@@ -25,7 +25,7 @@ class _DevelopersState extends State<Developers> {
         children: <Widget>[
           Container(
             width: MediaQuery.of(context).size.width*0.825,
-            height: MediaQuery.of(context).size.width*0.475,
+            height: MediaQuery.of(context).size.width*0.5,
             child: Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12.0)
