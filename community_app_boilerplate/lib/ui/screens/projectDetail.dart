@@ -142,124 +142,127 @@ class _ProjectDetailsState extends State<ProjectDetails> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top:10.0,left:18.0,right: 18.0),
-                child: Column(
-                  children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        Padding(
-                          padding: const EdgeInsets.only(left:4.0,right: 4.0),
-                          child: Chip(
-                            elevation: 4.0,
-                            backgroundColor: Colors.white,
-                            avatar: CircleAvatar(
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  child: Column(
+                    children: <Widget>[
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          Padding(
+                            padding: const EdgeInsets.only(left:4.0,right: 4.0),
+                            child: Chip(
+                              elevation: 4.0,
                               backgroundColor: Colors.white,
-                              child: Image.asset('assets/icons/tech/flutter.png'),
-                            ),
-                            label: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Text(
-                                "Flutter",
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.blueAccent
+                              avatar: CircleAvatar(
+                                backgroundColor: Colors.white,
+                                child: Image.asset('assets/icons/tech/flutter.png'),
+                              ),
+                              label: Padding(
+                                padding: const EdgeInsets.all(3.0),
+                                child: Text(
+                                  "Flutter",
+                                  style: TextStyle(
+                                    fontSize: 18.0,
+                                    color: Colors.blueAccent
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left:4.0,right: 4.0),
-                          child: Chip(
-                            elevation: 4.0,
-                            backgroundColor: Colors.white,
-                            avatar: CircleAvatar(
+                          Padding(
+                            padding: const EdgeInsets.only(left:4.0,right: 4.0),
+                            child: Chip(
+                              elevation: 4.0,
                               backgroundColor: Colors.white,
-                              child: Image.asset('assets/icons/tech/android.png'),
-                            ),
-                            label: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Text(
-                                "Android",
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.green,
-                                ),
+                              avatar: CircleAvatar(
+                                backgroundColor: Colors.white,
+                                child: Image.asset('assets/icons/tech/android.png'),
                               ),
-                            )
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left:4.0,right: 4.0),
-                          child: Chip(
-                            elevation: 4.0,
-                            backgroundColor: Colors.white,
-                            avatar: CircleAvatar(
-                              backgroundColor: Colors.white,
-                              child: Image.asset('assets/icons/tech/java.png'),
-                            ),
-                            label: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Text(
-                                "Java",
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.red,
+                              label: Padding(
+                                padding: const EdgeInsets.all(3.0),
+                                child: Text(
+                                  "Android",
+                                  style: TextStyle(
+                                    fontSize: 18.0,
+                                    color: Colors.green,
+                                  ),
                                 ),
-                              ),
-                            )
-                          ),
-                        ),
-                      ],
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        Padding(
-                          padding: const EdgeInsets.only(left:4.0,right: 4.0),
-                          child: Chip(
-                            elevation: 4.0,
-                            backgroundColor: Colors.white,
-                            avatar: CircleAvatar(
-                              backgroundColor: Colors.white,
-                              child: Image.asset('assets/icons/tech/c.png'),
-                            ),
-                            label: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Text(
-                                "Objective - C ",
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.black
-                                ),
-                              ),
+                              )
                             ),
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left:4.0,right: 4.0),
-                          child: Chip(
-                            elevation: 4.0,
-                            backgroundColor: Colors.white,
-                            avatar: CircleAvatar(
+                          Padding(
+                            padding: const EdgeInsets.only(left:4.0,right: 4.0),
+                            child: Chip(
+                              elevation: 4.0,
                               backgroundColor: Colors.white,
-                              child: Image.asset('assets/icons/tech/swift.png'),
+                              avatar: CircleAvatar(
+                                backgroundColor: Colors.white,
+                                child: Image.asset('assets/icons/tech/java.png'),
+                              ),
+                              label: Padding(
+                                padding: const EdgeInsets.all(3.0),
+                                child: Text(
+                                  "Java",
+                                  style: TextStyle(
+                                    fontSize: 18.0,
+                                    color: Colors.red,
+                                  ),
+                                ),
+                              )
                             ),
-                            label: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Text(
-                                "Swift",
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.deepOrange,
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          Padding(
+                            padding: const EdgeInsets.only(left:4.0,right: 4.0),
+                            child: Chip(
+                              elevation: 4.0,
+                              backgroundColor: Colors.white,
+                              avatar: CircleAvatar(
+                                backgroundColor: Colors.white,
+                                child: Image.asset('assets/icons/tech/c.png'),
+                              ),
+                              label: Padding(
+                                padding: const EdgeInsets.all(3.0),
+                                child: Text(
+                                  "Objective - C ",
+                                  style: TextStyle(
+                                    fontSize: 18.0,
+                                    color: Colors.black
+                                  ),
                                 ),
                               ),
-                            )
+                            ),
                           ),
-                        ),
-                      ],
-                    ),
-                  ],
+                          Padding(
+                            padding: const EdgeInsets.only(left:4.0,right: 4.0),
+                            child: Chip(
+                              elevation: 4.0,
+                              backgroundColor: Colors.white,
+                              avatar: CircleAvatar(
+                                backgroundColor: Colors.white,
+                                child: Image.asset('assets/icons/tech/swift.png'),
+                              ),
+                              label: Padding(
+                                padding: const EdgeInsets.all(3.0),
+                                child: Text(
+                                  "Swift",
+                                  style: TextStyle(
+                                    fontSize: 18.0,
+                                    color: Colors.deepOrange,
+                                  ),
+                                ),
+                              )
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
               Padding(
