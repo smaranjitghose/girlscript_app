@@ -31,19 +31,24 @@ Additionally, this app developed by the community, and for the community, will a
 - UI/UX skills are appreciable but not mandatory
 
 
-### Working and Screenshots
-This app opens up where you will see the option to sign up/log in to your account. After successfully logging in, you will have multiple tabs to go through. Each tab has a specific purpose. For example, the “Events” tab will list all the events taking place at certain places where you can register and attend those events.
-
+### Working and Wireframe
+This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be -
+- Home - It will have a scrollable NewsFeed providing all the latest updates of the GirlScript Chennai Chapter.
+- Events - It will have a scrollable cards for the upcoming events with Date, Time, Venue and Organiser's Name. It will also have a "View Location" Button that would allow the user to locate the event hence moving to "Locate Event".
+- Team - This page will show all the members that are part of the GirlScript Chennai working in various parts and helping to conduct and organise the events.
+- MileStones - It will consist of all the milestones have been achieved.
+- AboutUs - It will contain all the "Programs" that are conducted by the organisation and it's "Missions". Refer to https://www.girlscript.tech
+- Hexadecimal Codes for the colors used -- orange(#F6780A) , black(#160606) , grey(#9A8686) , yellow for View Button(#FCC204) , LogIn Button(#EBD7D0) .
 Following are some of the screenshots:
 
 <p>
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20In.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Home.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Events.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/iPhone%20X-XS-11%20Pro%20%E2%80%93%204.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Team.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/About%20us.png" alt="feed example" width="250">
-  <img src="https://raw.githubusercontent.com/sukkritsharmaofficial/PyDepo/master/Girlscript%20ui/Sign%20Up.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/SplashScreen.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Login.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Home.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Events.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/MileStone.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/TeamPage.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/AboutUs.png" alt="feed example" width="250">
 <!--   <img src="assets/images/homepage.jpg" alt="feed example"
   width="250" >
   <img src="assets/images/contactus.jpg" alt="feed example" width="250" > -->
