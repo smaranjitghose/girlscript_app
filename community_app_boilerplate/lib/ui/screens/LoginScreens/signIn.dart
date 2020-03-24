@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noob_project/dashboard.dart';
+import 'package:noob_project/ui/screens/dashboard.dart';
 
 class SignInPage extends StatefulWidget {
   @override
