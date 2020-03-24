@@ -46,6 +46,7 @@ Following are some of the screenshots:
   <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Login.png" alt="feed example" width="250">
   <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Home.png" alt="feed example" width="250">
   <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Events.png" alt="feed example" width="250">
+  <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/LocateEvent.png" alt="feed example" width="250">
   <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/MileStone.png" alt="feed example" width="250">
   <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/TeamPage.png" alt="feed example" width="250">
   <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/AboutUs.png" alt="feed example" width="250">
