@@ -32,14 +32,11 @@ Additionally, this app developed by the community, and for the community, will a
 
 
 ## Working and Wireframe  :memo:
-This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be as follows.
-### Splash Screen
+#### This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be as follows.### Splash Screen
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/SplashScreen.png" alt="feed example" width="250">
 
 ### Log In
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Login.png" alt="feed example" width="250">
-
-###  This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be -
 
 **Home** - *It will have a scrollable NewsFeed providing all the latest updates of the GirlScript Chennai Chapter.*
 
