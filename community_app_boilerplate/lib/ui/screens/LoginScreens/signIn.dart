@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:noob_project/ui/screens/LoginScreens/SignuUpPage.dart';
 import 'package:noob_project/ui/screens/dashboard.dart';
 
 class SignInPage extends StatefulWidget {
@@ -199,13 +200,27 @@ class _SignInPageState extends State<SignInPage> {
                         fontSize: 12,
                       ),
                     ),
-                    new Text(
-                      "Sign Up Now",
-                      style: new TextStyle(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
+                    new RaisedButton(
+                      onPressed: () async {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => SignUpScreen()),
+                        );
+                      },
+                      child: new Text(
+                        "Sign Up Now",
+                        style: new TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
+                      elevation: 0.0,
+                      color: Color.fromRGBO(255, 255, 255, 0.0),
+                      padding: EdgeInsets.all(0.0),
+                      splashColor: Color.fromRGBO(255, 255, 255, 0.0),
+                      animationDuration: Duration(milliseconds: 10),
                     ),
                   ],
                 ),
