@@ -8,19 +8,61 @@ class EventRegisteration extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         resizeToAvoidBottomInset: false,
-        appBar: AppBar(
-          iconTheme: IconThemeData(color: Colors.black),
-          title: Text('Event Registration',
-              textAlign: TextAlign.left,
-              style:
-                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
-          backgroundColor: Colors.blue,
+      appBar:AppBar(
+      centerTitle: true,
+      title: Text(
+        "GIRLSCRIPT CHENNAI",
+        style: TextStyle(
+          fontFamily: "Poppins",
         ),
+      ),
+      flexibleSpace: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Color(0xffff4000),Color(0xffffcc66),]
+          )
+        ),
+      ),
+      leading: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Image.asset(
+          'assets/icons/transparent_logo.png',
+        ),
+      ),
+      actions: <Widget>[
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: CircleAvatar(
+            radius: 20.0,
+            child: Image.asset('assets/icons/user_placeholder.png')
+          ),
+        )
+      ],
+    ),
         body: Container(
-            padding: EdgeInsets.all(5.0),
+            padding: EdgeInsets.symmetric(horizontal: 22.0),
             child: Column(
               children: <Widget>[
-                SizedBox(height: 10.0),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.05,),
+              RichText(
+                text: TextSpan(
+                  text: "EVENT REGISTRATION",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 25.0
+                  ),
+                  // children: <TextSpan>[
+                  //   TextSpan(
+                  //     text: "US",
+                  //     style: TextStyle(
+                  //       color: Colors.amber[800]
+                  //     )
+                  //   )
+                  // ]
+                )
+              ),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.05,),
                 TextField(
                   cursorColor: Colors.orange,
                   decoration: InputDecoration(
@@ -96,16 +138,19 @@ class EventRegisteration extends StatelessWidget {
                 ),
                 Container(
                     height: 50.0,
-                    width: 100.0,
+                    width: 110.0,
                     child: Column(
                       children: <Widget>[
                         FlatButton(
                           shape: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(20.0),
                           ),
-                          child: Text('SUBMIT',
-                              style: TextStyle(
-                                  fontSize: 15.0, fontWeight: FontWeight.w800)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Text('SUBMIT',
+                                style: TextStyle(
+                                    fontSize: 18.0, fontWeight: FontWeight.w800)),
+                          ),
                           onPressed: () {},
                           color: Colors.orange,
                         ),

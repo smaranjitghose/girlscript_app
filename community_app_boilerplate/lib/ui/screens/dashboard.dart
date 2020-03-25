@@ -95,8 +95,6 @@ class _DashboardState extends State<Dashboard> {
           AboutUs(),
           Events(),
           ContactUs(),
-          
-          
         ],
         onPageChanged: (int index){ //Called whenever the page in the center of the viewport changes.
           setState(() {
