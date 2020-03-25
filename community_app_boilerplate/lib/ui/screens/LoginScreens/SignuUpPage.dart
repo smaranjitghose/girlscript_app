@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class SignUpScreen extends StatefulWidget {
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
@@ -207,14 +208,122 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                 ),
               ),
-
-
-
-
+              new Container(height: (0.070 * height)),
+              new Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  new Container(
+                    height: (0.002 * height),
+                    width: (0.140 * width),
+                    color: Colors.grey[500],
+                  ),
+                  new Text(
+                    "   Or Sign Up With   ",
+                    style: new TextStyle(
+                      fontSize: 12,
+                      color: Colors.grey[500],
+                    ),
+                  ),
+                  new Container(
+                    height: (0.002 * height),
+                    width: (0.140 * width),
+                    color: Colors.grey[500],
+                  ),
+                ],
+              ),
+              new Container(height: (0.060 * height)),
+              new Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  new RaisedButton(
+                    onPressed: () {},
+                    elevation: 6.0,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(60),
+                    ),
+                    padding: EdgeInsets.all(0.0),
+                    child: Ink(
+                      decoration: new BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [Colors.blue[500], Colors.blue[900]],
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                        ),
+                        borderRadius: BorderRadius.circular(60),
+                      ),
+                      child: new Container(
+                        width: (0.346 * width),
+                        height: (0.056 * height),
+                        child: new Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            Container(
+                                alignment: Alignment.center,
+                                // height: (0.030 * height),
+                                // width: (0.020 * height),
+                                child: new Image(
+                                  image: AssetImage(
+                                      "assets/icons/social/facebook_white.png"),
+                                  fit: BoxFit.fill,
+                                )),
+                            new Text("Facebook",
+                                style: new TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w500,
+                                )),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  new Container(width: (0.050 * height)),
+                  new RaisedButton(
+                    onPressed: () {},
+                    elevation: 6.0,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(60),
+                    ),
+                    padding: EdgeInsets.all(0.0),
+                    child: Ink(
+                      decoration: new BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [Colors.red[500], Colors.red[900]],
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                        ),
+                        borderRadius: BorderRadius.circular(60),
+                      ),
+                      child: new Container(
+                        width: (0.346 * width),
+                        height: (0.056 * height),
+                        child: new Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            Container(
+                                alignment: Alignment.center,
+                                // height: (0.030 * height),
+                                // width: (0.020 * height),
+                                child: new Image(
+                                  image: AssetImage(
+                                      "assets/icons/social/google.png"),
+                                  // fit: BoxFit.fill,
+                                )),
+                            new Text("Google",
+                                style: new TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w500,
+                                )),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
 
               
-              
-              new Container(height: 10),
             ],
           ),
         ),
@@ -222,5 +331,3 @@ class _SignUpScreenState extends State<SignUpScreen> {
     );
   }
 }
-
-
