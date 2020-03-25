@@ -24,7 +24,7 @@ Additionally, this app developed by the community, and for the community, will a
 - Introduce tech content that is helpful for everyone.
 
 
-## Prerequisites to contribute  :point_down:
+## Prerequisites  :point_down:
 - Ability to use Git and Github :octocat:
 - Basic knowledge of Dart and Flutter
 - Basic knowledge of Firebase and willingness to learn more
@@ -78,7 +78,7 @@ This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp 
 
 `lib\ui\custom` : The Custom Widgets you created can be placed here.
 
-## Coding Guidelines
+### Coding Guidelines
 
 1. Try to reduce the widget tree, in the long run it might help us a lot
 2. When it comes to package version, make sure you use the correct package.
@@ -145,7 +145,6 @@ git push -u origin <your_branch_name>
 +  [Hyper Text Markup Language](https://www.w3schools.com/html/html_intro.asp)
 + [Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 + [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-
 - [Dart Programming](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
 - [Flutter Crash Course](https://www.youtube.com/watch?v=pTJJsmejUOQ)
 - [Firebase and Flutter App Build](https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC)
@@ -159,9 +158,6 @@ git push -u origin <your_branch_name>
 * Smaranjit Ghose
 
  <a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=55></a>
-- Smaranjit Ghose
-
-<a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=55></a>
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ## Mentors: :busts_in_silhouette:
