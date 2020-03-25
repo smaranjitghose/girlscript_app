@@ -40,7 +40,7 @@ This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp 
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Login.png" alt="feed example" width="250">
 
 ###  This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be -
-- 
+
 **Home** - *It will have a scrollable NewsFeed providing all the latest updates of the GirlScript Chennai Chapter.*
 
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Home.png" alt="feed example" width="250">
@@ -149,14 +149,7 @@ git push -u origin <your_branch_name>
 +  [Hyper Text Markup Language](https://www.w3schools.com/html/html_intro.asp)
 + [Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 + [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-- [Dart Programming](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
-- [Flutter Crash Course](https://www.youtube.com/watch?v=pTJJsmejUOQ)
-- [Firebase and Flutter App Build](https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC)
-- [Reso Code's Youtube Channel for best practices](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA/featured)
-- [Official Flutter Documentation](https://flutter.dev/docs)
-- [Hyper Text Markup Language](https://www.w3schools.com/html/html_intro.asp)
-- [Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
 
 ## Project Admin:  :bust_in_silhouette:
 * Smaranjit Ghose
