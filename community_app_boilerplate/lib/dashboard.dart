@@ -112,7 +112,7 @@ class _DashboardState extends State<Dashboard> {
                 color: Colors.indigo,
               ), //The icon of the active BottomNavigationItem.
               title: Text(
-                  "About Us") //Text for display of BottomNavigationBar item.
+                  "Events") //Text for display of BottomNavigationBar item.
               ),
           BubbleBottomBarItem(
               // style of 4th page

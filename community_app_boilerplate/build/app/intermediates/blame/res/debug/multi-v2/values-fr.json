@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\51e456edbc1321d05ac427b649eb6411\\res\\values-fr\\values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "2847,2955,3167,3299,3410,3640,3775,3926,4292,4529,4643,4859,4997,5216,5425,5528,5625",
                         "endColumns": "107,211,131,110,229,134,150,141,236,113,215,137,218,208,102,96,112",
                         "endOffsets": "2950,3162,3294,3405,3635,3770,3921,4063,4524,4638,4854,4992,5211,5420,5523,5620,5733"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\550af97721431ebf5b087e44e257db61\\res\\values-fr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "223",
-                        "endOffsets": "470"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4068",
-                        "endColumns": "223",
-                        "endOffsets": "4287"
                     }
                 },
                 {
@@ -69,6 +52,23 @@
                         "startOffsets": "105,216,331,441,523,629,759,837,914,1005,1097,1195,1290,1391,1484,1577,1672,1763,1854,1939,2049,2160,2263,2374,2482,2589,2748,5738",
                         "endColumns": "110,114,109,81,105,129,77,76,90,91,97,94,100,92,92,94,90,90,84,109,110,102,110,107,106,158,98,85",
                         "endOffsets": "211,326,436,518,624,754,832,909,1000,1092,1190,1285,1386,1479,1572,1667,1758,1849,1934,2044,2155,2258,2369,2477,2584,2743,2842,5819"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\f72a83eda061ff0427c0380d7cbe35b4\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "223",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4068",
+                        "endColumns": "223",
+                        "endOffsets": "4287"
                     }
                 }
             ]

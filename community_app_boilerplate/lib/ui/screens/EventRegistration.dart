@@ -17,6 +17,7 @@ class EventRegisteration extends StatelessWidget {
           backgroundColor: Colors.blue,
         ),
         body: Container(
+            color: Colors.white,
             padding: EdgeInsets.all(5.0),
             child: Column(
               children: <Widget>[
@@ -24,9 +25,9 @@ class EventRegisteration extends StatelessWidget {
                 TextField(
                   cursorColor: Colors.orange,
                   decoration: InputDecoration(
-                    labelText: 'Name',
+                    labelText: 'Full Name',
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
                 ),
@@ -39,7 +40,7 @@ class EventRegisteration extends StatelessWidget {
                     labelText: 'Email Id',
                     //  helperText: 'Sell Quantity',
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
                 ),
@@ -52,7 +53,7 @@ class EventRegisteration extends StatelessWidget {
                     labelText: 'Contact Number',
                     //  helperText: 'Rate(Per Kg)',
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
                 ),
@@ -63,7 +64,7 @@ class EventRegisteration extends StatelessWidget {
                   decoration: InputDecoration(
                       hintText: 'DD/MM/YYYY',
                       border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(20.0)),
+                          borderRadius: BorderRadius.circular(10.0)),
                       labelStyle: TextStyle(
                           fontSize: 15.0,
                           backgroundColor: Colors.orange,
@@ -87,7 +88,7 @@ class EventRegisteration extends StatelessWidget {
                   decoration: InputDecoration(
                     labelText: 'Which event are you interested in ?',
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
                 ),
@@ -95,13 +96,13 @@ class EventRegisteration extends StatelessWidget {
                   height: 20.0,
                 ),
                 Container(
-                    height: 50.0,
+                    height: 60.0,
                     width: 100.0,
                     child: Column(
                       children: <Widget>[
                         FlatButton(
                           shape: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(20.0),
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Text('SUBMIT',
                               style: TextStyle(

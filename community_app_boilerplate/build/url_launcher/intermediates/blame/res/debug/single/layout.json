@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "merged": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "merged": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\url_launcher\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\b9ffd5febbe3a5ca49c7558c12a3509f\\res\\layout\\notification_action_tombstone.xml"
     }
 ]

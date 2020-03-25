@@ -1,8 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,307,389,493,602,722,819",
+                        "endColumns": "143,107,81,103,108,119,96,73",
+                        "endOffsets": "194,302,384,488,597,717,814,888"
+                    },
+                    "to": {
+                        "startLines": "304,305,306,307,308,309,310,311",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "21202,21346,21454,21536,21640,21749,21869,21966",
+                        "endColumns": "143,107,81,103,108,119,96,73",
+                        "endOffsets": "21341,21449,21531,21635,21744,21864,21961,22035"
+                    }
+                },
+                {
+                    "source": "E:\\FlutterProjects\\MoreFlutter\\girlscript_app\\community_app_boilerplate\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "353"
+                    },
+                    "to": {
+                        "startLines": "1388",
+                        "startColumns": "4",
+                        "startOffsets": "91587",
+                        "endLines": "1392",
+                        "endColumns": "12",
+                        "endOffsets": "91879"
+                    }
+                },
                 {
                     "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\1e8b3c68b3805e9e252238ee97473678\\res\\values\\values.xml",
                     "from": {
@@ -42,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\550af97721431ebf5b087e44e257db61\\res\\values\\values.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\f72a83eda061ff0427c0380d7cbe35b4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "0,0",
@@ -56,42 +92,6 @@
                         "startOffsets": "16865,19909",
                         "endColumns": "67,166",
                         "endOffsets": "16928,20071"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "353"
-                    },
-                    "to": {
-                        "startLines": "1388",
-                        "startColumns": "4",
-                        "startOffsets": "91587",
-                        "endLines": "1392",
-                        "endColumns": "12",
-                        "endOffsets": "91879"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hp\\Desktop\\GSsoc\\girlscript_app\\community_app_boilerplate\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,307,389,493,602,722,819",
-                        "endColumns": "143,107,81,103,108,119,96,73",
-                        "endOffsets": "194,302,384,488,597,717,814,888"
-                    },
-                    "to": {
-                        "startLines": "304,305,306,307,308,309,310,311",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "21202,21346,21454,21536,21640,21749,21869,21966",
-                        "endColumns": "143,107,81,103,108,119,96,73",
-                        "endOffsets": "21341,21449,21531,21635,21744,21864,21961,22035"
                     }
                 },
                 {

@@ -106,7 +106,7 @@ class EventRow extends StatelessWidget {
       child: new Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          new Container(height: 5.0),
+          new Container(height: 3.0),
           new Text(
             data.eventName,
             style: headerTextStyle,
@@ -160,7 +160,7 @@ class EventRow extends StatelessWidget {
                 width: 20.0,
               ),
               new RaisedButton(
-                onLongPress: () {
+                onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => EventRegisteration()));
                 },
@@ -182,7 +182,7 @@ class EventRow extends StatelessWidget {
                 shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(18.0),
                 ),
-                onPressed: () {},
+                //onPressed: () {},
               ),
             ],
           )
