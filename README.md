@@ -160,13 +160,12 @@ git push -u origin <your_branch_name>
 
 ## Project Admin:  :bust_in_silhouette:
 * Smaranjit Ghose
-<a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=55></a>
+<a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ## Mentors: :busts_in_silhouette:
 * Sukkrit Sharma
-
 <a href="https://github.com/sukkritsharmaofficial"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
 * Saswat Nayak
