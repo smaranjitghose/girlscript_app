@@ -1,9 +1,0 @@
-// This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=E:\Tools setup\flutter_windows_v1.9.1+hotfix.6-stable\flutter
-FLUTTER_APPLICATION_PATH=C:\Users\saswa\noob_project
-FLUTTER_TARGET=lib\main.dart
-FLUTTER_BUILD_DIR=build
-SYMROOT=${SOURCE_ROOT}/../build\ios
-FLUTTER_FRAMEWORK_DIR=E:\Tools setup\flutter_windows_v1.9.1+hotfix.6-stable\flutter\bin\cache\artifacts\engine\ios
-FLUTTER_BUILD_NAME=1.0.0
-FLUTTER_BUILD_NUMBER=1
