@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:noob_project/app.dart';
 import 'package:noob_project/ui/screens/dashboard.dart';
+import 'package:noob_project/ui/screens/LoginScreens/signIn.dart';
 
 main(){
   return runApp(new MaterialApp(
     home: new MyApp(),
     debugShowCheckedModeBanner: false,
     routes: <String, WidgetBuilder>{
-      '/Dashboard': (BuildContext context) => Dashboard()
+      '/LoginPage': (BuildContext context) => SignInPage()
     },
   ));
 }
