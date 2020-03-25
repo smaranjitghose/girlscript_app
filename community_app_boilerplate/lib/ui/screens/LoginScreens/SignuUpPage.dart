@@ -322,8 +322,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                 ],
               ),
-
-              
+              new Container(height: 10),
             ],
           ),
         ),
