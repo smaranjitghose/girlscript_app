@@ -1,4 +1,4 @@
-# Community App Boilerplate
+# Community App Boilerplate 💁 :information_desk_person:
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
@@ -10,28 +10,28 @@
 
 A boilerplate for any technical community to pick up and use for their own without any hassle
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. 
-Additionally, this app will be developed by the community and for the community, that adds up to elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake.
+Additionally, this app will be developed by the community and for the community, that adds up to elegance. Plus, being as an open source project, this will be a golden opportunity for beginners 🔰 :beginner: to learn and contribute to it just like a cherry on the cake.
 
-##  Mission
+##  Mission 🚀 :rocket:  :
 
 - To empower people and specially under represented groups by educating them on technology and related necessary skills.
 - To create local opportunity ,growth and impact via tech education in every country around the world and bring diversity in tech domain.
 
-## Goals
+## Goals 🚩 :triangular_flag_on_post:
 
-- To educate people in tech.
+- To educate people in tech .
 - Remove myths about tech education.
 - Spread awareness about opportunities in tier two and tier three cities .
 - Introduce tech content that is helpful for everyone.
 
-## Prerequisites to contribute
-- Ability to use Git and Github
+## Prerequisites to contribute 👇 :point_down
+- Ability to use Git and Github :octocat:
 - Basic knowledge of Dart and Flutter
 - Basic knowledge of Firebase and willingness to learn more
 - UI/UX skills are appreciable but not mandatory
 
 
-## Working and Wireframe
+## Working and Wireframe 📝 :memo:
 This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be as follows.
 ### Splash Screen
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/SplashScreen.png" alt="feed example" width="250">
@@ -58,7 +58,7 @@ This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp 
 
 
 
-## How to contribute:
+## How to contribute: :construction_worker:
 
 ![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
 ![RGSOC'20](https://img.shields.io/badge/RGSOC-20-red?style=for-the-badge)
@@ -97,11 +97,11 @@ git push -u origin <your_branch_name>
 
 **8.** Create a Pull Request!
 
-**Congratulations!** Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
+**Congratulations!** 💥 :boom: Sit and relax, you've made your contribution to [GirlScript App]  (https://github.com/smaranjitghose/girlscript_app) project.
 
 
 
-##  Resources to get started with:
+##  Resources to get started with: :mag:
 +  [Dart Programming](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
 +  [Flutter Crash Course](https://www.youtube.com/watch?v=pTJJsmejUOQ)
 +  [Firebase and Flutter  App Build](https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC)
@@ -112,13 +112,13 @@ git push -u origin <your_branch_name>
 + [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 
-## Project Admin:
+## Project Admin: 👤 :bust_in_silhouette:
 * Smaranjit Ghose
 
  <a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=55></a>
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
-## Mentors:
+## Mentors: :busts_in_silhouette:
 * Sukkrit Sharma
  <a href="https://github.com/sukkritsharmaofficial"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
 
