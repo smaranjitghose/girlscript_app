@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\GirlScriptSummerOfCode\\girlscript_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "F:\\Gssoc\\girlscript_app\\community_app_boilerplate\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\4aaa266b6d25e4a8b2353ffbe6eb0003\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\224158031b12da48a25a419f46e72442\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
