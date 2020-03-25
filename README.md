@@ -39,14 +39,15 @@ This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp 
 ### Log In
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Login.png" alt="feed example" width="250">
 
-
 ###  This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be -
 - 
 **Home** - It will have a scrollable NewsFeed providing all the latest updates of the GirlScript Chennai Chapter.
 
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Home.png" alt="feed example" width="250">
+
 -
 **Events** - It will have a scrollable cards for the upcoming events with Date, Time, Venue and Organiser's Name. It will also have a "View Location" Button that would allow the user to locate the event hence moving to "Locate Event".
+
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Events.png" alt="feed example" width="250">
 
 -
@@ -65,7 +66,7 @@ This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp 
 
 <img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/AboutUs.png" alt="feed example" width="250">
 
-### Hexadecimal Codes for the colors used -- orange(#F6780A) , black(#160606) , grey(#9A8686) , yellow for View Button(#FCC204) , LogIn Button(#EBD7D0) .
+## Hexadecimal Codes for the colors used -- orange(#F6780A) , black(#160606) , grey(#9A8686) , yellow for View Button(#FCC204) , LogIn Button(#EBD7D0) .
 
 
 
