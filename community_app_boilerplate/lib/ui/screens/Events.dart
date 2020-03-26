@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'EventPage.dart';
 import 'EventRegistration.dart';
 
 final baseTextStyle = const TextStyle(fontFamily: 'Poppins');
@@ -11,19 +11,6 @@ final regularTextStyle = baseTextStyle.copyWith(
     color: Colors.black87, fontSize: 12.0, fontWeight: FontWeight.w500);
 
 final subHeaderTextStyle = regularTextStyle.copyWith(fontSize: 14.0);
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Events(),
-    );
-  }
-}
 
 class Events extends StatefulWidget {
   @override
@@ -160,10 +147,7 @@ class EventRow extends StatelessWidget {
                 width: 20.0,
               ),
               new RaisedButton(
-                onLongPress: () {
-                  Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => EventRegisteration()));
-                },
+                // onLongPress: () {},
                 child: new Text(
                   "Register",
                   style: new TextStyle(
@@ -182,7 +166,12 @@ class EventRow extends StatelessWidget {
                 shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(18.0),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context, 
+                    MaterialPageRoute(builder: (BuildContext context)=>EventRegisteration())
+                  );
+                },
               ),
             ],
           )
@@ -223,18 +212,23 @@ class EventRow extends StatelessWidget {
       child: eventCardContent,
     );
 
-    return Container(
-      margin: EdgeInsets.only(
-        top: 16.0,
-        bottom: 16.0,
-        right: 20.0,
-        left: 11.0,
-      ),
-      child: new Stack(
-        children: <Widget>[
-          eventCard,
-          eventThumbnail,
-        ],
+    return GestureDetector(
+      onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>EventPage()));
+        },
+      child: Container(
+        margin: EdgeInsets.only(
+          top: 16.0,
+          bottom: 16.0,
+          right: 20.0,
+          left: 11.0,
+        ),
+        child: new Stack(
+          children: <Widget>[
+            eventCard,
+            eventThumbnail,
+          ],
+        ),
       ),
     );
   }
@@ -258,48 +252,68 @@ class _EventsState extends State<Events> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: NestedScrollView(
-      headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
-        return <Widget>[
-          SliverAppBar(
-            expandedHeight: 180.0,
-            floating: false,
-            pinned: true,
-            flexibleSpace: FlexibleSpaceBar(
-                centerTitle: true,
-                title: Text("EVENTS",
-                    style: new TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontWeight: FontWeight.w800,
-                      fontFamily: 'Poppins',
-                    )),
-                background:
-                    Image.asset("assets/images/GSsoc-Type-Logo-Black.png")),
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          "GIRLSCRIPT CHENNAI",
+          style: TextStyle(
+            fontFamily: "Poppins",
           ),
-        ];
-      },
+        ),
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xffff4000),Color(0xffffcc66),]
+            )
+          ),
+        ),
+        leading: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Image.asset(
+            'assets/icons/transparent_logo.png',
+          ),
+        ),
+        actions: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: CircleAvatar(
+              radius: 20.0,
+              child: Image.asset('assets/icons/user_placeholder.png')
+            ),
+          )
+        ],
+      ),
       body: SingleChildScrollView(
         child: Container(
           width: MediaQuery.of(context).size.width,
           padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 6.0),
           child: new Column(
             children: <Widget>[
-              new Container(
-                padding: EdgeInsets.only(
-                  top: 20.0,
-                  bottom: 25.0,
-                  //left: 10.0,
-                  //right: 23.0,
-                ),
+              SizedBox(height:30),
+              RichText(
+                text: TextSpan(
+                  text: "EVENTS",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 35.0
+                  ),
+                  // children: <TextSpan>[
+                  //   TextSpan(
+                  //     text: "US",
+                  //     style: TextStyle(
+                  //       color: Colors.amber[800]
+                  //     )
+                  //   )
+                  // ]
+                )
               ),
+              SizedBox(height:20.0),
               new EventBody(),
             ],
           ),
         ),
       ),
-      // backgroundColor: Colors.amber[50];
-    ));
-    //);
+    );
   }
 }
