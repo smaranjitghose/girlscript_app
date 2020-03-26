@@ -68,6 +68,7 @@ class _ProfileState extends State<Profile> {
                       Row(
                         children: <Widget>[
                           Container(
+                            constraints: BoxConstraints.expand(height: 30, width: 70),
                             width: 65.0,
                             height: 30.0,
                             child: RaisedButton(
