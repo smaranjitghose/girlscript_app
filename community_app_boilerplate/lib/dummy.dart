@@ -7,7 +7,9 @@ class dummy extends StatelessWidget{
       appBar: AppBar(
         title:Text("Dummy"),
       ),
-      body: Text('IF YOU SEE THISS PAGE THIS PAGE NEEDS TO BE CHANGED REFER TO THE MARK DOWN FILE IN THI DIRECTORY'),
+      body: Center(
+          child: Text('IF YOU SEE THIS PAGE, THIS PAGE NEEDS TO BE CHANGED. REFER TO THE MARK DOWN FILE IN THIS DIRECTORY')
+        ),
     );
   }
 }
