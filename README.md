@@ -26,25 +26,25 @@ Additionally, this app developed by the community, and for the community, will a
 ## Hexadecimal Codes :octocat: 
 
 ### Splash
-Light Orange(#FFE2C9) -> White(#fffffff)
+#### Light Orange(#FFE2C9) -> White(#fffffff)
 
 ### Login
 #### Background #FFE2C9->#FFFFFF
 #### Github #000000
 #### Linkedin #2867B2
 #### Google #ffffff
-Button Gradient #FE824A -> #E16831
-Orange(#E46D39)
+#### Button Gradient #FE824A -> #E16831
+#### Orange(#E46D39)
 
 ### Home
 #### Cards(Use Soft Colors):
-#FFF1F1
-#F3F1FF
+#### #FFF1F1
+#### #F3F1FF
 
 ### Team
-Red(#FF1F1F)
-Yellow(#F5BC00)
-Green(#1CA600)
+#### Red(#FF1F1F)
+#### Yellow(#F5BC00)
+#### Green(#1CA600)
 
 
 ## How to contribute: :construction_worker:
