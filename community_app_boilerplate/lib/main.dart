@@ -2,15 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/app.dart';
 import 'package:communityappboilerplate/dummy.dart';
 
-void main() => runApp(appmain());
+import 'dummy.dart';
 
-class appmain extends StatelessWidget{
+void main() => runApp(MainApp());
+
+class MainApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
         home: MyApp(),
         debugShowCheckedModeBanner: false,
         routes: <String, WidgetBuilder>{
-          '/LoginPage': (BuildContext context) => dummy(),
+          '/LoginPage': (BuildContext context) => Dummy(),
         });
   }
 }
