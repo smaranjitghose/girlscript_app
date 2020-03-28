@@ -19,38 +19,32 @@ Additionally, this app developed by the community, and for the community, will a
 - UI/UX skills are appreciable but not mandatory
 
 
-## Working and Wireframe  :memo:
-#### This App opens up with a 2 secs. Splash Screen that will be navigated to SignUp Page. After Signing In the user will be able to navigate through the application the options that will be available to the user will be as follows.### Splash Screen
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/SplashScreen.png" alt="feed example" width="250">
+## Mockups  :memo:
 
-### Log In
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Login.png" alt="feed example" width="250">
+<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Mockup01.png" alt="feed example" width="800">
 
-**Home** - *It will have a scrollable NewsFeed providing all the latest updates of the GirlScript Chennai Chapter.*
+## Hexadecimal Codes :octocat: 
 
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Home.png" alt="feed example" width="250">
+### Splash
+Light Orange(#FFE2C9) -> White(#fffffff)
 
-**Events** - *It will have a scrollable cards for the upcoming events with Date, Time, Venue and Organiser's Name. It will also have a "View Location" Button that would allow the user to locate the event hence moving to "Locate Event".*
+### Login
+#### Background #FFE2C9->#FFFFFF
+#### Github #000000
+#### Linkedin #2867B2
+#### Google #ffffff
+Button Gradient #FE824A -> #E16831
+Orange(#E46D39)
 
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Events.png" alt="feed example" width="250">
+### Home
+#### Cards(Use Soft Colors):
+#FFF1F1
+#F3F1FF
 
- **Team** - *This page will show all the members that are part of the GirlScript Chennai working in various parts and helping to conduct and organise the events.*
-
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Events.png" alt="feed example" width="250">
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/LocateEvent.png" alt="feed example" width="250">
-
-**MileStones** - *It will consist of all the milestones have been achieved.*
-
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/MileStone.png" alt="feed example" width="250">
-
-**AboutUs** - *It will contain all the "Programs" that are conducted by the organisation and it's "Missions". Refer to https://www.girlscript.tech.*
-
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/AboutUs.png" alt="feed example" width="250">
-
-#### Hexadecimal Codes for the colors used -- orange(#F6780A) , black(#160606) , grey(#9A8686) , yellow for View Button(#FCC204) , LogIn Button(#EBD7D0).
-
-
-
+### Team
+Red(#FF1F1F)
+Yellow(#F5BC00)
+Green(#1CA600)
 
 
 ## How to contribute: :construction_worker:
