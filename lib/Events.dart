@@ -220,7 +220,7 @@ class EventRow extends StatelessWidget {
               offset: new Offset(0.0, 10.0),
             ),
           ]),
-      child: eventCardContent,
+      child: SingleChildScrollView(child: eventCardContent),
     );
 
     return Container(

@@ -119,19 +119,21 @@ class TeamTile extends StatelessWidget {
       ),
     );
 
-    return Container(
-      margin: EdgeInsets.all(10.0),
-      padding: EdgeInsets.only(
-        top: 10.0,
-        bottom: 10.0,
-        left: 12.0,
-        right: 5.0,
-      ),
-      child: new Column(
-        children: <Widget>[
-          teamThumbnail,
-          teamName,
-        ],
+    return SingleChildScrollView(
+      child: Container(
+        margin: EdgeInsets.all(10.0),
+        padding: EdgeInsets.only(
+          top: 10.0,
+          bottom: 10.0,
+          left: 12.0,
+          right: 5.0,
+        ),
+        child: new Column(
+          children: <Widget>[
+            teamThumbnail,
+            teamName,
+          ],
+        ),
       ),
     );
   }

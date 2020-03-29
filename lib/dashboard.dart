@@ -77,19 +77,21 @@ class _DashboardState extends State<Dashboard> {
             )
         ],
       ),
-      body: PageView(
-        controller: _pageController,
-        children: <Widget>[
-          Hello(),
-          TeamBody(),
-          AboutUs(), 
-          Contactuspage(),
-        ],
-        onPageChanged: (int index){
-          setState(() {
-            _currentIndex = index;
-          });
-        },
+      body: SingleChildScrollView(
+        child: PageView(
+          controller: _pageController,
+          children: <Widget>[
+            Hello(),
+            TeamBody(),
+            AboutUs(),
+            Contactuspage(),
+          ],
+          onPageChanged: (int index){
+            setState(() {
+              _currentIndex = index;
+            });
+          },
+        ),
       ),
     );
   }

@@ -16,102 +16,104 @@ class EventRegisteration extends StatelessWidget {
                   TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           backgroundColor: Colors.blue,
         ),
-        body: Container(
-            padding: EdgeInsets.all(5.0),
-            child: Column(
-              children: <Widget>[
-                SizedBox(height: 10.0),
-                TextField(
-                  cursorColor: Colors.orange,
-                  decoration: InputDecoration(
-                    labelText: 'Name',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                TextField(
-                  cursorColor: Colors.orange,
-                  decoration: InputDecoration(
-                    labelText: 'Email Id',
-                    //  helperText: 'Sell Quantity',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                TextField(
-                  cursorColor: Colors.orange,
-                  decoration: InputDecoration(
-                    labelText: 'Contact Number',
-                    //  helperText: 'Rate(Per Kg)',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                DateTimeField(
-                  decoration: InputDecoration(
-                      hintText: 'DD/MM/YYYY',
+        body: SingleChildScrollView(
+          child: Container(
+              padding: EdgeInsets.all(5.0),
+              child: Column(
+                children: <Widget>[
+                  SizedBox(height: 10.0),
+                  TextField(
+                    cursorColor: Colors.orange,
+                    decoration: InputDecoration(
+                      labelText: 'Name',
                       border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(20.0)),
-                      labelStyle: TextStyle(
-                          fontSize: 15.0,
-                          backgroundColor: Colors.orange,
-                          color: Colors.orange,
-                          fontStyle: FontStyle.normal,
-                          fontWeight: FontWeight.w600)),
-                  onShowPicker: (context, currentValue) {
-                    return showDatePicker(
-                        context: context,
-                        firstDate: DateTime(1900),
-                        initialDate: currentValue ?? DateTime.now(),
-                        lastDate: DateTime(2100));
-                  },
-                  format: null,
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                TextField(
-                  cursorColor: Colors.orange,
-                  decoration: InputDecoration(
-                    labelText: 'Which event are you interested in ?',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(20.0),
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
                     ),
                   ),
-                ),
-                SizedBox(
-                  height: 20.0,
-                ),
-                Container(
-                    height: 50.0,
-                    width: 100.0,
-                    child: Column(
-                      children: <Widget>[
-                        FlatButton(
-                          shape: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(20.0),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  TextField(
+                    cursorColor: Colors.orange,
+                    decoration: InputDecoration(
+                      labelText: 'Email Id',
+                      //  helperText: 'Sell Quantity',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  TextField(
+                    cursorColor: Colors.orange,
+                    decoration: InputDecoration(
+                      labelText: 'Contact Number',
+                      //  helperText: 'Rate(Per Kg)',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  DateTimeField(
+                    decoration: InputDecoration(
+                        hintText: 'DD/MM/YYYY',
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(20.0)),
+                        labelStyle: TextStyle(
+                            fontSize: 15.0,
+                            backgroundColor: Colors.orange,
+                            color: Colors.orange,
+                            fontStyle: FontStyle.normal,
+                            fontWeight: FontWeight.w600)),
+                    onShowPicker: (context, currentValue) {
+                      return showDatePicker(
+                          context: context,
+                          firstDate: DateTime(1900),
+                          initialDate: currentValue ?? DateTime.now(),
+                          lastDate: DateTime(2100));
+                    },
+                    format: null,
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  TextField(
+                    cursorColor: Colors.orange,
+                    decoration: InputDecoration(
+                      labelText: 'Which event are you interested in ?',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20.0,
+                  ),
+                  Container(
+                      height: 50.0,
+                      width: 100.0,
+                      child: Column(
+                        children: <Widget>[
+                          FlatButton(
+                            shape: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(20.0),
+                            ),
+                            child: Text('SUBMIT',
+                                style: TextStyle(
+                                    fontSize: 15.0, fontWeight: FontWeight.w800)),
+                            onPressed: () {},
+                            color: Colors.orange,
                           ),
-                          child: Text('SUBMIT',
-                              style: TextStyle(
-                                  fontSize: 15.0, fontWeight: FontWeight.w800)),
-                          onPressed: () {},
-                          color: Colors.orange,
-                        ),
-                      ],
-                    )),
-              ],
-            )));
+                        ],
+                      )),
+                ],
+              )),
+        ));
   }
 }
