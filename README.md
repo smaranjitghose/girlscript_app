@@ -26,25 +26,25 @@ Additionally, this app developed by the community, and for the community, will a
 ## Hexadecimal Codes :octocat: 
 
 ### Splash
-##### Light Orange ![#FFE2C9](https://placehold.it/15/FFE2C9/000000?text=+) (#FFE2C9) -> White(#fffffff)
+##### Light Orange ![#FFE2C9](https://placehold.it/15/FFE2C9/000000?text=+) (#FFE2C9) -> White ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) (#fffffff)
 
 ### Login
-##### Background #FFE2C9->#FFFFFF
-##### Github #000000
-##### Linkedin #2867B2
-##### Google #ffffff
-##### Button Gradient #FE824A -> #E16831
-##### Orange(#E46D39)
+##### Background  ![#FFE2C9](https://placehold.it/15/FFE2C9/000000?text=+) #FFE2C9-> ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #FFFFFF
+##### Github ![#000000](https://placehold.it/15/000000/000000?text=+) #000000
+##### Linkedin ![#2867B2](https://placehold.it/15/2867B2/000000?text=+) #2867B2
+##### Google ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #ffffff
+##### Button Gradient ![#FE824A](https://placehold.it/15/FE824A/000000?text=+) #FE824A -> ![#E16831](https://placehold.it/15/E16831/000000?text=+) #E16831
+##### Orange ![#E46D39](https://placehold.it/15/E46D39/000000?text=+) #E46D39
 
 ### Home
 ##### Cards(Use Soft Colors):
-##### #FFF1F1
-##### #F3F1FF
+##### ![#FFF1F1](https://placehold.it/15/FFF1F1/000000?text=+) #FFF1F1
+##### ![#F3F1FF](https://placehold.it/15/F3F1FF/000000?text=+) #F3F1FF
 
 ### Team
-##### Red(#FF1F1F)
-##### Yellow(#F5BC00)
-##### Green(#1CA600)
+##### Red ![#FF1F1F](https://placehold.it/15/FF1F1F/000000?text=+) #FF1F1F
+##### Yellow ![#F5BC00](https://placehold.it/15/F5BC00/000000?text=+) #F5BC00
+##### Green ![#1CA600](https://placehold.it/15/1CA600/000000?text=+) #1CA600
 
 
 ## How to contribute: :construction_worker:
