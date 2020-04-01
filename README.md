@@ -133,8 +133,7 @@ git push -u origin <your_branch_name>
 ## Project Admin:  :bust_in_silhouette:
 * <a href="https://github.com/smaranjitghose"><img src="https://avatars0.githubusercontent.com/u/46641503?s=460&u=868408b0ce6ec939f90af0dbc256d04baf489f83&v=4" width=20></a> Smaranjit Ghose
 
-
-![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
+###### ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ## Mentors: :busts_in_silhouette:
 * <a href="https://github.com/sukkritsharmaofficial"><img src="https://avatars1.githubusercontent.com/u/44338419?s=460&u=13140f5764ea6574d8053727c869ceb95db7ba3e&v=4" width=20></a>
