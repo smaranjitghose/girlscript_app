@@ -137,16 +137,13 @@ git push -u origin <your_branch_name>
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ## Mentors: :busts_in_silhouette:
-* Sukkrit Sharma
-<a href="https://github.com/sukkritsharmaofficial"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/sukkritsharmaofficial"><img src="https://avatars1.githubusercontent.com/u/44338419?s=460&u=13140f5764ea6574d8053727c869ceb95db7ba3e&v=4" width=20></a>
+ Sukkrit Sharma
 
-* Saswat Nayak
-<a href="https://github.com/swat1998"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/swat1998"><img src="https://avatars2.githubusercontent.com/u/36136676?s=460&v=4" width=20></a> Saswat Nayak
 
-* Anush Bhatia
-<a href="https://github.com/anushbhatia"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/anushbhatia"><img src="https://avatars1.githubusercontent.com/u/40017559?s=460&u=1f74977f5a5fd09b42a16df416e9f6674b9b783c&v=4" width=20></a> Anush Bhatia
 
-* Ousnik Polley
-<a href="https://github.com/ousnik"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/ousnik"><img src="https://avatars3.githubusercontent.com/u/42760850?s=460&u=a158bca72522098b9814a342b8072924434738de&v=4" width=20></a> Ousnik Polley
 
 
