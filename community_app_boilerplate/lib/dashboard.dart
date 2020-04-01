@@ -36,7 +36,7 @@ class _DashboardState extends State<Dashboard> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
-        type: BottomNavigationBarType.fixed,
+        type: BottomNavigationBarType.shifting,
         // fixedColor: Colors.black,
         selectedItemColor: Colors.amber[800],
         unselectedItemColor: Colors.black,
@@ -73,7 +73,7 @@ class _DashboardState extends State<Dashboard> {
               Icons.assignment,
             ),
             title: Text(
-              'TASKS',
+              'MILESTONES',
             ),
           ),
           BottomNavigationBarItem(
