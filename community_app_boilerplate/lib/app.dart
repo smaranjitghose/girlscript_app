@@ -40,7 +40,7 @@ class _SplashScreen extends State<MyApp> {
         ),
         child: Center(
           child: Image.asset(
-            'asset/images/gs_launcher.png',
+            'assets/images/gs_launcher.png',
             width: 180.0,
             height: 180.0,
           ),
