@@ -26,25 +26,25 @@ Additionally, this app developed by the community, and for the community, will a
 ## Hexadecimal Codes :octocat: 
 
 ### Splash
-#### Light Orange(#FFE2C9) -> White(#fffffff)
+##### Light Orange(#FFE2C9) -> White(#fffffff)
 
 ### Login
-#### Background #FFE2C9->#FFFFFF
-#### Github #000000
-#### Linkedin #2867B2
-#### Google #ffffff
-#### Button Gradient #FE824A -> #E16831
-#### Orange(#E46D39)
+##### Background #FFE2C9->#FFFFFF
+##### Github #000000
+##### Linkedin #2867B2
+##### Google #ffffff
+##### Button Gradient #FE824A -> #E16831
+##### Orange(#E46D39)
 
 ### Home
-#### Cards(Use Soft Colors):
-#### #FFF1F1
-#### #F3F1FF
+##### Cards(Use Soft Colors):
+##### #FFF1F1
+##### #F3F1FF
 
 ### Team
-#### Red(#FF1F1F)
-#### Yellow(#F5BC00)
-#### Green(#1CA600)
+##### Red(#FF1F1F)
+##### Yellow(#F5BC00)
+##### Green(#1CA600)
 
 
 ## How to contribute: :construction_worker:
@@ -132,7 +132,7 @@ git push -u origin <your_branch_name>
 
 ## Project Admin:  :bust_in_silhouette:
 * Smaranjit Ghose
-<a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+<a href="https://github.com/smaranjitghose"><img src="https://avatars0.githubusercontent.com/u/46641503?s=460&u=868408b0ce6ec939f90af0dbc256d04baf489f83&v=4" width=20></a>
 
 ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
