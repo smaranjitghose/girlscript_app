@@ -26,25 +26,25 @@ Additionally, this app developed by the community, and for the community, will a
 ## Hexadecimal Codes :octocat: 
 
 ### Splash
-#### Light Orange(#FFE2C9) -> White(#fffffff)
+##### Light Orange ![#FFE2C9](https://placehold.it/15/FFE2C9/000000?text=+) (#FFE2C9) -> White ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) (#fffffff)
 
 ### Login
-#### Background #FFE2C9->#FFFFFF
-#### Github #000000
-#### Linkedin #2867B2
-#### Google #ffffff
-#### Button Gradient #FE824A -> #E16831
-#### Orange(#E46D39)
+##### Background  ![#FFE2C9](https://placehold.it/15/FFE2C9/000000?text=+) #FFE2C9-> ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #FFFFFF
+##### Github ![#000000](https://placehold.it/15/000000/000000?text=+) #000000
+##### Linkedin ![#2867B2](https://placehold.it/15/2867B2/000000?text=+) #2867B2
+##### Google ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #ffffff
+##### Button Gradient ![#FE824A](https://placehold.it/15/FE824A/000000?text=+) #FE824A -> ![#E16831](https://placehold.it/15/E16831/000000?text=+) #E16831
+##### Orange ![#E46D39](https://placehold.it/15/E46D39/000000?text=+) #E46D39
 
 ### Home
-#### Cards(Use Soft Colors):
-#### #FFF1F1
-#### #F3F1FF
+##### Cards(Use Soft Colors):
+##### ![#FFF1F1](https://placehold.it/15/FFF1F1/000000?text=+) #FFF1F1
+##### ![#F3F1FF](https://placehold.it/15/F3F1FF/000000?text=+) #F3F1FF
 
 ### Team
-#### Red(#FF1F1F)
-#### Yellow(#F5BC00)
-#### Green(#1CA600)
+##### Red ![#FF1F1F](https://placehold.it/15/FF1F1F/000000?text=+) #FF1F1F
+##### Yellow ![#F5BC00](https://placehold.it/15/F5BC00/000000?text=+) #F5BC00
+##### Green ![#1CA600](https://placehold.it/15/1CA600/000000?text=+) #1CA600
 
 
 ## How to contribute: :construction_worker:
@@ -131,22 +131,18 @@ git push -u origin <your_branch_name>
 
 
 ## Project Admin:  :bust_in_silhouette:
-* Smaranjit Ghose
-<a href="https://github.com/smaranjitghose"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/smaranjitghose"><img src="https://avatars0.githubusercontent.com/u/46641503?s=460&u=868408b0ce6ec939f90af0dbc256d04baf489f83&v=4" width=20></a> Smaranjit Ghose
 
-![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
+###### ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
 
 ## Mentors: :busts_in_silhouette:
-* Sukkrit Sharma
-<a href="https://github.com/sukkritsharmaofficial"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/sukkritsharmaofficial"><img src="https://avatars1.githubusercontent.com/u/44338419?s=460&u=13140f5764ea6574d8053727c869ceb95db7ba3e&v=4" width=20></a>
+ Sukkrit Sharma
 
-* Saswat Nayak
-<a href="https://github.com/swat1998"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/swat1998"><img src="https://avatars2.githubusercontent.com/u/36136676?s=460&v=4" width=20></a> Saswat Nayak
 
-* Anush Bhatia
-<a href="https://github.com/anushbhatia"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/anushbhatia"><img src="https://avatars1.githubusercontent.com/u/40017559?s=460&u=1f74977f5a5fd09b42a16df416e9f6674b9b783c&v=4" width=20></a> Anush Bhatia
 
-* Ousnik Polley
-<a href="https://github.com/ousnik"><img src="assets/Icons/GitHub_Mark.png" width=20></a>
+* <a href="https://github.com/ousnik"><img src="https://avatars3.githubusercontent.com/u/42760850?s=460&u=a158bca72522098b9814a342b8072924434738de&v=4" width=20></a> Ousnik Polley
 
 
