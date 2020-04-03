@@ -15,7 +15,7 @@ class _SplashScreen extends State<MyApp> {
   }
 
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/LoginPage');
+    Navigator.of(context).pushReplacementNamed('/Dashboard');
   }
 
   @override
@@ -35,12 +35,12 @@ class _SplashScreen extends State<MyApp> {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               // stops: [0.02,0.6],
-              colors: [Color(0xffffffff),Color(0xffE46D39)]
+              colors: [Color(0xffFFE2C9),Color(0xffE46D39)]
           ),
         ),
         child: Center(
           child: Image.asset(
-            'asset/images/gs_launcher.png',
+            'assets/images/gs_launcher.png',
             width: 180.0,
             height: 180.0,
           ),
