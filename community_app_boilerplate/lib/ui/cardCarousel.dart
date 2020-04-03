@@ -30,7 +30,7 @@ class _CardCaurselState extends State<CardCaursel> {
     return Stack(
       children: <Widget>[
         CarouselSlider(
-          height: 175.0,
+          height: 168.0,
           autoPlay: true,
           autoPlayInterval: Duration(seconds: 3),
           autoPlayAnimationDuration: Duration(milliseconds: 800),
@@ -65,8 +65,8 @@ class _CardCaurselState extends State<CardCaursel> {
           }).toList(),
         ),
         Positioned(
-          top: 140.0,
-          left: 133.0,
+          top: MediaQuery.of(context).size.height*0.17,
+          left: MediaQuery.of(context).size.width*0.346,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: map<Widget>(cardList, (index, url) {

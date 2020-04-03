@@ -98,18 +98,18 @@ class _HomeState extends State<Home> {
               ),
               SizedBox(height:15.0),
               CardCaursel(),
-              SizedBox(height:20.0),
+              SizedBox(height:22.0),
               Text(
                 'ANNOUNCEMENT',
                 style: TextStyle(
-                  fontSize: 26.0,
+                  fontSize: 22.0,
                   fontWeight: FontWeight.w900
                 ),
               ),
               SizedBox(height:3.0),
               Container(
-                width: MediaQuery.of(context).size.width*0.42,
-                height: 7.0,
+                width: MediaQuery.of(context).size.width*0.37,
+                height: 6.5,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60.0),
                   color: Colors.amber[800],
@@ -150,7 +150,7 @@ class _HomeState extends State<Home> {
                         Text(
                           'GSSOC 2020',
                           style: TextStyle(
-                            fontSize: 18.0,
+                            fontSize: 17.0,
                             fontWeight: FontWeight.w700
                           ),
                         ),
@@ -158,12 +158,13 @@ class _HomeState extends State<Home> {
                         Text(
                           'wohwohgwohbaoinaowhgw',
                           style: TextStyle(
-                            fontWeight: FontWeight.w400
+                            fontWeight: FontWeight.w400,
+                            fontSize: 13.0
                           ),
                         ),
                         SizedBox(height:15.0),
                         Container(
-                          height: 38,
+                          height: 36,
                           child: RaisedButton(
                             elevation: 5.0,
                             shape: RoundedRectangleBorder(
@@ -174,7 +175,7 @@ class _HomeState extends State<Home> {
                             child: Text(
                               'READ MORE',
                               style: TextStyle(
-                                fontSize: 13.0,
+                                fontSize: 10.0,
                                 fontWeight: FontWeight.bold
                               ),
                             ), 
@@ -198,7 +199,7 @@ class _HomeState extends State<Home> {
                   ],
                 ),
                 width: MediaQuery.of(context).size.width,
-                height: 150,
+                height: 130,
                 child: Card(
                   color: Color(0xffF3F1FF),
                   // elevation: 6.0,
