@@ -66,7 +66,7 @@ class _CardCaurselState extends State<CardCaursel> {
         ),
         Positioned(
           top: MediaQuery.of(context).size.height*0.17,
-          left: MediaQuery.of(context).size.width*0.346,
+          left: MediaQuery.of(context).size.width*0.430,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: map<Widget>(cardList, (index, url) {
