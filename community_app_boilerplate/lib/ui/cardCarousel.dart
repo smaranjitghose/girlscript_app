@@ -10,6 +10,7 @@ class CardCaursel extends StatefulWidget {
 class _CardCaurselState extends State<CardCaursel> {
 
   List imgList = [
+<<<<<<< HEAD
     "https://scontent.fdel36-1.fna.fbcdn.net/v/t1.0-9/s960x960/61671001_2363747760562667_6905392656948396032_o.png?_nc_cat=103&_nc_sid=dd9801&_nc_ohc=_6DB0oZs4JcAX-GKnHL&_nc_ht=scontent.fdel36-1.fna&oh=9a88256be7356869dee686830dbf33b8&oe=5EABDA42",
     "https://scontent.fdel36-1.fna.fbcdn.net/v/t1.0-0/c0.27.200.200a/p200x200/70919369_2455899708014138_8079858804138704896_o.png?_nc_cat=107&_nc_sid=730e14&_nc_ohc=Iq62qML9YJcAX-3sprr&_nc_ht=scontent.fdel36-1.fna&oh=9f92e9d959d1112af5cfd56cd9497c63&oe=5EAE7FA8",
     "https://scontent.fdel36-1.fna.fbcdn.net/v/t1.0-9/s960x960/69462541_2435781923359250_1328850395912470528_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=F2svGpm2FLsAX-Odaw3&_nc_ht=scontent.fdel36-1.fna&_nc_tp=7&oh=ac696132fe1aacc0b7c20cec72634b81&oe=5EAD2C87",
@@ -23,7 +24,15 @@ class _CardCaurselState extends State<CardCaursel> {
     Item2(),
     Item3(),
     Item4()
+=======
+    AssetImage('assets/images/announcement1.jpg'),
+    AssetImage('assets/images/announcement2.jpg'),
+    AssetImage('assets/images/flutter1.png'),
+    AssetImage('assets/images/announcement1.jpg'),
+>>>>>>> updated home screen
   ];
+
+  int index=0;
 
   List<T> map<T>(List list, Function handler) {
     List<T> result = [];
@@ -38,6 +47,7 @@ class _CardCaurselState extends State<CardCaursel> {
     return
       Stack(
       children: <Widget>[
+<<<<<<< HEAD
 //        CarouselSlider(
 ////          height: 168.0,
 //          height: MediaQuery.of(context).size.height*0.25,
@@ -77,6 +87,10 @@ class _CardCaurselState extends State<CardCaursel> {
 
 
         Container(
+=======
+        Container(
+          height: 180.0,
+>>>>>>> updated home screen
           width: MediaQuery.of(context).size.width ,
           child: CarouselSlider(
             viewportFraction: 0.9,
@@ -89,6 +103,7 @@ class _CardCaurselState extends State<CardCaursel> {
                 builder: (BuildContext context) {
                   return Container(
                     width: MediaQuery.of(context).size.width,
+<<<<<<< HEAD
                     margin: EdgeInsets.symmetric(
                         horizontal: 3.0),
                     decoration: BoxDecoration(
@@ -97,6 +112,22 @@ class _CardCaurselState extends State<CardCaursel> {
                           fit: BoxFit.fill,
                           image: NetworkImage(imgUrl)
                         )
+=======
+                    margin: EdgeInsets.symmetric(horizontal: 3.0),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(20)),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[300],
+                          offset: Offset(0.0, 3.0), //(x,y)
+                          blurRadius: 8.0,
+                        ),
+                      ],
+                      image: DecorationImage(
+                        fit: BoxFit.fill,
+                        image: imgUrl
+                      )
+>>>>>>> updated home screen
                     ),
                   );
                 },
@@ -128,122 +159,6 @@ class _CardCaurselState extends State<CardCaursel> {
 //          ),
 //        ),
       ], 
-    );
-  }
-}
-
-class Item1 extends StatelessWidget {
-  const Item1({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          "gfjvvvjvjvjvvjm",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18.0,
-            fontWeight: FontWeight.bold
-          )
-        ),
-        Text(
-          "jyfkuyfifffk",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 17.0,
-            fontWeight: FontWeight.w600
-          )
-        ),
-      ],
-    );
-  }
-}
-
-class Item2 extends StatelessWidget {
-  const Item2({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          "gfjvvvjvjvjvvjm",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18.0,
-            fontWeight: FontWeight.bold
-          )
-        ),
-        Text(
-          "jyfkuyfifffk",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 17.0,
-            fontWeight: FontWeight.w600
-          )
-        ),
-      ],
-    );
-  }
-}
-
-class Item3 extends StatelessWidget {
-  const Item3({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          "gfjvvvjvjvjvvjm",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18.0,
-            fontWeight: FontWeight.bold
-          )
-        ),
-        Text(
-          "jyfkuyfifffk",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 17.0,
-            fontWeight: FontWeight.w600
-          )
-        ),
-      ],
-    );
-  }
-}
-
-class Item4 extends StatelessWidget {
-  const Item4({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          "gfjvvvjvjvjvvjm",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18.0,
-            fontWeight: FontWeight.bold
-          )
-        ),
-        Text(
-          "jyfkuyfifffk",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 17.0,
-            fontWeight: FontWeight.w600
-          )
-        ),
-      ],
     );
   }
 }

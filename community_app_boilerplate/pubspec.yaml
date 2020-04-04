@@ -22,6 +22,7 @@ dependencies:
   # flutter_spinkit: "^4.1.2"
   bordered_text: ^1.0.0
   carousel_slider: ^1.4.1
+  speech_to_text: ^2.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -50,6 +51,10 @@ flutter:
     - assets/images/github.png
     - assets/images/google.png
     - assets/images/linkedin.png
+    - assets/images/flutter1.png
+    - assets/images/announcement1.jpg
+    - assets/images/announcement2.jpg
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

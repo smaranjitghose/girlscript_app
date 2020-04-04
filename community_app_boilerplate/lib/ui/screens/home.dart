@@ -1,5 +1,8 @@
 import 'package:communityappboilerplate/ui/cardCarousel.dart';
 import 'package:flutter/material.dart';
+import 'package:speech_to_text/speech_recognition_error.dart';
+import 'package:speech_to_text/speech_recognition_result.dart';
+import 'package:speech_to_text/speech_to_text.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -9,12 +12,82 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   TextEditingController _searchController=TextEditingController();
+  int _counter = 0;
+  bool _hasSpeech = false;
+  bool _stressTest = false;
+  double level = 0.0;
+  int _stressLoops = 0;
+  String lastWords = "";
+  String lastError = "";
+  String lastStatus = "";
+  String _currentLocaleId = "";
+  List<LocaleName> _localeNames = [];
+  final SpeechToText speech = SpeechToText();
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  Future<void> initSpeechState() async {
+    bool hasSpeech = await speech.initialize(
+        onError: errorListener, onStatus: statusListener);
+    if (hasSpeech) {
+      _localeNames = await speech.locales();
+
+      var systemLocale = await speech.systemLocale();
+      _currentLocaleId = systemLocale.localeId;
+    }
+
+    if (!mounted) return;
+
+    setState(() {
+      _hasSpeech = hasSpeech;
+    });
+    
+    if(!(!_hasSpeech || speech.isListening))
+      startListening();
+    else
+      null;
+  }
+
+  _incrementCounter() {
+    setState(() {
+      _counter=0;
+      _counter++;
+    });
+    print(_counter);
+
+    if (_counter == 1) {
+      if(!_hasSpeech){
+        initSpeechState();
+      }
+      else
+        null;
+
+      setState(() {
+        _counter++;
+      });
+      print(_counter);
+    }
+
+    if(_counter ==2){
+      if(speech.isListening)
+        stopListening();
+      else
+        null;
+
+      setState(() {
+        _counter=0;
+      });
+      print(_counter);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
-        // color: Colors.black,
         child: Column(
           children: <Widget>[
             Padding(
@@ -52,7 +125,7 @@ class _HomeState extends State<Home> {
                               Icons.mic,
                               color: Colors.grey,
                             ),
-                            onPressed: (){},
+                            onPressed: _incrementCounter
                           ),
                         ),
                         filled: true,
@@ -87,8 +160,11 @@ class _HomeState extends State<Home> {
                               ]
                             ),
                           ),
+<<<<<<< HEAD
 //                          SizedBox(height:3.0),
 //                          SizedBox(height:MediaQuery.of(context).size.width*0.01,),
+=======
+>>>>>>> updated home screen
                           Text(
                             'Explore the app',
                             style: TextStyle(
@@ -99,9 +175,13 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
+<<<<<<< HEAD
 //                  SizedBox(height:15.0),
                   SizedBox(height:MediaQuery.of(context).size.width*0.04,),
 
+=======
+                  SizedBox(height:MediaQuery.of(context).size.width*0.04,),
+>>>>>>> updated home screen
                 ],
               ),
             ),
@@ -110,7 +190,10 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.symmetric(horizontal: 35.0),
               child: Column(
                 children: <Widget>[
+<<<<<<< HEAD
 //                  SizedBox(height:22.0),
+=======
+>>>>>>> updated home screen
                   SizedBox(height:MediaQuery.of(context).size.width*0.05,),
                   Text(
                     'ANNOUNCEMENT',
@@ -129,13 +212,16 @@ class _HomeState extends State<Home> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey,
-                          offset: Offset(0.0, 0.5), //(x,y)
-                          blurRadius: 4.0,
+                          offset: Offset(0.0, 3), //(x,y)
+                          blurRadius: 6.0,
                         ),
                       ],
                     ),
                   ),
+<<<<<<< HEAD
 //                  SizedBox(height:17.0),
+=======
+>>>>>>> updated home screen
                   SizedBox(height:MediaQuery.of(context).size.width*0.05,),
                   Container(
                     decoration: BoxDecoration(
@@ -143,8 +229,8 @@ class _HomeState extends State<Home> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey[300],
-                          offset: Offset(0.0, 1.0), //(x,y)
-                          blurRadius: 8.0,
+                          offset: Offset(0.0, 3.0), //(x,y)
+                          blurRadius: 15.0,
                         ),
                       ],
                     ),
@@ -176,10 +262,15 @@ class _HomeState extends State<Home> {
                                 fontSize: 13.0
                               ),
                             ),
+<<<<<<< HEAD
 //                            SizedBox(height:15.0),
                             SizedBox(height:MediaQuery.of(context).size.width*0.0455,),
                             Container(
 //                              height: 36,
+=======
+                            SizedBox(height:MediaQuery.of(context).size.width*0.0455,),
+                            Container(
+>>>>>>> updated home screen
                               height: MediaQuery.of(context).size.width*0.07,
                               child: RaisedButton(
                                 elevation: 5.0,
@@ -209,13 +300,16 @@ class _HomeState extends State<Home> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey[300],
-                          offset: Offset(0.0, 1.0), //(x,y)
-                          blurRadius: 8.0,
+                          offset: Offset(0.0, 3.0), //(x,y)
+                          blurRadius: 15.0,
                         ),
                       ],
                     ),
                     width: MediaQuery.of(context).size.width,
+<<<<<<< HEAD
 //                    height: 130,
+=======
+>>>>>>> updated home screen
                     height: MediaQuery.of(context).size.width*0.360,
                     child: Card(
                       color: Color(0xffF3F1FF),
@@ -226,7 +320,10 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
+<<<<<<< HEAD
 //                  SizedBox(height:30.0),
+=======
+>>>>>>> updated home screen
                   SizedBox(height:MediaQuery.of(context).size.width*0.1),
                 ],
               ),
@@ -235,5 +332,92 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
+  }
+  void stressTest() {
+    if (_stressTest) {
+      return;
+    }
+    _stressLoops = 0;
+    _stressTest = true;
+    print("Starting stress test...");
+    startListening();
+  }
+
+  void changeStatusForStress(String status) {
+    if (!_stressTest) {
+      return;
+    }
+    if (speech.isListening) {
+      stopListening();
+    } else {
+      if (_stressLoops >= 100) {
+        _stressTest = false;
+        print("Stress test complete.");
+        return;
+      }
+      print("Stress loop: $_stressLoops");
+      ++_stressLoops;
+      startListening();
+    }
+  }
+
+  void startListening() {
+    lastWords = "";
+    lastError = "";
+    speech.listen(
+        onResult: resultListener,
+        listenFor: Duration(seconds: 10),
+        localeId: _currentLocaleId,
+        onSoundLevelChange: soundLevelListener,
+        cancelOnError: true,
+        partialResults: true);
+    setState(() {});
+  }
+
+  void stopListening() {
+    speech.stop();
+    setState(() {
+      level = 0.0;
+    });
+  }
+
+  void cancelListening() {
+    speech.cancel();
+    setState(() {
+      level = 0.0;
+    });
+  }
+
+  void resultListener(SpeechRecognitionResult result) {
+    setState(() {
+      lastWords = "${result.recognizedWords}";
+      _searchController.text=lastWords;
+    });
+  }
+
+  void soundLevelListener(double level) {
+    setState(() {
+      this.level = level;
+    });
+  }
+
+  void errorListener(SpeechRecognitionError error) {
+    setState(() {
+      lastError = "${error.errorMsg} - ${error.permanent}";
+    });
+  }
+
+  void statusListener(String status) {
+    changeStatusForStress(status);
+    setState(() {
+      lastStatus = "$status";
+    });
+  }
+
+  _switchLang(selectedVal) {
+    setState(() {
+      _currentLocaleId = selectedVal;
+    });
+    print(selectedVal);
   }
 }
