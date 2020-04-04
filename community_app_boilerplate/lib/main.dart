@@ -1,4 +1,4 @@
-import 'package:communityappboilerplate/dashboard.dart';
+import 'ui/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/app.dart';
 
@@ -9,6 +9,9 @@ class MainApp extends StatelessWidget{
     return MaterialApp(
       home: MyApp(),
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Montserrat',
+      ),
       routes: <String, WidgetBuilder>{
         '/Dashboard': (BuildContext context) => Dashboard(),
       }

@@ -1,3 +1,4 @@
+import 'package:communityappboilerplate/ui/screens/home.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
@@ -22,7 +23,7 @@ class _DashboardState extends State<Dashboard> {
       body: PageView(
         controller: _pageController,
           children: <Widget>[
-            Center(child:Text("HOME")),
+            Home(),
             Center(child:Text("EVENTS")),
             Center(child:Text("MILESTONES")),
             Center(child:Text("TEAM")),
