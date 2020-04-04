@@ -160,11 +160,6 @@ class _HomeState extends State<Home> {
                               ]
                             ),
                           ),
-<<<<<<< HEAD
-//                          SizedBox(height:3.0),
-//                          SizedBox(height:MediaQuery.of(context).size.width*0.01,),
-=======
->>>>>>> updated home screen
                           Text(
                             'Explore the app',
                             style: TextStyle(
@@ -175,13 +170,7 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
-<<<<<<< HEAD
-//                  SizedBox(height:15.0),
                   SizedBox(height:MediaQuery.of(context).size.width*0.04,),
-
-=======
-                  SizedBox(height:MediaQuery.of(context).size.width*0.04,),
->>>>>>> updated home screen
                 ],
               ),
             ),
@@ -190,10 +179,6 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.symmetric(horizontal: 35.0),
               child: Column(
                 children: <Widget>[
-<<<<<<< HEAD
-//                  SizedBox(height:22.0),
-=======
->>>>>>> updated home screen
                   SizedBox(height:MediaQuery.of(context).size.width*0.05,),
                   Text(
                     'ANNOUNCEMENT',
@@ -218,10 +203,6 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                   ),
-<<<<<<< HEAD
-//                  SizedBox(height:17.0),
-=======
->>>>>>> updated home screen
                   SizedBox(height:MediaQuery.of(context).size.width*0.05,),
                   Container(
                     decoration: BoxDecoration(
@@ -262,15 +243,8 @@ class _HomeState extends State<Home> {
                                 fontSize: 13.0
                               ),
                             ),
-<<<<<<< HEAD
-//                            SizedBox(height:15.0),
                             SizedBox(height:MediaQuery.of(context).size.width*0.0455,),
                             Container(
-//                              height: 36,
-=======
-                            SizedBox(height:MediaQuery.of(context).size.width*0.0455,),
-                            Container(
->>>>>>> updated home screen
                               height: MediaQuery.of(context).size.width*0.07,
                               child: RaisedButton(
                                 elevation: 5.0,
@@ -306,10 +280,6 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                     width: MediaQuery.of(context).size.width,
-<<<<<<< HEAD
-//                    height: 130,
-=======
->>>>>>> updated home screen
                     height: MediaQuery.of(context).size.width*0.360,
                     child: Card(
                       color: Color(0xffF3F1FF),
@@ -320,10 +290,6 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
-<<<<<<< HEAD
-//                  SizedBox(height:30.0),
-=======
->>>>>>> updated home screen
                   SizedBox(height:MediaQuery.of(context).size.width*0.1),
                 ],
               ),
