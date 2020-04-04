@@ -67,6 +67,9 @@ flutter:
         - asset: assets/fonts/Montserrat-SemiBold.ttf
         - asset: assets/fonts/Montserrat-Bold.ttf
           weight: 700
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

@@ -8,6 +8,7 @@ class SignUpScreen extends StatefulWidget {
 final inputTextDecoration = new InputDecoration(
     labelStyle: new TextStyle(
       fontSize: 18,
+      fontFamily: "Poppins",
       color: Colors.grey[500],
     ),
     focusedBorder: UnderlineInputBorder(
@@ -70,6 +71,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             new Text("Back",
                                 style: new TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Poppins",
                                   color: Colors.black87,
                                   fontWeight: FontWeight.bold,
                                 )),
@@ -83,6 +85,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       "Create New Account",
                       style: new TextStyle(
                         fontSize: 20,
+                        fontFamily: "Poppins",
                         fontWeight: FontWeight.w400,
                         color: Colors.grey[800],
                       ),
@@ -162,13 +165,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           text: new TextSpan(
                               text: "I have accepted the ",
                               style: new TextStyle(
-                                  color: Colors.grey[700], fontSize: 15),
+                                  color: Colors.grey[700], fontSize: 15,fontFamily: "Poppins",),
                               children: <TextSpan>[
                                 new TextSpan(
                                   text: "Terms & Conditions",
                                   style: new TextStyle(
                                     color: Color(0xffFF1F1F),
                                     fontSize: 15,
+                                    fontFamily: "Poppins",
                                     decoration: TextDecoration.underline,
                                     fontWeight: FontWeight.w400,
                                   ),
@@ -204,6 +208,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             new Text("SIGN UP ",
                                 style: new TextStyle(
                                   color: Colors.white,
+                                  fontFamily: "Poppins",
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
                                 )),
@@ -231,6 +236,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   new Text(
                     "   SOCIAL LOGIN   ",
                     style: new TextStyle(
+                      fontFamily: "Poppins",
                       color: Colors.grey[800],
                       fontWeight: FontWeight.w400,
                       fontSize: 19,
@@ -268,6 +274,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       new Text("  GITHUB",
                           style: new TextStyle(
                             color: Colors.white,
+                            fontFamily: "Poppins",
                             fontSize: 18,
                           )),
                       new SizedBox(width: 14),
@@ -299,6 +306,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           )),
                       new Text("  LINKEDIN",
                           style: new TextStyle(
+                            fontFamily: "Poppins",
                             color: Colors.white,
                             fontSize: 18,
                           )),
@@ -330,10 +338,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           )),
                       new Text("  GOOGLE",
                           style: new TextStyle(
+                            fontFamily: "Poppins",
                             color: Colors.black87,
                             fontSize: 18,
                           )),
-                      new SizedBox(width: 14),
+                      new SizedBox(width: 6),
                     ],
                   ),
                 ),
