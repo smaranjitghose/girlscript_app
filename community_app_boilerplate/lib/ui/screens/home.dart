@@ -21,10 +21,10 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.symmetric(horizontal: 35.0),
               child: Column(
                 children: <Widget>[
-                  SizedBox(height:60.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.15,),
                   Container(
                     width: MediaQuery.of(context).size.width*0.8,
-                    height: 45.0,
+                    height: MediaQuery.of(context).size.width*0.12,
                     child: TextField(
                       controller: _searchController,
                       decoration: InputDecoration(
@@ -61,7 +61,7 @@ class _HomeState extends State<Home> {
                       onSubmitted: (input){},
                     ),
                   ),
-                  SizedBox(height:25.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.0355),
                   Padding(
                     padding: const EdgeInsets.only(left:15.0),
                     child: Container(
@@ -81,13 +81,14 @@ class _HomeState extends State<Home> {
                                 TextSpan(
                                   text: 'User!',
                                   style: TextStyle(
-                                    fontWeight: FontWeight.bold
+                                    fontWeight: FontWeight.w700
                                   )
                                 )
                               ]
                             ),
                           ),
-                          SizedBox(height:3.0),
+//                          SizedBox(height:3.0),
+//                          SizedBox(height:MediaQuery.of(context).size.width*0.01,),
                           Text(
                             'Explore the app',
                             style: TextStyle(
@@ -98,7 +99,9 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
-                  SizedBox(height:15.0),
+//                  SizedBox(height:15.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.04,),
+
                 ],
               ),
             ),
@@ -107,7 +110,8 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.symmetric(horizontal: 35.0),
               child: Column(
                 children: <Widget>[
-                  SizedBox(height:22.0),
+//                  SizedBox(height:22.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.05,),
                   Text(
                     'ANNOUNCEMENT',
                     style: TextStyle(
@@ -115,10 +119,10 @@ class _HomeState extends State<Home> {
                       fontWeight: FontWeight.w900
                     ),
                   ),
-                  SizedBox(height:3.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.01,),
                   Container(
                     width: MediaQuery.of(context).size.width*0.37,
-                    height: 6.5,
+                    height: MediaQuery.of(context).size.width*0.025,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(60.0),
                       color: Colors.amber[800],
@@ -131,7 +135,8 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                   ),
-                  SizedBox(height:17.0),
+//                  SizedBox(height:17.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.05,),
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20.0),
@@ -171,9 +176,11 @@ class _HomeState extends State<Home> {
                                 fontSize: 13.0
                               ),
                             ),
-                            SizedBox(height:15.0),
+//                            SizedBox(height:15.0),
+                            SizedBox(height:MediaQuery.of(context).size.width*0.0455,),
                             Container(
-                              height: 36,
+//                              height: 36,
+                              height: MediaQuery.of(context).size.width*0.07,
                               child: RaisedButton(
                                 elevation: 5.0,
                                 shape: RoundedRectangleBorder(
@@ -195,7 +202,7 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
-                  SizedBox(height:15.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.0455),
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20.0),
@@ -208,7 +215,8 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                     width: MediaQuery.of(context).size.width,
-                    height: 130,
+//                    height: 130,
+                    height: MediaQuery.of(context).size.width*0.360,
                     child: Card(
                       color: Color(0xffF3F1FF),
                       // elevation: 6.0,
@@ -218,7 +226,8 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
-                  SizedBox(height:30.0),
+//                  SizedBox(height:30.0),
+                  SizedBox(height:MediaQuery.of(context).size.width*0.1),
                 ],
               ),
             ),
