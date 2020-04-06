@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154938304364",
+    "firebase_url": "https://girlscript-chennai.firebaseio.com",
+    "project_id": "girlscript-chennai",
+    "storage_bucket": "girlscript-chennai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154938304364:android:eac40fbaf9005404913549",
+        "android_client_info": {
+          "package_name": "com.example.communityappboilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154938304364-tv90n4un25vc4cs47fg8otsito5u642o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.communityappboilerplate",
+            "certificate_hash": "89d8812909acf07c8f128ae185b9b087b9316a8c"
+          }
+        },
+        {
+          "client_id": "154938304364-98ui4aikpgp1r6n08l20hbklf9jk3i22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3276p4k3woAJq06G0ySiT3LdGqLkMPmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154938304364-98ui4aikpgp1r6n08l20hbklf9jk3i22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
