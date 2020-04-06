@@ -25,7 +25,7 @@ Additionally, this app developed by the community, and for the community, will a
 
 ## Hexadecimal Codes :octocat: 
 
-### Splash
+### Splash Screen
 ##### Light Orange ![#FFE2C9](https://placehold.it/15/FFE2C9/000000?text=+) (#FFE2C9) -> White ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) (#fffffff)
 
 ### Login
