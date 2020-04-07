@@ -1,3 +1,4 @@
+import 'package:communityappboilerplate/ui/screens/events.dart';
 import 'package:communityappboilerplate/ui/screens/home.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +25,7 @@ class _DashboardState extends State<Dashboard> {
         controller: _pageController,
           children: <Widget>[
             Home(),
-            Center(child:Text("EVENTS")),
+            Events(),
             Center(child:Text("MILESTONES")),
             Center(child:Text("TEAM")),
             Center(child:Text("PROFILE"))
