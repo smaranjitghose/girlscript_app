@@ -21,7 +21,7 @@ Additionally, this app developed by the community, and for the community, will a
 
 ## Mockups  :memo:
 
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Mockup01.png" alt="feed example" width="800">
+<img src="https://github.com/smaranjitghose/girlscript_app/MockUp/Mockup01.png" alt="feed example" width="800">
 
 ## Hexadecimal Codes :octocat: 
 
@@ -46,7 +46,10 @@ Additionally, this app developed by the community, and for the community, will a
 ##### Yellow ![#F5BC00](https://placehold.it/15/F5BC00/000000?text=+) #F5BC00
 ##### Green ![#1CA600](https://placehold.it/15/1CA600/000000?text=+) #1CA600
 
-
+### Events
+#### Green ![#12563A](https://placehold.it/15/12563A/000000?text=+) #12563A
+##### Button Gradient ![#FE824A](https://placehold.it/15/FE824A/000000?text=+) #FE824A -> ![#E16831](https://placehold.it/15/E16831/000000?text=+) #E16831
+#### Element Grey ![#E5E5E5](https://placehold.it/15/E5E5E5/000000?text=+) #E5E5E5
 ## How to contribute: :construction_worker:
 
 ### Folder structure
