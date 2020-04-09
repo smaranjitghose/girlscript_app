@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
+import 'events/event1.dart';
 
 class Events extends StatefulWidget {
   @override
@@ -202,71 +203,80 @@ class _EventsState extends State<Events> {
                               borderRadius: BorderRadius.circular(20.0),
                             ),
                             width: MediaQuery.of(context).size.width*0.65,
-                            child: Card(
-                              color: Color(0xff12563A),
-                              // elevation: 6.0,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15.0),
-                                side:BorderSide(color: Color(0xff12563A), width: 0.0)
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.only(top: 15.0, bottom: 15.0, left: 20.0, right: 10.0),
-                                child: Row(
-                                  children: <Widget>[
-                                    Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: <Widget>[
-                                        Text(
-                                          'GSSOC',
-                                          style: TextStyle(
-                                            fontSize: 25.0,
-                                            fontWeight: FontWeight.w700,
-                                            color: Colors.white
+                            child: GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context, 
+                                  MaterialPageRoute(builder: (BuildContext context)=>Event1())
+                                );
+                              },
+                              child: Card(
+                                color: Color(0xff12563A),
+                                // elevation: 6.0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(15.0),
+                                  side:BorderSide(color: Color(0xff12563A), width: 0.0)
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.only(top: 15.0, bottom: 15.0, left: 20.0, right: 10.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: <Widget>[
+                                      Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: <Widget>[
+                                          Text(
+                                            'GSSOC',
+                                            style: TextStyle(
+                                              fontSize: 25.0,
+                                              fontWeight: FontWeight.w700,
+                                              color: Colors.white
+                                            ),
                                           ),
-                                        ),
-                                        SizedBox(height: MediaQuery.of(context).size.width * 0.008,),
-                                        Text(
-                                          '2020',
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.w400, 
-                                            fontSize: 20.0,
-                                            color: Colors.white
+                                          SizedBox(height: MediaQuery.of(context).size.width * 0.008,),
+                                          Text(
+                                            '2020',
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.w400, 
+                                              fontSize: 20.0,
+                                              color: Colors.white
+                                            ),
                                           ),
-                                        ),
-                                        SizedBox(
-                                          height:MediaQuery.of(context).size.width * 0.15,
-                                        ),
-                                        Text(
-                                          'FRI, 13 MAR',
-                                          style: TextStyle(
-                                            fontSize: 10.0,
-                                            color: Colors.white,
-                                            fontWeight: FontWeight.bold
+                                          SizedBox(
+                                            height:MediaQuery.of(context).size.width * 0.15,
                                           ),
-                                        ),
-                                        Text(
-                                          'All Over The World',
-                                          style: TextStyle(
-                                            fontSize: 11.0,
-                                            color: Colors.white
+                                          Text(
+                                            'FRI, 13 MAR',
+                                            style: TextStyle(
+                                              fontSize: 10.0,
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold
+                                            ),
                                           ),
-                                        )
-                                      ],
-                                    ),
-                                    Column(
-                                      children: <Widget>[
-                                        Padding(
-                                          padding: const EdgeInsets.only(bottom:28.0,left: 30.0),
-                                          child: Image.asset(
-                                            'assets/images/code2.png',
-                                            color: Colors.white38,
-                                            width: 80.0,
-                                            height: 80.0,
-                                          ),
-                                        )
-                                      ],
-                                    )
-                                  ],
+                                          Text(
+                                            'All Over The World',
+                                            style: TextStyle(
+                                              fontSize: 11.0,
+                                              color: Colors.white
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                      Column(
+                                        children: <Widget>[
+                                          Padding(
+                                            padding: const EdgeInsets.only(bottom:28.0,),
+                                            child: Image.asset(
+                                              'assets/images/code2.png',
+                                              color: Colors.white38,
+                                              width: 80.0,
+                                              height: 80.0,
+                                            ),
+                                          )
+                                        ],
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
@@ -286,6 +296,7 @@ class _EventsState extends State<Events> {
                               child: Padding(
                                 padding: const EdgeInsets.only(top: 15.0, bottom: 15.0, left: 20.0, right: 10.0),
                                 child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: <Widget>[
                                     Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -330,7 +341,7 @@ class _EventsState extends State<Events> {
                                     Column(
                                       children: <Widget>[
                                         Padding(
-                                          padding: const EdgeInsets.only(bottom:28.0,left: 30.0),
+                                          padding: const EdgeInsets.only(bottom:28.0),
                                           child: Image.asset(
                                             'assets/images/code2.png',
                                             color: Colors.white38,
