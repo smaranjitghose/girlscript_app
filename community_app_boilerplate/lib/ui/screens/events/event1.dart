@@ -15,7 +15,8 @@ class _Event1State extends State<Event1> {
         title: Text(
           'BACK',
           style: TextStyle(
-            color: Colors.black
+            color: Colors.black,
+            fontSize: 18.0
           ),
         ),
         leading: IconButton(
