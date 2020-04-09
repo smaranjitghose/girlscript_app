@@ -39,9 +39,10 @@ class _Event1State extends State<Event1> {
               Container(
                 height: MediaQuery.of(context).size.height,
                 child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Container(
-                      width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(
@@ -49,18 +50,17 @@ class _Event1State extends State<Event1> {
                             offset: Offset(0.0,3.0),
                             blurRadius:15.0 
                           )
-                        ]
+                        ],
                       ),
                       child: Image.asset(
                         'assets/images/events/event1.jpg',
                       ),
                     ),
-                    SizedBox(height:MediaQuery.of(context).size.height*0.1)
                   ],
                 ),
               ),
               Positioned(
-                top: MediaQuery.of(context).size.height*0.31,
+                top: MediaQuery.of(context).size.height*0.45,
                 left: MediaQuery.of(context).size.width*0.001,
                 right: MediaQuery.of(context).size.width*0.001,
                 child: Container(
@@ -68,7 +68,7 @@ class _Event1State extends State<Event1> {
                     borderRadius: BorderRadius.circular(20.0),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey[300],
+                        color: Colors.black54,
                         offset: Offset(0.0,3.0),
                         blurRadius:6.0 
                       )
@@ -141,7 +141,7 @@ class _Event1State extends State<Event1> {
                                         'TIME',
                                         style: TextStyle(
                                           fontSize: 13.0,
-                                          color: Colors.black54,
+                                          color: Colors.black,
                                         ),
                                       ),
                                       Text(
@@ -170,7 +170,7 @@ class _Event1State extends State<Event1> {
                                         'DATE',
                                         style: TextStyle(
                                           fontSize: 13.0,
-                                          color: Colors.black54,
+                                          color: Colors.black,
                                         ),
                                       ),
                                       Text(
@@ -201,7 +201,7 @@ class _Event1State extends State<Event1> {
                                         'PRICE',
                                         style: TextStyle(
                                           fontSize: 13.0,
-                                          color: Colors.black54,
+                                          color: Colors.black,
                                         ),
                                       ),
                                       Text(
