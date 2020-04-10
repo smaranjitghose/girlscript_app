@@ -120,7 +120,6 @@ git checkout -b <your_branch_name>
 ```
 
 **7.** Push your local branch to the remote repository.
-
 ```terminal
 git push -u origin <your_branch_name>
 ```
