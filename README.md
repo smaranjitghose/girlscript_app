@@ -115,13 +115,8 @@ git checkout -b <your_branch_name>
 
 
 **6.** Commit your changes.
-```
-Type in a message relevant for the code reveiwer using
-
-       ```sh
-       # This message get associated with all files you have changed
-       $ git commit -m "description about changes"
-       ```
+```terminal
+git checkout -b <your_branch_name>
 ```
 
 **7.** Push your local branch to the remote repository.
@@ -150,19 +145,23 @@ click on `Compare and Pull Request`
 
 [Make sure you don't violate this](https://github.com/smaranjitghose/girscript_app/blob/master/CODE_OF_CONDUCT.md)
 
-## Project Admin:  :bust_in_silhouette:
-* <a href="https://github.com/smaranjitghose"><img src="https://avatars0.githubusercontent.com/u/46641503?s=460&u=868408b0ce6ec939f90af0dbc256d04baf489f83&v=4" width=20></a> Smaranjit Ghose
+## 👨 Project Admin
+![Admin](https://media.giphy.com/media/26wkRxKJ9yUZzlorK/giphy.gif)
 
-###### ![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsmaranjitghose)
+[Smaranjit Ghose](https://github.com/smaranjitghose)
 
-## Mentors: :busts_in_silhouette:
-* <a href="https://github.com/sukkritsharmaofficial"><img src="https://avatars1.githubusercontent.com/u/44338419?s=460&u=13140f5764ea6574d8053727c869ceb95db7ba3e&v=4" width=20></a>
- Sukkrit Sharma
+## 👬  Mentors and Project Maintainers
 
-* <a href="https://github.com/swat1998"><img src="https://avatars2.githubusercontent.com/u/36136676?s=460&v=4" width=20></a> Saswat Nayak
+![Project Maintainers](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)
 
-* <a href="https://github.com/anushbhatia"><img src="https://avatars1.githubusercontent.com/u/40017559?s=460&u=1f74977f5a5fd09b42a16df416e9f6674b9b783c&v=4" width=20></a> Anush Bhatia
+- [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
+- [Saswat Nayak](https://github.com/swat1998)
+- [Ousnik Polley](https://github.com/ousnik)
+- [Anush Bhatia](https://github.com/anushbhatia)
 
-* <a href="https://github.com/ousnik"><img src="https://avatars3.githubusercontent.com/u/42760850?s=460&u=a158bca72522098b9814a342b8072924434738de&v=4" width=20></a> Ousnik Polley
+Feel free to ask your queries!! 🙌
+
+## License 📝
+Refer to [LICENSE](./LICENSE).
 
 
