@@ -5,7 +5,7 @@
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app)
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
-[![Gitter](https://badges.gitter.im/girlscript_app/community.svg)](https://gitter.im/girlscript_app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
 
 
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities.
@@ -64,7 +64,11 @@ Additionally, this app developed by the community, and for the community, will a
 
 `lib\ui\custom` : The Custom Widgets you created can be placed here.
 
-### Coding Guidelines
+## Contribution Guidelines
+
+#### 👇 Prerequisites:
+
+![Pass](https://media.giphy.com/media/Z9cRCMdAMzXi25dwhE/giphy.gif)
 
 1. Try to reduce the widget tree, in the long run it might help us a lot
 2. When it comes to package version, make sure you use the correct package.
@@ -75,20 +79,23 @@ Additionally, this app developed by the community, and for the community, will a
 7. When it comes to scale our application, try using `provider` or something similar to that.
 8. Know well about advanced concepts in flutter and try to use them properly.
 
-### How to make a Pull Request:
+#### Steps:
 
-
-![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
-![RGSOC'20](https://img.shields.io/badge/RGSOC-20-red?style=for-the-badge)
+![Steps](https://media.giphy.com/media/o5BzNDDFQnepi/giphy.gif)
 
 
 **1.** Fork [this](https://github.com/smaranjitghose/girlscript_app) repository.
 
+<img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
+
+
 **2.** Clone the forked repository.
 
 ```terminal
-git clone https://github.com/<your-github-username>/girlscript_app
+git clone --depth 1 https://github.com/<your-github-username>/girlscript_app
 ```
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5N0HJ9db7jSvcL4dsDscZQBzqQqqKVs0BnO1OVz26glLWKJRY&usqp=CAU" width="300">
 
 **3.** Navigate to the project directory.
 
@@ -104,11 +111,17 @@ git checkout -b <your_branch_name>
 
 **5.** Make changes in source code.
 
-**6.** Commit your changes.
+![changes](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/200w_d.gif)
 
-```terminal
-  git add .
-  git commit -m "<your_commit_message>"
+
+**6.** Commit your changes.
+```
+Type in a message relevant for the code reveiwer using
+
+       ```sh
+       # This message get associated with all files you have changed
+       $ git commit -m "description about changes"
+       ```
 ```
 
 **7.** Push your local branch to the remote repository.
@@ -119,8 +132,23 @@ git push -u origin <your_branch_name>
 
 **8.** Create a Pull Request!
 
-**Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App]  (https://github.com/smaranjitghose/girlscript_app) project.
 
+Finally, go to your repository in browser and click on `compare and pull requests`.
+Then add a title and description to your pull request that explains your precious effort.
+
+<img src="https://user-images.githubusercontent.com/41269164/70219707-47194780-176b-11ea-96c2-d0c401ddb1e0.png" width=600>
+		
+click on `Compare and Pull Request`
+		
+<img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
+
+**Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App] s(https://github.com/smaranjitghose/girlscript_app) project.
+
+#### Code of Conduct:
+
+![code_of_conduct](https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif)
+
+[Make sure you don't violate this](https://github.com/smaranjitghose/girscript_app/blob/master/CODE_OF_CONDUCT.md)
 
 ## Project Admin:  :bust_in_silhouette:
 * <a href="https://github.com/smaranjitghose"><img src="https://avatars0.githubusercontent.com/u/46641503?s=460&u=868408b0ce6ec939f90af0dbc256d04baf489f83&v=4" width=20></a> Smaranjit Ghose
