@@ -122,17 +122,6 @@ git push -u origin <your_branch_name>
 **Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App]  (https://github.com/smaranjitghose/girlscript_app) project.
 
 
-##  Resources to get started with: :mag:
-+  [Dart Programming](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
-+  [Flutter Crash Course](https://www.youtube.com/watch?v=pTJJsmejUOQ)
-+  [Firebase and Flutter  App Build](https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC)
-+  [Reso Code's Youtube Channel for best practices](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA/featured)
-+  [Official Flutter Documentation](https://flutter.dev/docs)
-+  [Hyper Text Markup Language](https://www.w3schools.com/html/html_intro.asp)
-+ [Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-+ [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-
-
 ## Project Admin:  :bust_in_silhouette:
 * <a href="https://github.com/smaranjitghose"><img src="https://avatars0.githubusercontent.com/u/46641503?s=460&u=868408b0ce6ec939f90af0dbc256d04baf489f83&v=4" width=20></a> Smaranjit Ghose
 
