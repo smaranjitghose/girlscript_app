@@ -1,5 +1,6 @@
 import 'package:communityappboilerplate/ui/screens/events.dart';
 import 'package:communityappboilerplate/ui/screens/home.dart';
+import 'package:communityappboilerplate/ui/screens/profile.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
@@ -28,7 +29,7 @@ class _DashboardState extends State<Dashboard> {
             Events(),
             Center(child:Text("MILESTONES")),
             Center(child:Text("TEAM")),
-            Center(child:Text("PROFILE"))
+            Profile(),
           ],
           onPageChanged: (int index){
             setState(() {
