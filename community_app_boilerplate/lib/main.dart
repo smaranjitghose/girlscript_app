@@ -1,4 +1,5 @@
-import 'ui/dashboard.dart';
+import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
+
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/app.dart';
 
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget{
         fontFamily: 'Montserrat',
       ),
       routes: <String, WidgetBuilder>{
-        '/Dashboard': (BuildContext context) => Dashboard(),
+        '/SignUp': (BuildContext context) => SignUpScreen(),
       }
     );
   }
