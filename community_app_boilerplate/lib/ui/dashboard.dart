@@ -4,6 +4,10 @@ import 'package:communityappboilerplate/ui/screens/profile.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
+
+  final String name,imageUrl;
+  Dashboard(this.name,this.imageUrl);
+
   @override
   _DashboardState createState() => _DashboardState();
 }
@@ -11,9 +15,13 @@ class Dashboard extends StatefulWidget {
 class _DashboardState extends State<Dashboard> {
   int _currentIndex=0;
   PageController _pageController;
+  String name= 'User Name';
+  String imageUrl;
 
   @override
   void initState(){
+    name=widget.name;
+    imageUrl=widget.imageUrl;
     super.initState();
     _pageController = PageController();
   }
@@ -25,11 +33,11 @@ class _DashboardState extends State<Dashboard> {
       body: PageView(
         controller: _pageController,
           children: <Widget>[
-            Home(),
+            Home(name),
             Events(),
             Center(child:Text("MILESTONES")),
             Center(child:Text("TEAM")),
-            Profile(),
+            Profile(name,imageUrl),
           ],
           onPageChanged: (int index){
             setState(() {

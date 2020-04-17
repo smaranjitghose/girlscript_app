@@ -5,6 +5,10 @@ import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
 class Home extends StatefulWidget {
+
+  final String name;
+  Home(this.name);
+
   @override
   _HomeState createState() => _HomeState();
 }
@@ -22,9 +26,11 @@ class _HomeState extends State<Home> {
   String _currentLocaleId = "";
   List<LocaleName> _localeNames = [];
   final SpeechToText speech = SpeechToText();
+  String name='User Name';
 
   @override
   void initState() {
+    name=widget.name;
     super.initState();
   }
 
@@ -149,7 +155,7 @@ class _HomeState extends State<Home> {
                                   color: Colors.black, fontSize: 22.0),
                               children: <TextSpan>[
                                 TextSpan(
-                                  text: 'User!',
+                                  text: '$name',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w700
                                   )
