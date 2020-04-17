@@ -1,11 +1,28 @@
+import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:communityappboilerplate/services/signUp.dart';
 
 class Profile extends StatefulWidget {
+
+  final String name,imageUrl;
+  Profile(this.name,this.imageUrl);
+
   @override
   _ProfileState createState() => _ProfileState();
 }
 
 class _ProfileState extends State<Profile> {
+
+  String name='USERNAME';
+  String imageUrl;
+
+  @override
+  void initState() {
+    name=widget.name;
+    imageUrl=widget.imageUrl;
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -42,10 +59,10 @@ class _ProfileState extends State<Profile> {
                   ],
                 ),
               ),
-              SizedBox(height: MediaQuery.of(context).size.height * 0.015,),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.025,),
               Container(
                 width: MediaQuery.of(context).size.width*0.3,
-                height: MediaQuery.of(context).size.height*0.2,
+                height: MediaQuery.of(context).size.height*0.16,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   color: Colors.white,
@@ -55,11 +72,16 @@ class _ProfileState extends State<Profile> {
                       blurRadius: 6.0,
                       color: Colors.grey
                     )
-                  ]
+                  ],
+                  image: DecorationImage(
+                    image: NetworkImage('$imageUrl'),
+                    fit: BoxFit.cover
+                  )
                 ),
               ),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.015,),
               Text(
-                'USERNAME',
+                '$name',
                 style: TextStyle(
                   fontSize: 18.0
                 ),
@@ -215,7 +237,10 @@ class _ProfileState extends State<Profile> {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12.0)
                   ),
-                  onPressed:(){},
+                  onPressed:(){
+                    signOutGoogle();
+                    Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) {return SignUpScreen();}), ModalRoute.withName('/'));
+                  },
                   color: Colors.black,
                   child: Text(
                     'Sign Out',

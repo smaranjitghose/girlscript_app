@@ -1,39 +1,6 @@
 import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:flutter/material.dart';
-
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-
-final FirebaseAuth _auth = FirebaseAuth.instance;
-final GoogleSignIn googleSignIn = GoogleSignIn();
-
-Future<String> signInWithGoogle() async {
-  final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
-  final GoogleSignInAuthentication googleSignInAuthentication =
-      await googleSignInAccount.authentication;
-
-  final AuthCredential credential = GoogleAuthProvider.getCredential(
-    accessToken: googleSignInAuthentication.accessToken,
-    idToken: googleSignInAuthentication.idToken,
-  );
-
-  final AuthResult authResult = await _auth.signInWithCredential(credential);
-  final FirebaseUser user = authResult.user;
-
-  assert(!user.isAnonymous);
-  assert(await user.getIdToken() != null);
-
-  final FirebaseUser currentUser = await _auth.currentUser();
-  assert(user.uid == currentUser.uid);
-
-  return 'signInWithGoogle succeeded: $user';
-}
-
-void signOutGoogle() async{
-  await googleSignIn.signOut();
-
-  print("User Sign Out");
-}
+import 'package:communityappboilerplate/services/signUp.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override
@@ -245,7 +212,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           RaisedButton(
                             elevation: 6,
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>Dashboard()));
+                              // Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>Dashboard(name,)));
                             },
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(5),
@@ -389,7 +356,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (context) {
-                                  return Dashboard();
+                                  return Dashboard(name,imageUrl);
                                 },
                               ),
                             );
