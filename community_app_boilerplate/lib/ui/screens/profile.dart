@@ -1,6 +1,9 @@
 import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/signUp.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+final FirebaseAuth _auth = FirebaseAuth.instance;
 
 class Profile extends StatefulWidget {
 
@@ -237,8 +240,9 @@ class _ProfileState extends State<Profile> {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12.0)
                   ),
-                  onPressed:(){
+                  onPressed:() async {
                     signOutGoogle();
+                    await _auth.signOut(); 
                     Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) {return SignUpScreen();}), ModalRoute.withName('/'));
                   },
                   color: Colors.black,

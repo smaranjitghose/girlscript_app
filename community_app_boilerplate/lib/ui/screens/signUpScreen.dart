@@ -1,6 +1,11 @@
 import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/signUp.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+final FirebaseAuth _auth = FirebaseAuth.instance;
 
 class SignUpScreen extends StatefulWidget {
   @override
@@ -8,27 +13,138 @@ class SignUpScreen extends StatefulWidget {
 }
 
 final inputTextDecoration = InputDecoration(
-    labelStyle: TextStyle(
-      fontSize: 18,
-      color: Colors.grey[500],
-    ),
-    focusedBorder: UnderlineInputBorder(
-      borderSide: BorderSide(color: Color(0xffE46D39)),
-    ),
-    contentPadding: EdgeInsets.symmetric(vertical: 10)
-  );
+  labelStyle: TextStyle(
+    fontSize: 18,
+    color: Colors.grey[500],
+  ),
+  focusedBorder: UnderlineInputBorder(
+    borderSide: BorderSide(color: Color(0xffE46D39)),
+  ),
+  contentPadding: EdgeInsets.symmetric(vertical: 10)
+);
 
 class _SignUpScreenState extends State<SignUpScreen> {
 
   String _userName, _email, _password;
   bool _termsCond = false;
+  bool _loading=false;
+  String errorMsg="";
+  bool _autoValidate = false;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  String emailValidator(String value) {
+    Pattern pattern =
+      r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
+    RegExp regex = new RegExp(pattern);
+    if (value.isEmpty) return '*Required';
+    if (!regex.hasMatch(value))
+      return '*Enter a valid email';
+    else
+      return null;
+  }
+
+  void _validateRegisterInput() async {
+    final FormState form = _formKey.currentState;
+    if (_formKey.currentState.validate()) {
+      form.save();
+      setState(() {
+        _loading=true;
+      });
+      try {
+        if(_termsCond){
+          AuthResult result = await _auth.createUserWithEmailAndPassword(email: _email,password: _password);
+          FirebaseUser user = result.user;
+          UserUpdateInfo userUpdateInfo = UserUpdateInfo();
+          userUpdateInfo.displayName = _userName;
+          user.updateProfile(userUpdateInfo).then((onValue) {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) {
+                  return Dashboard(userUpdateInfo.displayName,imageUrl);
+                },
+              ),
+            );
+            Firestore.instance.collection('users').document().setData({'email': _email, 'displayName': _userName}).then((onValue) {
+              setState(() {
+                _loading=false;
+              });
+            });
+          });
+        } else{
+          setState(() {
+            errorMsg='Accept the T&C';
+          });
+        }
+        
+      } catch (error) {
+        switch (error.code) {
+          case "ERROR_EMAIL_ALREADY_IN_USE":
+          {
+            setState(() {
+              errorMsg = "This email is already in use.";
+              _loading = false;
+            });
+            // showDialog(
+            //   context: context,
+            //   builder: (BuildContext context) {
+            //     return AlertDialog(
+            //       content: Container(
+            //         child: Text(errorMsg),
+            //       ),
+            //     );
+            //   }
+            // );
+          }
+          break;
+          case "ERROR_WEAK_PASSWORD":
+          {
+            setState(() {
+              errorMsg = "The password must be 6 characters long or more.";
+              _loading = false;
+            });
+            // showDialog(
+            //   context: context,
+            //   builder: (BuildContext context) {
+            //     return AlertDialog(
+            //       content: Container(
+            //         child: Text(errorMsg),
+            //       ),
+            //     );
+            //   }
+            // );
+          }
+          break;
+          default:
+          {
+            setState(() {
+              errorMsg = "";
+            });
+          }
+        }
+      }
+    } else {
+      setState(() {
+        _autoValidate = true;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
     final width = MediaQuery.of(context).size.width;
-    return Scaffold(
+    return _loading?
+    Container(
+      color: Colors.white,
+      child: Center(
+        child: SpinKitThreeBounce(
+          color: Colors.amber[800],
+          size: 50.0,
+        ),
+      ),
+    )
+    : 
+    Scaffold(
       body: SingleChildScrollView(
         child: Container(
           child: Column(
@@ -121,6 +237,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   _userName = val;
                                 });
                               },
+                              validator: (value) => value.isEmpty ? '*Required' : null,
                               decoration: inputTextDecoration.copyWith(
                                 labelText: "Username",
                                 icon: Icon(
@@ -143,6 +260,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   _password = val;
                                 });
                               },
+                              validator: (value) => value.isEmpty ? '*Required' : null,
                               decoration: inputTextDecoration.copyWith(
                                 labelText: "Password",
                                 icon: Icon(
@@ -164,6 +282,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   _email = val;
                                 });
                               },
+                              validator: emailValidator,
                               decoration: inputTextDecoration.copyWith(
                                 labelText: "Email",
                                 icon: Icon(
@@ -180,9 +299,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             children: <Widget>[
                               Checkbox(
                                 value: _termsCond,
-                                onChanged: (bool alue) {
+                                onChanged: (bool value) {
                                   setState(() {
-                                    _termsCond = alue;
+                                    _termsCond = value;
                                   });
                                 }
                               ),
@@ -205,14 +324,21 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   ]
                                 ),
                               ),
-                              SizedBox(width: 15),
+                              // SizedBox(width: 15),
                             ],
                           ),
                           // SizedBox(height: height / 120),
                           RaisedButton(
                             elevation: 6,
-                            onPressed: () {
-                              // Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>Dashboard(name,)));
+                            onPressed: (){
+                              if(_termsCond){
+                                _validateRegisterInput();
+                              } else{
+                                setState(() {
+                                  errorMsg = 'Please accept the T&C';
+                                });
+                                print('Please accept the T&C');
+                              }
                             },
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(5),
@@ -252,7 +378,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ],
                       ),
                     ),
-                    SizedBox(height: height / 25),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Center(
+                        child: Text(
+                          errorMsg,
+                          style: TextStyle(color: Colors.red, fontSize: 11.0),
+                        ),
+                      ),
+                    ),
+                    SizedBox(height: height / 36),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
