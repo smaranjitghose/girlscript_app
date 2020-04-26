@@ -21,7 +21,7 @@ Additionally, this app developed by the community, and for the community, will a
 
 ## Mockups  :memo:
 
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Mockup01.png" alt="feed example" width="800">
+<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Mockup01.png" alt="feed example" width="1200">
 
 ## Hexadecimal Codes :octocat: 
 
