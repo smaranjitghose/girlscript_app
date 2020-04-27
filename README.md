@@ -136,7 +136,7 @@ click on `Compare and Pull Request`
 		
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
-**Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App] s(https://github.com/smaranjitghose/girlscript_app) project.
+**Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
 
 #### Code of Conduct:
 
