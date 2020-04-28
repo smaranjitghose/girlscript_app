@@ -5,7 +5,7 @@
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app)
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
-![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
+
 
 
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities.
