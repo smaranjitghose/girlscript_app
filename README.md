@@ -1,4 +1,4 @@
-# Community App Boilerplate  :information_desk_person:
+<h1 align="center"><b> Community App Boilerplate  </b></h1>
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
@@ -144,19 +144,29 @@ click on `Compare and Pull Request`
 
 [Make sure you don't violate this](https://github.com/smaranjitghose/girscript_app/blob/master/CODE_OF_CONDUCT.md)
 
-## 👨 Project Admin
-![Admin](https://media.giphy.com/media/26wkRxKJ9yUZzlorK/giphy.gif)
 
-[Smaranjit Ghose](https://github.com/smaranjitghose)
+
+# Contributors: 
+
+[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/0)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/0)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/1)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/1)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/2)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/2)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/3)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/3)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/4)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/4)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/5)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/5)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/6)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/6)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/7)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/7)
+
+
+<h3 align="center"><b> 👨 Project Admin</b></h3>
+
+
+<p align="center"><img width=20% src="https://avatars2.githubusercontent.com/u/46641503?v=4"></p>
+<h4 align="center"><b> Smaranjit Ghose</b></h4>
+
+
 
 ## 👬  Mentors and Project Maintainers
 
 ![Project Maintainers](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)
 
-- [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
 - [Saswat Nayak](https://github.com/swat1998)
 - [Ousnik Polley](https://github.com/ousnik)
 - [Anush Bhatia](https://github.com/anushbhatia)
+- [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
 
 Feel free to ask your queries!! 🙌
 
