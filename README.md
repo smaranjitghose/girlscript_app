@@ -159,18 +159,26 @@ click on `Compare and Pull Request`
 
 
 
-## 👬  Mentors and Project Maintainers
+<h3 align="center"><b> Project Maintainers and Mentors 👬 </b></h3>
 
-![Project Maintainers](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)
 
 - [Saswat Nayak](https://github.com/swat1998)
 - [Ousnik Polley](https://github.com/ousnik)
 - [Anush Bhatia](https://github.com/anushbhatia)
 - [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
-
 Feel free to ask your queries!! 🙌
 
-## License 📝
+
+<h2 align="center"><b> Code of Conduct</b></h2> 
+
+<p align="center"><img width=35% src="https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif"></p>
+
+
+<h2 align="center"><b> License 📝</b></h2> 
+
+<p align="center"><img width=35% src="https://media.giphy.com/media/xUPGcJGy8I928yIlAQ/giphy.gif"></p>
+
 Refer to [LICENSE](./LICENSE).
+
 
 
