@@ -1,5 +1,6 @@
 import 'package:communityappboilerplate/ui/screens/events.dart';
 import 'package:communityappboilerplate/ui/screens/home.dart';
+import 'package:communityappboilerplate/ui/screens/milestone.dart';
 import 'package:communityappboilerplate/ui/screens/profile.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +36,7 @@ class _DashboardState extends State<Dashboard> {
           children: <Widget>[
             Home(name),
             Events(),
-            Center(child:Text("MILESTONES")),
+            Milestone(name),
             Center(child:Text("TEAM")),
             Profile(name,imageUrl),
           ],
