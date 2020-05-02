@@ -1,3 +1,4 @@
+import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -9,12 +10,15 @@ class _LoginScreenState extends State<LoginScreen> {
 
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
 
+  void toggleView(){
+    Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpScreen()));
+  }
   
   Widget _displaygslogo(){
     return Container(
       alignment: Alignment.center,
-      height: 150,
-      width: 150,
+      height: 100,
+      width: 100,
       decoration: BoxDecoration(
         shape: BoxShape.rectangle,
         image: DecorationImage(
@@ -34,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: InputDecoration(
         icon: Icon(Icons.person,color: Colors.black,),
         labelText: "Username",
-        labelStyle: TextStyle(fontSize: 20,color: Colors.grey),
+        labelStyle: TextStyle(fontSize: 16,color: Colors.grey),
       ),
       cursorColor: Color(0xFFE46D39),
       validator: (val){
@@ -57,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: InputDecoration(
         icon: Icon(Icons.lock,color: Colors.black,),
         labelText: "Password",
-        labelStyle: TextStyle(fontSize: 20,color: Colors.grey),
+        labelStyle: TextStyle(fontSize: 16,color: Colors.grey),
       ),
       cursorColor: Color(0xFFE46D39),
       validator: (val){
@@ -89,7 +93,9 @@ class _LoginScreenState extends State<LoginScreen> {
         fontWeight: FontWeight.bold
       ),
       ),
-      onPressed: () {},
+      onPressed: () {
+        toggleView();
+      },
       ), 
     ],);
   }
@@ -132,7 +138,7 @@ class _LoginScreenState extends State<LoginScreen> {
           Text(
             "Welcome",
             style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 color: Colors.black87,
                 fontWeight: FontWeight.bold,
                 fontFamily: "Montserrat",
@@ -158,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Text("GirlScript Chennai",
               style: TextStyle(
                   fontFamily: "Montserrat",
-                  fontSize: 24,
+                  fontSize: 22,
                   color: Color(0xFFE46D39),
               ),
             ),
@@ -167,13 +173,14 @@ class _LoginScreenState extends State<LoginScreen> {
           Text(
             "Let's Code For Freedom",
             style: TextStyle(
-                fontSize: 25,
+                fontSize: 23,
                 color: Colors.black54,
                 fontWeight: FontWeight.bold,
                 fontFamily: "Montserrat",
             ),
           ),
           _displayForm(),
+          SizedBox(height: 20),
           RaisedButton(
               elevation: 6,
               onPressed: (){},
@@ -182,7 +189,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               padding: EdgeInsets.all(0.0),
               child: Ink(
-                width: 0.82*devicewidth,
+                width: 0.73*devicewidth,
                 padding: EdgeInsets.all(12.5),
                 decoration: BoxDecoration(
                   shape: BoxShape.rectangle,
@@ -212,7 +219,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
           ),
-          SizedBox(height: 60),
+          SizedBox(height: 80),
           _signupRedirect(),
           SizedBox(height: 40)
         ],
