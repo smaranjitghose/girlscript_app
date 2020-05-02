@@ -2,6 +2,7 @@ import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
 
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/app.dart';
+import 'package:communityappboilerplate/ui/screens/login.dart';
 
 void main() => runApp(MainApp());
 
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget{
         fontFamily: 'Montserrat',
       ),
       routes: <String, WidgetBuilder>{
-        '/SignUp': (BuildContext context) => SignUpScreen(),
+        '/Login': (BuildContext context) => LoginScreen(),
       }
     );
   }
