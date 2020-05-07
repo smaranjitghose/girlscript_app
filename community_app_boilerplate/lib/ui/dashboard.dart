@@ -33,7 +33,7 @@ class _DashboardState extends State<Dashboard> {
       body: PageView(
         controller: _pageController,
         children: <Widget>[
-          Home(name: name),
+          Home(name),
           Events(),
           Milestone(name),
           Center(child: Text("TEAM")),

@@ -1,9 +1,6 @@
+import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
-import 'home.dart';
-
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -206,12 +203,8 @@ class _LoginScreenState extends State<LoginScreen> {
               RaisedButton(
                 elevation: 6,
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => Home(
-                                name: '',
-                              )));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Dashboard()));
                 },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),

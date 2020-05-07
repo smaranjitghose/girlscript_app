@@ -6,7 +6,7 @@ import 'package:speech_to_text/speech_to_text.dart';
 
 class Home extends StatefulWidget {
   final String name;
-  Home({this.name});
+  Home(this.name);
 
   @override
   _HomeState createState() => _HomeState();
