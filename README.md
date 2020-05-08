@@ -158,16 +158,12 @@ click on `Compare and Pull Request`
 <h4 align="center"><b> Smaranjit Ghose</b></h4>
 
 
-
 <h3 align="center"><b> Project Maintainers and Mentors 👬 </b></h3>
 
 
 - [Saswat Nayak](https://github.com/swat1998)
 - [Ousnik Polley](https://github.com/ousnik)
 - [Anush Bhatia](https://github.com/anushbhatia)
-- [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
-
-Feel free to ask your queries!! 🙌
 
 
 <h2 align="center"><b> Code of Conduct</b></h2> 
