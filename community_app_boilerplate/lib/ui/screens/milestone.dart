@@ -3,25 +3,24 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class Milestone extends StatefulWidget {
   final String name;
-  Milestone(this.name);
+  Milestone({this.name});
   @override
   _MilestoneState createState() => _MilestoneState();
 }
 
 class _MilestoneState extends State<Milestone> {
-
-  String name="User Name";
+  String name = 'User Name';
 
   @override
   void initState() {
-    name=widget.name;
+    name = widget.name;
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    final height=MediaQuery.of(context).size.height;
-    final width=MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
+    final width = MediaQuery.of(context).size.width;
     return Container(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 30.0),
@@ -32,11 +31,10 @@ class _MilestoneState extends State<Milestone> {
             ),
             Text(
               'MILESTONE',
-              style:TextStyle(
-                fontSize: 30.0, 
-                fontWeight: FontWeight.w900,
-                letterSpacing: 0.5
-              ),
+              style: TextStyle(
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: 0.5),
             ),
             SizedBox(
               height: width * 0.01,
@@ -64,20 +62,18 @@ class _MilestoneState extends State<Milestone> {
             Card(
               elevation: 6.0,
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10)
-              ),
+                  borderRadius: BorderRadius.circular(10)),
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Row(
                   children: <Widget>[
                     Container(
-                      width: width*0.2,
-                      height: height*0.13,
+                      width: width * 0.2,
+                      height: height * 0.13,
                       child: Card(
                         color: Colors.grey[300],
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)
-                        ),
+                            borderRadius: BorderRadius.circular(10)),
                         elevation: 3.0,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -88,7 +84,9 @@ class _MilestoneState extends State<Milestone> {
                         ),
                       ),
                     ),
-                    SizedBox(width: width*0.01,),
+                    SizedBox(
+                      width: width * 0.01,
+                    ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -96,23 +94,21 @@ class _MilestoneState extends State<Milestone> {
                         Text(
                           'Won Hackathon',
                           style: TextStyle(
-                            fontSize: 18.0,
-                            fontWeight: FontWeight.bold
-                          ),
+                              fontSize: 18.0, fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          name,
+                          '$name',
                           style: TextStyle(
                             fontSize: 15.0,
                           ),
                         ),
-                        SizedBox(height: height*0.014,),
+                        SizedBox(
+                          height: height * 0.014,
+                        ),
                         Text(
                           'datadatadatadatadatadata',
                           style: TextStyle(
-                            fontSize: 13.0,
-                            color: Colors.amber[800]
-                          ),
+                              fontSize: 13.0, color: Colors.amber[800]),
                         )
                       ],
                     )
