@@ -5,7 +5,6 @@ import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
 class Home extends StatefulWidget {
-
   final String name;
   Home(this.name);
 
@@ -26,11 +25,11 @@ class _HomeState extends State<Home> {
   String _currentLocaleId = "";
   List<LocaleName> _localeNames = [];
   final SpeechToText speech = SpeechToText();
-  String name='User Name';
+  String name = 'User Name';
 
   @override
   void initState() {
-    name=widget.name;
+    name = widget.name;
     super.initState();
   }
 
@@ -107,35 +106,32 @@ class _HomeState extends State<Home> {
                     child: TextField(
                       controller: _searchController,
                       decoration: InputDecoration(
-                        contentPadding: EdgeInsets.symmetric(vertical: 5.0),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide:
-                          BorderSide(color: Colors.white, width: 0.0),
-                          borderRadius: BorderRadius.circular(12.0)
-                        ),
-                        enabledBorder: OutlineInputBorder(
-                          borderSide:
-                          BorderSide(color: Colors.white, width: 0.0),
-                          borderRadius: BorderRadius.circular(12.0)
-                        ),
-                        hintText: 'Search',
-                        hintStyle:
-                          TextStyle(fontSize: 18.0, color: Colors.grey),
-                        prefixIcon: Icon(
-                          Icons.search,
-                          color: Colors.grey,
-                        ),
-                        suffixIcon: Container(
-                          child: IconButton(
-                            icon: Icon(
-                              Icons.mic,
-                              color: Colors.grey,
-                            ),
-                            onPressed: _incrementCounter
+                          contentPadding: EdgeInsets.symmetric(vertical: 5.0),
+                          focusedBorder: OutlineInputBorder(
+                              borderSide:
+                                  BorderSide(color: Colors.white, width: 0.0),
+                              borderRadius: BorderRadius.circular(12.0)),
+                          enabledBorder: OutlineInputBorder(
+                              borderSide:
+                                  BorderSide(color: Colors.white, width: 0.0),
+                              borderRadius: BorderRadius.circular(12.0)),
+                          hintText: 'Search',
+                          hintStyle:
+                              TextStyle(fontSize: 18.0, color: Colors.grey),
+                          prefixIcon: Icon(
+                            Icons.search,
+                            color: Colors.grey,
                           ),
-                        ),
-                        filled: true,
-                        fillColor: Colors.grey[200]),
+                          suffixIcon: Container(
+                            child: IconButton(
+                                icon: Icon(
+                                  Icons.mic,
+                                  color: Colors.grey,
+                                ),
+                                onPressed: _incrementCounter),
+                          ),
+                          filled: true,
+                          fillColor: Colors.grey[200]),
                       onSubmitted: (input) {},
                     ),
                   ),
@@ -150,18 +146,15 @@ class _HomeState extends State<Home> {
                           RichText(
                             textAlign: TextAlign.start,
                             text: TextSpan(
-                              text: 'Hi, ',
-                              style: TextStyle(
-                                  color: Colors.black, fontSize: 22.0),
-                              children: <TextSpan>[
-                                TextSpan(
-                                  text: '$name',
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.w700
-                                  )
-                                )
-                              ]
-                            ),
+                                text: 'Hi, ',
+                                style: TextStyle(
+                                    color: Colors.black, fontSize: 22.0),
+                                children: <TextSpan>[
+                                  TextSpan(
+                                      text: '$name',
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.w700))
+                                ]),
                           ),
                           Text(
                             'Explore the app',
@@ -188,7 +181,7 @@ class _HomeState extends State<Home> {
                   Text(
                     'ANNOUNCEMENT',
                     style:
-                      TextStyle(fontSize: 22.0, fontWeight: FontWeight.w900),
+                        TextStyle(fontSize: 22.0, fontWeight: FontWeight.w900),
                   ),
                   SizedBox(
                     height: MediaQuery.of(context).size.width * 0.01,
@@ -228,7 +221,8 @@ class _HomeState extends State<Home> {
                       // elevation: 6.0,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15.0),
-                          side:BorderSide(color: Color(0xffFFF1F1), width: 0.0)),
+                          side:
+                              BorderSide(color: Color(0xffFFF1F1), width: 0.0)),
                       child: Padding(
                         padding: const EdgeInsets.only(
                             top: 15.0, bottom: 15.0, left: 20.0, right: 20.0),
@@ -238,16 +232,20 @@ class _HomeState extends State<Home> {
                             Text(
                               'GSSOC 2020',
                               style: TextStyle(
-                                fontSize: 17.0, fontWeight: FontWeight.w700),
+                                  fontSize: 17.0, fontWeight: FontWeight.w700),
                             ),
-                            SizedBox(height: MediaQuery.of(context).size.width * 0.0435,),
+                            SizedBox(
+                              height:
+                                  MediaQuery.of(context).size.width * 0.0435,
+                            ),
                             Text(
                               'wohwohgwohbaoinaowhgw',
                               style: TextStyle(
                                   fontWeight: FontWeight.w400, fontSize: 13.0),
                             ),
                             SizedBox(
-                              height:MediaQuery.of(context).size.width * 0.0455,
+                              height:
+                                  MediaQuery.of(context).size.width * 0.0455,
                             ),
                             Container(
                               height: MediaQuery.of(context).size.width * 0.07,
@@ -288,8 +286,9 @@ class _HomeState extends State<Home> {
                       color: Color(0xffF3F1FF),
                       // elevation: 6.0,
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15.0),
-                        side: BorderSide(color: Color(0xffF3F1FF), width: 0.0)),
+                          borderRadius: BorderRadius.circular(15.0),
+                          side:
+                              BorderSide(color: Color(0xffF3F1FF), width: 0.0)),
                     ),
                   ),
                   SizedBox(height: MediaQuery.of(context).size.width * 0.1),
