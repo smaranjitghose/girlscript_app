@@ -1,4 +1,5 @@
 import 'package:communityappboilerplate/ui/dashboard.dart';
+import 'package:communityappboilerplate/ui/screens/Teams.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/signUp.dart';
 
@@ -15,11 +16,9 @@ final inputTextDecoration = InputDecoration(
     focusedBorder: UnderlineInputBorder(
       borderSide: BorderSide(color: Color(0xffE46D39)),
     ),
-    contentPadding: EdgeInsets.symmetric(vertical: 10)
-  );
+    contentPadding: EdgeInsets.symmetric(vertical: 10));
 
 class _SignUpScreenState extends State<SignUpScreen> {
-
   String _userName, _email, _password;
   bool _termsCond = false;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
@@ -56,37 +55,33 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         transform: Matrix4.rotationZ(19.4),
                         height: height / 11,
                         width: height / 11,
-                        child: Image(
-                          image: AssetImage("assets/images/code.png")
-                        ),
+                        child:
+                            Image(image: AssetImage("assets/images/code.png")),
                       ),
                     ),
                   ),
                   Positioned(
-                    top: height*0.05,
-                    left: - width*0.028,
-                    child: FlatButton(
-                      splashColor: Color.fromRGBO(255, 255, 255, 0.0),
-                      onPressed: () {},
-                      child: Row(
-                        children: <Widget>[
-                          Icon(
-                            Icons.arrow_back_ios,
-                            size: 20.0,
-                          ),
-                          SizedBox(width: 4),
-                          Text(
-                            "Back",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black87,
-                              fontWeight: FontWeight.bold,
-                            )
-                          ),
-                        ],
-                      ),
-                    )
-                  ),
+                      top: height * 0.05,
+                      left: -width * 0.028,
+                      child: FlatButton(
+                        splashColor: Color.fromRGBO(255, 255, 255, 0.0),
+                        onPressed: () {},
+                        child: Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.arrow_back_ios,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 4),
+                            Text("Back",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.black87,
+                                  fontWeight: FontWeight.bold,
+                                )),
+                          ],
+                        ),
+                      )),
                   Positioned(
                     top: height / 5.5,
                     left: width / 20,
@@ -101,9 +96,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                 ],
               ),
-              SizedBox(height: height*0.015),
+              SizedBox(height: height * 0.015),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal:38.0),
+                padding: const EdgeInsets.symmetric(horizontal: 38.0),
                 child: Column(
                   children: <Widget>[
                     Form(
@@ -122,13 +117,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 });
                               },
                               decoration: inputTextDecoration.copyWith(
-                                labelText: "Username",
-                                icon: Icon(
-                                  Icons.person_outline,
-                                  color: Colors.black87, 
-                                  size: 30
-                                )
-                              ),
+                                  labelText: "Username",
+                                  icon: Icon(Icons.person_outline,
+                                      color: Colors.black87, size: 30)),
                             ),
                           ),
                           SizedBox(height: height / 40),
@@ -144,13 +135,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 });
                               },
                               decoration: inputTextDecoration.copyWith(
-                                labelText: "Password",
-                                icon: Icon(
-                                  Icons.lock_outline,
-                                  color: Colors.black87, 
-                                  size: 30
-                                )
-                              ),
+                                  labelText: "Password",
+                                  icon: Icon(Icons.lock_outline,
+                                      color: Colors.black87, size: 30)),
                             ),
                           ),
                           SizedBox(height: height / 40),
@@ -165,13 +152,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 });
                               },
                               decoration: inputTextDecoration.copyWith(
-                                labelText: "Email",
-                                icon: Icon(
-                                  Icons.mail_outline,
-                                  color: Colors.black87, 
-                                  size: 30
-                                )
-                              ),
+                                  labelText: "Email",
+                                  icon: Icon(Icons.mail_outline,
+                                      color: Colors.black87, size: 30)),
                             ),
                           ),
                           SizedBox(height: height / 35),
@@ -179,31 +162,29 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               Checkbox(
-                                value: _termsCond,
-                                onChanged: (bool alue) {
-                                  setState(() {
-                                    _termsCond = alue;
-                                  });
-                                }
-                              ),
+                                  value: _termsCond,
+                                  onChanged: (bool alue) {
+                                    setState(() {
+                                      _termsCond = alue;
+                                    });
+                                  }),
                               RichText(
                                 text: TextSpan(
-                                  text: "I have accepted the ",
-                                  style: TextStyle(
-                                    color: Colors.black54, 
-                                    fontSize: 15,
-                                  ),
-                                  children: <TextSpan>[
-                                    TextSpan(
-                                      text: "Terms & Condition",
-                                      style: TextStyle(
-                                        color: Color(0xffFF1F1F),
-                                        decoration: TextDecoration.underline,
-                                        fontWeight: FontWeight.w600,
-                                      ),
+                                    text: "I have accepted the ",
+                                    style: TextStyle(
+                                      color: Colors.black54,
+                                      fontSize: 15,
                                     ),
-                                  ]
-                                ),
+                                    children: <TextSpan>[
+                                      TextSpan(
+                                        text: "Terms & Condition",
+                                        style: TextStyle(
+                                          color: Color(0xffFF1F1F),
+                                          decoration: TextDecoration.underline,
+                                          fontWeight: FontWeight.w600,
+                                        ),
+                                      ),
+                                    ]),
                               ),
                               SizedBox(width: 15),
                             ],
@@ -225,7 +206,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 shape: BoxShape.rectangle,
                                 borderRadius: BorderRadius.circular(5),
                                 gradient: LinearGradient(
-                                  colors: [Color(0xffFE824A), Color(0xffE16831)],
+                                  colors: [
+                                    Color(0xffFE824A),
+                                    Color(0xffE16831)
+                                  ],
                                   begin: Alignment.centerRight,
                                   end: Alignment.centerLeft,
                                 ),
@@ -234,12 +218,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
                                   Text("SIGN UP ",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    )
-                                  ),
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                      )),
                                   Icon(
                                     Icons.arrow_forward,
                                     color: Colors.white,
@@ -292,19 +275,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Container(
-                              height: 32,
-                              width: 32,
-                              child: Image(
-                                image: AssetImage("assets/images/github.png"),
-                              )
-                            ),
+                                height: 32,
+                                width: 32,
+                                child: Image(
+                                  image: AssetImage("assets/images/github.png"),
+                                )),
                             Text("  GITHUB",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                              )
-                            ),
-                            SizedBox(width: width*0.04),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                )),
+                            SizedBox(width: width * 0.04),
                           ],
                         ),
                       ),
@@ -318,25 +299,30 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         elevation: 6,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => TeamsScreen()),
+                          );
+                        },
                         color: Color(0xff2867B2),
                         padding: EdgeInsets.all(9),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Container(
-                              height: 32,
-                              width: 32,
-                              child: Image(
-                                image: AssetImage("assets/images/linkedin.png"),
-                              )
-                            ),
+                                height: 32,
+                                width: 32,
+                                child: Image(
+                                  image:
+                                      AssetImage("assets/images/linkedin.png"),
+                                )),
                             Text("  LINKEDIN",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                              )
-                            ),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                )),
                           ],
                         ),
                       ),
@@ -349,14 +335,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       child: RaisedButton(
                         elevation: 6,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5)
-                        ),
+                            borderRadius: BorderRadius.circular(5)),
                         onPressed: () {
                           signInWithGoogle().whenComplete(() {
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (context) {
-                                  return Dashboard(name,imageUrl);
+                                  return Dashboard(name, imageUrl);
                                 },
                               ),
                             );
@@ -368,24 +353,26 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Container(
-                              height: 32,
-                              width: 32,
-                              child: Image(
-                                image: AssetImage("assets/images/google.png"),
-                              )
-                            ),
+                                height: 32,
+                                width: 32,
+                                child: Image(
+                                  image: AssetImage("assets/images/google.png"),
+                                )),
                             Text("  GOOGLE",
-                              style: TextStyle(
-                                color: Colors.black87,
-                                fontSize: 18,
-                              )
-                            ),
-                            SizedBox(width: width*0.02,)
+                                style: TextStyle(
+                                  color: Colors.black87,
+                                  fontSize: 18,
+                                )),
+                            SizedBox(
+                              width: width * 0.02,
+                            )
                           ],
                         ),
                       ),
                     ),
-                    SizedBox(height: height*0.02,)
+                    SizedBox(
+                      height: height * 0.02,
+                    )
                   ],
                 ),
               ),
