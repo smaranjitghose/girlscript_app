@@ -27,6 +27,7 @@ dependencies:
   firebase_auth: ^0.14.0+5
   cloud_firestore: ^0.12.9+5
   google_sign_in: ^4.4.1
+  url_launcher: ^5.4.5
   flutter_svg: ^0.17.3+1
 
   # The following adds the Cupertino Icons font to your application.
@@ -60,6 +61,26 @@ flutter:
     - assets/images/gs.png
     - assets/images/code2.png
     - assets/images/events/event1.jpg
+    - assets/images/team/smaranjit_ghose.jpg
+    - assets/images/team/anush_bhatia.jpg
+    - assets/images/team/ousnik_polley.jpg
+    - assets/images/team/saswat_nayak.jpg
+    - assets/images/team/sukkrit_sharma.jpg
+    - assets/images/team/ambarish_datar.jpg
+    - assets/images/team/apoorva_gupta.jpg
+    - assets/images/team/arnab_dutta.jpg
+    - assets/images/team/bidisha_mukherjea.jpg
+    - assets/images/team/jasprit_kaur.jpg
+    - assets/images/team/rahul_sarvadevabhatla.jpg
+    - assets/images/team/ram_maheshwari.jpg
+    - assets/images/team/Rishabh_Verma.jpg
+    - assets/images/team/ritik_rajput.jpg
+    - assets/images/team/sriyash.jpg
+    - assets/images/team/suhrid_datta.jpg
+    - assets/images/team/suryanshi_kaushik.jpg
+    - assets/images/linkedinblue.png
+    - assets/images/githubblack.png
+    - assets/images/team.png
     - assets/images/custom.svg
     - assets/images/html.png
 
