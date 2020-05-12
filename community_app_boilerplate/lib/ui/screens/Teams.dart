@@ -227,7 +227,7 @@ class _TeamScreenState extends State<TeamsScreen> {
                                           spreadRadius: 0)
                                     ],
                                     image: DecorationImage(
-                                        fit: BoxFit.fitWidth,
+                                        fit: BoxFit.cover,
                                         image: AssetImage(
                                             boardMembers[index]["imgUrl"]))),
                               ),
@@ -343,7 +343,7 @@ class _TeamScreenState extends State<TeamsScreen> {
                                           spreadRadius: 0)
                                     ],
                                     image: DecorationImage(
-                                        fit: BoxFit.fitWidth,
+                                        fit: BoxFit.cover,
                                         image: AssetImage(
                                             technicalTeam[index]["imgUrl"]))),
                               ),
@@ -461,7 +461,7 @@ class _TeamScreenState extends State<TeamsScreen> {
                                           spreadRadius: 0)
                                     ],
                                     image: DecorationImage(
-                                        fit: BoxFit.fitWidth,
+                                        fit: BoxFit.cover,
                                         image: AssetImage(
                                             managementTeam[index]["imgUrl"]))),
                               ),
@@ -582,7 +582,7 @@ class _TeamScreenState extends State<TeamsScreen> {
                                           spreadRadius: 0)
                                     ],
                                     image: DecorationImage(
-                                        fit: BoxFit.fitWidth,
+                                        fit: BoxFit.cover,
                                         image: AssetImage(
                                             designTeam[index]["imgUrl"]))),
                               ),

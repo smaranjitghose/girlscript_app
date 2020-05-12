@@ -1,3 +1,4 @@
+import 'package:communityappboilerplate/ui/screens/Teams.dart';
 import 'package:communityappboilerplate/ui/screens/events.dart';
 import 'package:communityappboilerplate/ui/screens/home.dart';
 import 'package:communityappboilerplate/ui/screens/milestone.dart';
@@ -36,7 +37,7 @@ class _DashboardState extends State<Dashboard> {
           Home(name),
           Events(),
           Milestone(name),
-          Center(child: Text("TEAM")),
+          TeamsScreen(),
           Profile(name, imageUrl),
         ],
         onPageChanged: (int index) {
