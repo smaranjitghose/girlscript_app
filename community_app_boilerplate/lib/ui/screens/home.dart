@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
     if (!(!_hasSpeech || speech.isListening))
       startListening();
     else
-      null;
+      return null;
   }
 
   _incrementCounter() {
@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
       if (!_hasSpeech) {
         initSpeechState();
       } else
-        null;
+        return null;
 
       setState(() {
         _counter++;
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
       if (speech.isListening)
         stopListening();
       else
-        null;
+        return null;
 
       setState(() {
         _counter = 0;
@@ -396,10 +396,10 @@ class _HomeState extends State<Home> {
     });
   }
 
-  _switchLang(selectedVal) {
-    setState(() {
-      _currentLocaleId = selectedVal;
-    });
-    print(selectedVal);
-  }
+  // _switchLang(selectedVal) {
+  //   setState(() {
+  //     _currentLocaleId = selectedVal;
+  //   });
+  //   print(selectedVal);
+  // }
 }
