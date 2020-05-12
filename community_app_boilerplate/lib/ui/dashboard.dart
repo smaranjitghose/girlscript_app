@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
   final String name, imageUrl;
-  Dashboard({this.name, this.imageUrl});
+  Dashboard(this.name, this.imageUrl);
 
   @override
   _DashboardState createState() => _DashboardState();

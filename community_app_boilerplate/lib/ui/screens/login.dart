@@ -1,6 +1,7 @@
-import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:communityappboilerplate/ui/screens/signUpScreen.dart';
 import 'package:flutter/material.dart';
+
+import '../dashboard.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -8,9 +9,6 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  String password;
-  String username;
-
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
 
   void toggleView() {
@@ -34,9 +32,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget _displayUsernameInputField() {
     return TextFormField(
-      onChanged: (value) {
-        username = value;
-      },
       style: TextStyle(
         color: Color(0xFFE46D39),
       ),
@@ -61,9 +56,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget _displayPasswordField() {
     return TextFormField(
-      onChanged: (value) {
-        password = value;
-      },
       obscureText: true,
       style: TextStyle(
         color: Color(0xFFE46D39),
@@ -203,8 +195,11 @@ class _LoginScreenState extends State<LoginScreen> {
               RaisedButton(
                 elevation: 6,
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Dashboard()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => Dashboard(
+                              'userUpdateInfo.displayName', 'dsadsad')));
                 },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),

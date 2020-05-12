@@ -1,10 +1,12 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:communityappboilerplate/services/signUp.dart';
 import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:communityappboilerplate/ui/screens/Teams.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
+import 'package:communityappboilerplate/services/signUp.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
@@ -60,8 +62,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             Navigator.of(context).push(
               MaterialPageRoute(
                 builder: (context) {
-                  return Dashboard(
-                      name: userUpdateInfo.displayName, imageUrl: imageUrl);
+                  return Dashboard('', '');
                 },
               ),
             );
@@ -290,26 +291,24 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                             _termsCond = value;
                                           });
                                         }),
-                                    Flexible(
-                                      child: RichText(
-                                        text: TextSpan(
-                                            text: "I have accepted the ",
-                                            style: TextStyle(
-                                              color: Colors.black54,
-                                              fontSize: 15,
-                                            ),
-                                            children: <TextSpan>[
-                                              TextSpan(
-                                                text: "Terms & Condition",
-                                                style: TextStyle(
-                                                  color: Color(0xffFF1F1F),
-                                                  decoration:
-                                                      TextDecoration.underline,
-                                                  fontWeight: FontWeight.w600,
-                                                ),
+                                    RichText(
+                                      text: TextSpan(
+                                          text: "I have accepted the ",
+                                          style: TextStyle(
+                                            color: Colors.black54,
+                                            fontSize: 15,
+                                          ),
+                                          children: <TextSpan>[
+                                            TextSpan(
+                                              text: "Terms & Condition",
+                                              style: TextStyle(
+                                                color: Color(0xffFF1F1F),
+                                                decoration:
+                                                    TextDecoration.underline,
+                                                fontWeight: FontWeight.w600,
                                               ),
-                                            ]),
-                                      ),
+                                            ),
+                                          ]),
                                     ),
                                     // SizedBox(width: 15),
                                   ],
@@ -382,12 +381,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: <Widget>[
-                              Flexible(
-                                child: Container(
-                                  height: 4,
-                                  width: width / 5,
-                                  color: Colors.grey[800],
-                                ),
+                              Container(
+                                height: 4,
+                                width: width / 5,
+                                color: Colors.grey[800],
                               ),
                               Text(
                                 "SOCIAL LOGIN",
@@ -397,12 +394,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   fontSize: 19,
                                 ),
                               ),
-                              Flexible(
-                                child: Container(
-                                  height: 4,
-                                  width: width / 5,
-                                  color: Colors.grey[800],
-                                ),
+                              Container(
+                                height: 4,
+                                width: width / 5,
+                                color: Colors.grey[800],
                               ),
                             ],
                           ),
@@ -483,8 +478,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   Navigator.of(context).push(
                                     MaterialPageRoute(
                                       builder: (context) {
-                                        return Dashboard(
-                                            name: name, imageUrl: imageUrl);
+                                        return Dashboard(name, imageUrl);
                                       },
                                     ),
                                   );
