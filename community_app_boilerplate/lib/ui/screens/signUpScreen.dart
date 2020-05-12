@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:communityappboilerplate/services/signUp.dart';
 import 'package:communityappboilerplate/ui/dashboard.dart';
+import 'package:communityappboilerplate/ui/screens/Teams.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
