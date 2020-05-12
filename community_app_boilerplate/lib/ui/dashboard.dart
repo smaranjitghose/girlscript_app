@@ -1,4 +1,3 @@
-import 'package:communityappboilerplate/ui/screens/Teams.dart';
 import 'package:communityappboilerplate/ui/screens/events.dart';
 import 'package:communityappboilerplate/ui/screens/home.dart';
 import 'package:communityappboilerplate/ui/screens/milestone.dart';
@@ -6,23 +5,22 @@ import 'package:communityappboilerplate/ui/screens/profile.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {
-  final String name, imageUrl;
-  Dashboard(this.name, this.imageUrl);
+
+  final String userId;
+  Dashboard({this.userId});
 
   @override
   _DashboardState createState() => _DashboardState();
 }
 
 class _DashboardState extends State<Dashboard> {
-  int _currentIndex = 0;
+  int _currentIndex=0;
   PageController _pageController;
-  String name = 'User Name';
+  String name= 'User Name';
   String imageUrl;
 
   @override
-  void initState() {
-    name = widget.name;
-    imageUrl = widget.imageUrl;
+  void initState(){
     super.initState();
     _pageController = PageController();
   }
@@ -33,78 +31,79 @@ class _DashboardState extends State<Dashboard> {
       backgroundColor: Colors.white,
       body: PageView(
         controller: _pageController,
-        children: <Widget>[
-          Home(name),
-          Events(),
-          Milestone(name),
-          TeamsScreen(),
-          Profile(name, imageUrl),
-        ],
-        onPageChanged: (int index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.white,
-          type: BottomNavigationBarType.shifting,
-          // fixedColor: Colors.black,
-          selectedItemColor: Colors.amber[800],
-          unselectedItemColor: Colors.black,
-          currentIndex: _currentIndex,
-          onTap: (index) {
+          children: <Widget>[
+            Home(widget.userId),
+            Events(),
+            Milestone(widget.userId),
+            Center(child:Text("TEAM")),
+            Profile(widget.userId),
+          ],
+          onPageChanged: (int index){
             setState(() {
               _currentIndex = index;
             });
-            _pageController.animateToPage(
-              index,
-              duration: Duration(milliseconds: 200),
-              curve: Curves.easeIn,
-            );
           },
-          items: [
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.home,
-              ),
-              title: Text(
-                'HOME',
-              ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
+        type: BottomNavigationBarType.shifting,
+        // fixedColor: Colors.black,
+        selectedItemColor: Colors.amber[800],
+        unselectedItemColor: Colors.black,
+        currentIndex: _currentIndex,
+        onTap: (index){
+          setState(() {
+            _currentIndex=index;
+          });
+          _pageController.animateToPage(
+            index,
+            duration:Duration(milliseconds: 200),
+            curve: Curves.easeIn,
+          );
+        },
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home,
             ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.event,
-              ),
-              title: Text(
-                'EVENTS',
-              ),
+            title: Text(
+              'HOME',
             ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.assignment,
-              ),
-              title: Text(
-                'MILESTONES',
-              ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.event,
             ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.people,
-              ),
-              title: Text(
-                'TEAM',
-              ),
+            title: Text(
+              'EVENTS',
             ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.account_box,
-              ),
-              title: Text(
-                'PROFILE',
-              ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.assignment,
             ),
-          ]),
+            title: Text(
+              'MILESTONES',
+            ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.people,
+            ),
+            title: Text(
+              'TEAM',
+            ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.account_box,
+            ),
+            title: Text(
+              'PROFILE',
+            ),
+          ),
+        ]
+      ),
     );
   }
 }
