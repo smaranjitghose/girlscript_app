@@ -1,3 +1,4 @@
+import 'package:communityappboilerplate/ui/screens/eventRegister.dart';
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
@@ -522,7 +523,9 @@ class _EventsState extends State<Events> {
                     ),
                     SizedBox(height: MediaQuery.of(context).size.height*0.013,),
                     RaisedButton(
-                      onPressed:(){},
+                      onPressed:(){
+                        Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>EventRegister()));
+                      },
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12.0)
                       ),

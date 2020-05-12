@@ -1,11 +1,11 @@
-# Community App Boilerplate  :information_desk_person:
+<h1 align="center"><b> Community App Boilerplate  </b></h1>
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/girlscript_app)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/girlscript_app)
 [![License](https://img.shields.io/github/license/smaranjitghose/girlscript_app)](https://github.com/smaranjitghose/girlscript_app/blob/master/LICENSE)
-![GSSOC'20](https://img.shields.io/badge/GSSOC-20-orange?style=for-the-badge)
+
 
 
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities.
@@ -21,7 +21,7 @@ Additionally, this app developed by the community, and for the community, will a
 
 ## Mockups  :memo:
 
-<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Mockup01.png" alt="feed example" width="800">
+<img src="https://github.com/smaranjitghose/girlscript_app/blob/master/MockUp/Mockup01.png" alt="feed example" width="1200">
 
 ## Hexadecimal Codes :octocat: 
 
@@ -136,7 +136,7 @@ click on `Compare and Pull Request`
 		
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
-**Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App] s(https://github.com/smaranjitghose/girlscript_app) project.
+**Congratulations!**  :boom: Sit and relax, you've made your contribution to [GirlScript App](https://github.com/smaranjitghose/girlscript_app) project.
 
 #### Code of Conduct:
 
@@ -144,23 +144,38 @@ click on `Compare and Pull Request`
 
 [Make sure you don't violate this](https://github.com/smaranjitghose/girscript_app/blob/master/CODE_OF_CONDUCT.md)
 
-## 👨 Project Admin
-![Admin](https://media.giphy.com/media/26wkRxKJ9yUZzlorK/giphy.gif)
 
-[Smaranjit Ghose](https://github.com/smaranjitghose)
 
-## 👬  Mentors and Project Maintainers
+# Contributors: 
 
-![Project Maintainers](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)
+[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/0)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/0)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/1)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/1)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/2)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/2)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/3)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/3)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/4)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/4)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/5)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/5)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/6)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/6)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/7)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/7)
 
-- [Sukkrit Sharma](https://github.com/sukkritsharmaofficial)
+
+<h3 align="center"><b> 👨 Project Admin</b></h3>
+
+
+<p align="center"><img width=20% src="https://avatars2.githubusercontent.com/u/46641503?v=4"></p>
+<h4 align="center"><b> Smaranjit Ghose</b></h4>
+
+
+<h3 align="center"><b> Project Maintainers and Mentors 👬 </b></h3>
+
+
 - [Saswat Nayak](https://github.com/swat1998)
 - [Ousnik Polley](https://github.com/ousnik)
 - [Anush Bhatia](https://github.com/anushbhatia)
 
-Feel free to ask your queries!! 🙌
 
-## License 📝
+<h2 align="center"><b> Code of Conduct</b></h2> 
+
+<p align="center"><img width=35% src="https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif"></p>
+
+
+<h2 align="center"><b> License 📝</b></h2> 
+
+<p align="center"><img width=35% src="https://media.giphy.com/media/xUPGcJGy8I928yIlAQ/giphy.gif"></p>
+
 Refer to [LICENSE](./LICENSE).
+
 
 
