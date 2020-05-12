@@ -24,7 +24,7 @@ class _MilestoneState extends State<Milestone> {
     final height=MediaQuery.of(context).size.height;
     final width=MediaQuery.of(context).size.width;
     return FutureBuilder(
-      future: userRef.document().get(),
+      future: userRef.document(widget.userId).get(),
       builder: (BuildContext context, AsyncSnapshot snapshot){
         if(!snapshot.hasData){
           return Center(
