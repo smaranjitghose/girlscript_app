@@ -152,118 +152,118 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     )
     : Scaffold(
-      resizeToAvoidBottomPadding: true,
-      body: Container(
-      padding: EdgeInsets.all(25),
-      alignment: Alignment.center,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(colors: [Color(0xffffe2c9),Colors.white],begin: Alignment.bottomRight,end: Alignment.topLeft),
-      ),
-      child: SingleChildScrollView(
-        child: Column(
-        children: <Widget>[
-          SizedBox(height: 10,),
-          _displaygslogo(),
-          Text(
-            "Welcome",
-            style: TextStyle(
-                fontSize: 20,
-                color: Colors.black87,
-                fontWeight: FontWeight.bold,
-                fontFamily: "Montserrat",
-            ),
-          ),
-          SizedBox(height:10),
-          Container(
-            height: 45,
-            width: 280,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(30)),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.grey[200].withOpacity(0.8),
-                  blurRadius: 2,
-                  spreadRadius: 3,
-                  offset: Offset(0, 1),
-                ),
-              ],
-            ),
-            child: Text("GirlScript Chennai",
+        resizeToAvoidBottomPadding: true,
+        body: Container(
+        padding: EdgeInsets.all(25),
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(colors: [Color(0xffffe2c9),Colors.white],begin: Alignment.bottomRight,end: Alignment.topLeft),
+        ),
+        child: SingleChildScrollView(
+          child: Column(
+          children: <Widget>[
+            SizedBox(height: 10,),
+            _displaygslogo(),
+            Text(
+              "Welcome",
               style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black87,
+                  fontWeight: FontWeight.bold,
                   fontFamily: "Montserrat",
-                  fontSize: 22,
-                  color: Color(0xFFE46D39),
               ),
             ),
-          ),
-          SizedBox(height: 10),
-          Text(
-            "Let's Code For Freedom",
-            style: TextStyle(
-                fontSize: 23,
-                color: Colors.black54,
-                fontWeight: FontWeight.bold,
-                fontFamily: "Montserrat",
+            SizedBox(height:10),
+            Container(
+              height: 45,
+              width: 280,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.all(Radius.circular(30)),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey[200].withOpacity(0.8),
+                    blurRadius: 2,
+                    spreadRadius: 3,
+                    offset: Offset(0, 1),
+                  ),
+                ],
+              ),
+              child: Text("GirlScript Chennai",
+                style: TextStyle(
+                    fontFamily: "Montserrat",
+                    fontSize: 22,
+                    color: Color(0xFFE46D39),
+                ),
+              ),
             ),
-          ),
-          _displayForm(),
-          SizedBox(height: 20),
-          RaisedButton(
-              elevation: 6,
-              onPressed:() async {
-                if(_formKey.currentState.validate()){
-                  setState(() => _loading =true);
-                  dynamic result = await _auth.signInWithEmailAndPassword(_email,_password);
-                  if(result == null){
-                    setState(() {
-                      error = 'Invalid Credentials';
-                      _loading = false;
-                    });
+            SizedBox(height: 10),
+            Text(
+              "Let's Code For Freedom",
+              style: TextStyle(
+                  fontSize: 23,
+                  color: Colors.black54,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: "Montserrat",
+              ),
+            ),
+            _displayForm(),
+            SizedBox(height: 20),
+            RaisedButton(
+                elevation: 6,
+                onPressed:() async {
+                  if(_formKey.currentState.validate()){
+                    setState(() => _loading =true);
+                    dynamic result = await _auth.signInWithEmailAndPassword(_email,_password);
+                    if(result == null){
+                      setState(() {
+                        error = 'Invalid Credentials';
+                        _loading = false;
+                      });
+                    }
                   }
-                }
-              },
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5),
-              ),
-              padding: EdgeInsets.all(0.0),
-              child: Ink(
-                width: 0.73*devicewidth,
-                padding: EdgeInsets.all(12.5),
-                decoration: BoxDecoration(
-                  shape: BoxShape.rectangle,
+                },
+                shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),
-                  gradient: LinearGradient(
-                    colors: [Color(0xffFE824A), Color(0xffE16831)],
-                    begin: Alignment.centerRight,
-                    end: Alignment.centerLeft,
+                ),
+                padding: EdgeInsets.all(0.0),
+                child: Ink(
+                  width: 0.73*devicewidth,
+                  padding: EdgeInsets.all(12.5),
+                  decoration: BoxDecoration(
+                    shape: BoxShape.rectangle,
+                    borderRadius: BorderRadius.circular(5),
+                    gradient: LinearGradient(
+                      colors: [Color(0xffFE824A), Color(0xffE16831)],
+                      begin: Alignment.centerRight,
+                      end: Alignment.centerLeft,
+                    ),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text("SIGN IN ",
+                        style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        )
+                      ),
+                      Icon(
+                        Icons.arrow_forward,
+                        color: Colors.white,
+                        size: 25,
+                      ),
+                    ],
                   ),
                 ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Text("SIGN IN ",
-                      style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      )
-                    ),
-                    Icon(
-                      Icons.arrow_forward,
-                      color: Colors.white,
-                      size: 25,
-                    ),
-                  ],
-                ),
-              ),
-          ),
-          SizedBox(height: 80),
-          _signupRedirect(),
-          SizedBox(height: 40)
-        ],
-      ),
+            ),
+            SizedBox(height: 80),
+            _signupRedirect(),
+            SizedBox(height: 40)
+          ],
+        ),
       ),      
     ),
     );
