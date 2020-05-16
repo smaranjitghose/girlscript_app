@@ -1,3 +1,5 @@
+.. _labelcoc:
+
 Contributor Covenant Code of Conduct
 ====================================
 
