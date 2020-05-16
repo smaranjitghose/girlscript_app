@@ -10,6 +10,9 @@ This app is a center to various events ranging from portraying the member’s ac
 
 Contributors Guide
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0d77797... Docs initial commit
 ^^^^^^^^^^^^^^^^^^
 Contributors, Welcome aboard! In this section of the documentation you will find all the information required to start contributing to our app. For details `click here. <contributors_guide.html>`__
 
@@ -24,6 +27,7 @@ Fundamental things about deploying the application are discussed under this sect
 Code of Conduct and License
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Contributor covenant code of conduct and license of the GirlScript App are included under this section. For details `click here. <code_of_conduct.html>`__
+<<<<<<< HEAD
 
 
 .. toctree::
@@ -31,25 +35,34 @@ Contributor covenant code of conduct and license of the GirlScript App are inclu
    :caption: Contributing to the App
 =======
 ==================
+=======
+>>>>>>> 0d77797... Docs initial commit
 
-Welcome aboard!
 
 .. toctree::
    :maxdepth: 1
+<<<<<<< HEAD
    :titlesonly:
    :caption: Table of Contents
 >>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
+=======
+   :caption: Contributing to the App
+>>>>>>> 0d77797... Docs initial commit
    
    contributors_guide
 
 .. toctree::
    :maxdepth: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
    :caption: Modifying the App
 =======
    :titlesonly:
    :caption: Modifying The App
 >>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
+=======
+   :caption: Modifying the App
+>>>>>>> 0d77797... Docs initial commit
    
    home
    event
@@ -60,10 +73,14 @@ Welcome aboard!
 .. toctree::
    :maxdepth: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
    :caption: Deploying the App
 =======
    :caption: Deploying The App
 >>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
+=======
+   :caption: Deploying the App
+>>>>>>> 0d77797... Docs initial commit
    
    firebase_integration
    update_from_firebase

@@ -1,6 +1,9 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "restructuredtext.confPath": "${workspaceFolder}/source"
 >>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
+=======
+>>>>>>> 0d77797... Docs initial commit
 }
