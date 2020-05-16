@@ -9,6 +9,7 @@ Welcome to GirlScript App's documentation!
 This app is a center to various events ranging from portraying the member’s achievements to announcing the upcoming opportunities. Additionally, this app developed by the community, and for the community, will add elegance. Plus, being as an open source project, this will be a golden opportunity for beginners to learn and contribute to it just like a cherry on the cake.
 
 Contributors Guide
+<<<<<<< HEAD
 ^^^^^^^^^^^^^^^^^^
 Contributors, Welcome aboard! In this section of the documentation you will find all the information required to start contributing to our app. For details `click here. <contributors_guide.html>`__
 
@@ -28,12 +29,27 @@ Contributor covenant code of conduct and license of the GirlScript App are inclu
 .. toctree::
    :maxdepth: 1
    :caption: Contributing to the App
+=======
+==================
+
+Welcome aboard!
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Table of Contents
+>>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
    
    contributors_guide
 
 .. toctree::
    :maxdepth: 1
+<<<<<<< HEAD
    :caption: Modifying the App
+=======
+   :titlesonly:
+   :caption: Modifying The App
+>>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
    
    home
    event
@@ -43,7 +59,11 @@ Contributor covenant code of conduct and license of the GirlScript App are inclu
 
 .. toctree::
    :maxdepth: 1
+<<<<<<< HEAD
    :caption: Deploying the App
+=======
+   :caption: Deploying The App
+>>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
    
    firebase_integration
    update_from_firebase
