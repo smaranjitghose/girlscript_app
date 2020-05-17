@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 .. _labelcoc:
 
-=======
->>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
 Contributor Covenant Code of Conduct
 ====================================
 

@@ -1,5 +1,4 @@
 Contributor's Guide
-<<<<<<< HEAD
 ===================
 
 Contributors, Welcome aboard! In this section of the documentation you will find all the information required to start contributing to our app.
@@ -87,6 +86,3 @@ Code of Conduct:
    :alt: code\_of\_conduct
 
 `Make sure you don't violate this. <code_of_conduct.html>`__
-=======
-===================
->>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
