@@ -1,13 +1,8 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 .. _labelcoc:
 
 =======
 >>>>>>> 9306d54... Added all pages to be documented. Configured theme, extension.
-=======
-.. _labelcoc:
-
->>>>>>> 0d77797... Docs initial commit
 Contributor Covenant Code of Conduct
 ====================================
 
