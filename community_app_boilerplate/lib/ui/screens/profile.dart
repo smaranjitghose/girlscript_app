@@ -218,7 +218,7 @@ class _ProfileState extends State<Profile> {
                         ),
                         SizedBox(width: MediaQuery.of(context).size.width * 0.03,),
                         Text(
-                          'Personel Details',
+                          'Personal Details',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 13.0

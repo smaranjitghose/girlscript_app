@@ -62,59 +62,61 @@ class _MilestoneState extends State<Milestone> {
               height: 200.0,
             ),
             Card(
-              elevation: 6.0,
+              color: Colors.white,
+              elevation: 5.0,
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10)
-              ),
+                  borderRadius: BorderRadius.circular(15.0),
+                  side:
+                  BorderSide(color: Colors.white, width: 0.0)),
               child: Padding(
-                padding: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.only(
+                    top: 15.0, bottom: 15.0, left: 10.0, right: 10.0),
                 child: Row(
                   children: <Widget>[
-                    Container(
-                      width: width*0.2,
-                      height: height*0.13,
-                      child: Card(
-                        color: Colors.grey[300],
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)
-                        ),
-                        elevation: 3.0,
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Image.asset(
-                            'assets/images/html.png',
-                            height: 30.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                    SizedBox(width: width*0.01,),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.start,
+                    Row(
                       children: <Widget>[
-                        Text(
-                          'Won Hackathon',
-                          style: TextStyle(
-                            fontSize: 18.0,
-                            fontWeight: FontWeight.bold
-                          ),
-                        ),
-                        Text(
-                          name,
-                          style: TextStyle(
-                            fontSize: 15.0,
-                          ),
-                        ),
-                        SizedBox(height: height*0.014,),
-                        Text(
-                          'datadatadatadatadatadata',
-                          style: TextStyle(
-                            fontSize: 13.0,
-                            color: Colors.amber[800]
+                        Card(color: Colors.grey[300],
+                          elevation: 5,
+                          child: Container(
+                            padding: EdgeInsets.only(top: 5, bottom: 5),
+                            margin: EdgeInsets.all(1),
+                            child: Image(
+                                image: AssetImage('assets/images/html.png'),
+                            height: 70,
+                            width: 60,),
                           ),
                         )
                       ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: Row(
+                        children: <Widget>[
+                          Column(
+
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Text(
+                                'Won Hackathalon',
+                                style: TextStyle(
+                                    fontSize: 17.0, fontWeight: FontWeight.w700),
+                              ), 
+                              Text(
+                                'By User',
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w400, fontSize: 13.0),
+                              ),
+                              Text(
+                                'dsadsadaasdads',style: TextStyle(
+                                color: Colors.amber[800],
+                                fontWeight: FontWeight.w400, fontSize: 13.0
+                              ),
+                              )
+
+                            ],
+                          )
+                        ],
+                      ),
                     )
                   ],
                 ),

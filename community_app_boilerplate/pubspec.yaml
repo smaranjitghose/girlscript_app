@@ -19,7 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_spinkit: ^4.1.2+1
+  flutter_spinkit: any
   bordered_text: ^1.0.0
   carousel_slider: ^1.4.1
   speech_to_text: ^2.0.1

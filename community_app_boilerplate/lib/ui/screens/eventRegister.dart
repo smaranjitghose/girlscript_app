@@ -102,7 +102,7 @@ class _EventRegisterState extends State<EventRegister> {
                 decoration: inputTextDecoration.copyWith(
                   labelText: "Name of Event",
                   icon: Icon(
-                    Icons.edit,
+                    Icons.event_note,
                     color: Colors.black87, 
                     size: 30
                   )
