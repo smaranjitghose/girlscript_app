@@ -48,7 +48,7 @@ class _EventsState extends State<Events> {
     if (!(!_hasSpeech || speech.isListening))
       startListening();
     else
-      null;
+      return null;
   }
 
   _incrementCounter() {
@@ -62,7 +62,7 @@ class _EventsState extends State<Events> {
       if (!_hasSpeech) {
         initSpeechState();
       } else
-        null;
+        return null;
 
       setState(() {
         _counter++;
@@ -74,7 +74,7 @@ class _EventsState extends State<Events> {
       if (speech.isListening)
         stopListening();
       else
-        null;
+        return null;
 
       setState(() {
         _counter = 0;
@@ -644,10 +644,10 @@ class _EventsState extends State<Events> {
     });
   }
 
-  _switchLang(selectedVal) {
-    setState(() {
-      _currentLocaleId = selectedVal;
-    });
-    print(selectedVal);
-  }
+  // _switchLang(selectedVal) {
+  //   setState(() {
+  //     _currentLocaleId = selectedVal;
+  //   });
+  //   print(selectedVal);
+  // }
 }
