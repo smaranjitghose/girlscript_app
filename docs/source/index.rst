@@ -14,7 +14,7 @@ Contributors, Welcome aboard! In this section of the documentation you will find
 
 Modifying the App
 ^^^^^^^^^^^^^^^^^
-This sections provides a detailed explanation of diffrent segments of the codebase and application. To modify the app this section will give proper guideline. For details `click here. <home.html>`__
+This sections provides a detailed explanation of diffrent segments of the codebase and application. To modify the app this section will give proper guideline. For details `click here. <getting_started.html>`__
 
 Deploying the App
 ^^^^^^^^^^^^^^^^^
@@ -35,11 +35,13 @@ Contributor covenant code of conduct and license of the GirlScript App are inclu
    :maxdepth: 1
    :caption: Modifying the App
    
+   getting_started
    home
    event
    milestones
    team
    profile
+
 
 .. toctree::
    :maxdepth: 1
