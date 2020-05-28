@@ -198,14 +198,14 @@ class _HomeState extends State<Home> {
                         Text(
                           'ANNOUNCEMENT',
                           style:
-                            TextStyle(fontSize: 22.0, fontWeight: FontWeight.w900),
+                            TextStyle(fontSize: 22.0, fontWeight: FontWeight.w700),
                         ),
                         SizedBox(
                           height: MediaQuery.of(context).size.width * 0.01,
                         ),
                         Container(
                           width: MediaQuery.of(context).size.width * 0.37,
-                          height: MediaQuery.of(context).size.width * 0.025,
+                          height: MediaQuery.of(context).size.width * 0.02,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(60.0),
                             color: Colors.amber[800],
