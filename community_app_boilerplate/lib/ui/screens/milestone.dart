@@ -43,8 +43,8 @@ class _MilestoneState extends State<Milestone> {
                   Text(
                     'MILESTONE',
                     style:TextStyle(
-                      fontSize: 30.0, 
-                      fontWeight: FontWeight.w900,
+                      fontSize: 25.0, 
+                      fontWeight: FontWeight.w700,
                       letterSpacing: 0.5
                     ),
                   ),
@@ -53,7 +53,7 @@ class _MilestoneState extends State<Milestone> {
                   ),
                   Container(
                     width: width * 0.37,
-                    height: width * 0.023,
+                    height: width * 0.02,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(60.0),
                       color: Colors.amber[800],
