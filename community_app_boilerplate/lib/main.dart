@@ -4,7 +4,7 @@ import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:communityappboilerplate/ui/screens/login.dart';
+import 'package:communityappboilerplate/ui/screens/auth/login.dart';
 
 void main() => runApp(MainApp());
 

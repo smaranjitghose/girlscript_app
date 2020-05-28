@@ -22,11 +22,11 @@ dependencies:
   flutter_spinkit: ^4.1.2+1
   bordered_text: ^1.0.0
   carousel_slider: ^1.4.1
-  speech_to_text: ^2.0.1
+  speech_to_text: ^2.2.0
   firebase_analytics: ^5.0.2
-  firebase_auth: ^0.14.0+5
-  cloud_firestore: ^0.12.9+5
-  google_sign_in: ^4.4.1
+  firebase_auth: ^0.16.1
+  cloud_firestore: ^0.13.6
+  google_sign_in: ^4.5.1
   url_launcher: ^5.4.5
   flutter_svg: ^0.17.3+1
   provider:
