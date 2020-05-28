@@ -94,6 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
             RaisedButton(
                 elevation: 6,
                 onPressed:() async {
+                  FocusScope.of(context).unfocus();
                   if(_formKey.currentState.validate()){
                     setState(() => _loading =true);
                     dynamic result = await _auth.signInWithEmailAndPassword(_email,_password);
@@ -188,6 +189,7 @@ class _LoginScreenState extends State<LoginScreen> {
       style: TextStyle(
         color: Color(0xFFE46D39),
       ),
+      keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
         icon: Icon(Icons.mail_outline,color: Colors.black,),
         labelText: "Email",
@@ -210,6 +212,7 @@ class _LoginScreenState extends State<LoginScreen> {
       style: TextStyle(
         color: Color(0xFFE46D39),
       ),
+      keyboardType: TextInputType.visiblePassword,
       decoration: InputDecoration(
         icon: Icon(Icons.lock,color: Colors.black,),
         labelText: "Password",
