@@ -1,6 +1,6 @@
 import 'package:communityappboilerplate/services/collection.dart';
 import 'package:communityappboilerplate/services/user.dart';
-import 'package:communityappboilerplate/ui/screens/login.dart';
+import 'package:communityappboilerplate/ui/screens/auth/login.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';

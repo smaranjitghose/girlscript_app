@@ -150,7 +150,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               Stack(
                 children: <Widget>[
                   Container(
-                    height: height / 4.3,
+                    height: height / 4.4,
                     width: width,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
@@ -330,6 +330,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           RaisedButton(
                             elevation: 6,
                             onPressed: () async {
+                              FocusScope.of(context).unfocus();
                               if(_termsCond){
                                 if (_formKey.currentState.validate()) {
                                   setState(() {
@@ -415,7 +416,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                     ),
-                    SizedBox(height: height*0.02),
+                    SizedBox(height: height*0.015),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
@@ -441,6 +442,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                     SizedBox(height: height*0.015),
                     Container(
+                      height: height*0.06,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(5),
                       ),
@@ -472,8 +474,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                     ),
-                    SizedBox(height: height / 70),
+                    SizedBox(height: height*0.01),
                     Container(
+                      height: height*0.06,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(5),
                       ),
@@ -504,8 +507,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                     ),
-                    SizedBox(height: height / 70),
+                    SizedBox(height: height*0.01),
                     Container(
+                      height: height*0.06,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(5),
                       ),
