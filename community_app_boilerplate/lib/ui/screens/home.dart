@@ -91,7 +91,10 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
+    String announcement1 = "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity. Throughout the program, participants contribute to different projects under guidance of experienced mentors. Top participants get exciting goodies and opportunities.";
+    String announcement2 = "It is a meetup where everyone who are a part of Girlscript will gather and share their experience.";
+    return Scaffold(
+      body: FutureBuilder(
       future: userRef.document(widget.userId).get(),
       builder: (BuildContext context, AsyncSnapshot snapshot){
         if(!snapshot.hasData){
@@ -252,7 +255,7 @@ class _HomeState extends State<Home> {
                                   ),
                                   SizedBox(height: MediaQuery.of(context).size.width * 0.0435,),
                                   Text(
-                                    'wohwohgwohbaoinaowhgw',
+                                    announcement1,
                                     style: TextStyle(
                                         fontWeight: FontWeight.w400, fontSize: 13.0),
                                   ),
@@ -293,13 +296,52 @@ class _HomeState extends State<Home> {
                             ],
                           ),
                           width: MediaQuery.of(context).size.width,
-                          height: MediaQuery.of(context).size.width * 0.360,
+                          // height: MediaQuery.of(context).size.width * 0.360,
                           child: Card(
                             color: Color(0xffF3F1FF),
                             // elevation: 6.0,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(15.0),
                               side: BorderSide(color: Color(0xffF3F1FF), width: 0.0)),
+                            child: Padding(
+                              padding: const EdgeInsets.only(
+                                  top: 15.0, bottom: 15.0, left: 20.0, right: 20.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: <Widget>[
+                                  Text(
+                                    'Girlscript Contributors Week',
+                                    style: TextStyle(
+                                      fontSize: 17.0, fontWeight: FontWeight.w700),
+                                  ),
+                                  SizedBox(height: MediaQuery.of(context).size.width * 0.0435,),
+                                  Text(
+                                    announcement2,
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.w400, fontSize: 13.0),
+                                  ),
+                                  SizedBox(
+                                    height:MediaQuery.of(context).size.width * 0.0455,
+                                  ),
+                                  Container(
+                                    height: MediaQuery.of(context).size.width * 0.07,
+                                    child: RaisedButton(
+                                      elevation: 5.0,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.circular(25.0)),
+                                      color: Colors.white,
+                                      onPressed: () {},
+                                      child: Text(
+                                        'READ MORE',
+                                        style: TextStyle(
+                                            fontSize: 10.0,
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
                           ),
                         ),
                         SizedBox(height: MediaQuery.of(context).size.width * 0.1),
@@ -312,7 +354,8 @@ class _HomeState extends State<Home> {
           );
         }
       },
-    );
+    )
+    ); 
   }
 
   void stressTest() {
