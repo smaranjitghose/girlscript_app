@@ -8,6 +8,8 @@ import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/ui/screens/auth/login.dart';
 
+import 'ui/screens/auth/signUpScreen.dart';
+
 void main() => runApp(MainApp());
 
 class MainApp extends StatelessWidget {
