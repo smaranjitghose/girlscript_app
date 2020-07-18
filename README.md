@@ -1,4 +1,4 @@
-<h1 align="center"><b> GirlScript  App  </b></h1>
+<h1 align="center"><b>GirlScript  App</b></h1>
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
@@ -145,7 +145,6 @@ click on `Compare and Pull Request`
 [Make sure you don't violate this](https://github.com/smaranjitghose/girscript_app/blob/master/CODE_OF_CONDUCT.md)
 
 
-
 # Contributors: 
 
 [![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/0)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/0)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/1)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/1)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/2)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/2)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/3)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/3)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/4)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/4)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/5)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/5)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/6)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/6)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/images/7)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/girlscript_app/links/7)
@@ -167,12 +166,10 @@ click on `Compare and Pull Request`
 
 
 <h2 align="center"><b> Code of Conduct</b></h2> 
-
 <p align="center"><img width=35% src="https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif"></p>
 
 
 <h2 align="center"><b> License 📝</b></h2> 
-
 <p align="center"><img width=35% src="https://media.giphy.com/media/xUPGcJGy8I928yIlAQ/giphy.gif"></p>
 
 Refer to [LICENSE](./LICENSE).
