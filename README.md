@@ -1,4 +1,4 @@
-<h1 align="center"><b> Community App Boilerplate  </b></h1>
+<h1 align="center"><b> GirlScript  App  </b></h1>
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/girlscript_app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/girlscript_app)
