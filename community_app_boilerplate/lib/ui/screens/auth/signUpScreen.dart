@@ -530,6 +530,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           borderRadius: BorderRadius.circular(5)
                         ),
                         onPressed: () {
+                          setState(() {
+                            _loading=true;
+                          });
                           _authService.signInWithGoogle().whenComplete(() {
                             Navigator.of(context).push(
                               MaterialPageRoute(
