@@ -6,6 +6,7 @@ import 'package:communityappboilerplate/services/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
+final AuthService _authService = AuthService();
 
 class Profile extends StatefulWidget {
 
@@ -250,7 +251,7 @@ class _ProfileState extends State<Profile> {
                           borderRadius: BorderRadius.circular(12.0)
                         ),
                         onPressed:() async {
-                          signOutGoogle();
+                          _authService.signOutGoogle();
                           await _auth.signOut(); 
                           Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) {return LoginScreen();}), ModalRoute.withName('/'));
                         },

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
+final AuthService _authService = AuthService();
+
 class SignUpScreen extends StatefulWidget {
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
@@ -528,7 +530,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           borderRadius: BorderRadius.circular(5)
                         ),
                         onPressed: () {
-                          signInWithGoogle().whenComplete(() {
+                          _authService.signInWithGoogle().whenComplete(() {
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (context) {
