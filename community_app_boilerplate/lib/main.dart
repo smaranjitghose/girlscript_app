@@ -1,7 +1,6 @@
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:communityappboilerplate/services/user.dart';
 import 'package:communityappboilerplate/ui/dashboard.dart';
-import 'package:communityappboilerplate/ui/screens/home.dart';
 import 'package:communityappboilerplate/ui/screens/auth/signUpScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
@@ -34,9 +33,9 @@ class MainApp extends StatelessWidget {
         stream: FirebaseAuth.instance.onAuthStateChanged,
         builder: (BuildContext context, snapshot) {
           if (snapshot.hasData) {
-            return Home(snapshot.data.uid);
+            return Dashboard(userId:snapshot.data.uid);
           } else {
-            return SignUpScreen();
+            return LoginScreen();
           }
         });
   }

@@ -25,7 +25,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
   bool _termsCond = false;
   bool _loading=false;
   String errorMsg="";
-  bool _autoValidate = false;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final AuthService _auth = AuthService();
 

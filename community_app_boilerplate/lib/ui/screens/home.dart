@@ -104,6 +104,7 @@ class _HomeState extends State<Home> {
         } else{
           User user= User.fromDoc(snapshot.data);
           return SingleChildScrollView(
+            primary: false,
             child: Container(
               child: Column(
                 children: <Widget>[

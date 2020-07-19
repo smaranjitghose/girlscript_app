@@ -32,18 +32,19 @@ class _DashboardState extends State<Dashboard> {
       backgroundColor: Colors.white,
       body: PageView(
         controller: _pageController,
-          children: <Widget>[
-            Home(widget.userId),
-            Events(),
-            Milestone(widget.userId),
-            TeamsScreen(),
-            Profile(widget.userId),
-          ],
-          onPageChanged: (int index){
-            setState(() {
-              _currentIndex = index;
-            });
-          },
+        physics: NeverScrollableScrollPhysics(),
+        children: <Widget>[
+          Home(widget.userId),
+          Events(),
+          Milestone(widget.userId),
+          TeamsScreen(),
+          Profile(widget.userId),
+        ],
+        onPageChanged: (int index){
+          setState(() {
+            _currentIndex = index;
+          });
+        },
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
