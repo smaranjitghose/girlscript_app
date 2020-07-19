@@ -89,7 +89,7 @@ class _EventsState extends State<Events> {
       body: SingleChildScrollView(
         child: Container(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 35.0),
+            padding: const EdgeInsets.symmetric(horizontal: 30.0),
             child: Column(
               children: <Widget>[
                 SizedBox(
