@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: __local_aars__:D./GSSoC'20/girlscript_app/community_app_boilerplate/build/app/intermediates/flutter/debug/libs.jar:unspecified@jar">
+  <library name="Gradle: ./../build/app/intermediates/flutter/debug/libs.jar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../build/app/intermediates/flutter/debug/libs.jar!/" />
     </CLASSES>

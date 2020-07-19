@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
+final AuthService _authService = AuthService();
+
 class SignUpScreen extends StatefulWidget {
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
@@ -25,7 +27,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
   bool _termsCond = false;
   bool _loading=false;
   String errorMsg="";
-  bool _autoValidate = false;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final AuthService _auth = AuthService();
 
@@ -337,6 +338,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                     _loading=true;
                                   });
                                   dynamic result = await _auth.registerWithEmailAndPassword(_userName,_email,_password);
+                                  print(result);
                                   switch (result) {
                                     case "ERROR_EMAIL_ALREADY_IN_USE":
                                     {
@@ -354,11 +356,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       });
                                     }
                                     break;
+                                    case "ERROR_INVALID_EMAIL":
+                                    {
+                                       setState(() {
+                                        errorMsg = "The enter mail is invalid";
+                                        _loading = false;
+                                      });
+                                    }
+                                    break;
                                     default:
                                     {
                                       setState(() {
                                         errorMsg = "";
                                       });
+                                      Navigator.push(context, MaterialPageRoute(builder: (context)=>Dashboard(userId: result.toString(),)));
                                     }
                                   }
                                 } 
@@ -519,7 +530,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           borderRadius: BorderRadius.circular(5)
                         ),
                         onPressed: () {
-                          signInWithGoogle().whenComplete(() {
+                          setState(() {
+                            _loading=true;
+                          });
+                          _authService.signInWithGoogle().whenComplete(() {
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (context) {
