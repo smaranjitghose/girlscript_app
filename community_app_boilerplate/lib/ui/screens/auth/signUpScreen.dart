@@ -336,6 +336,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                     _loading=true;
                                   });
                                   dynamic result = await _auth.registerWithEmailAndPassword(_userName,_email,_password);
+                                  print(result);
                                   switch (result) {
                                     case "ERROR_EMAIL_ALREADY_IN_USE":
                                     {
@@ -353,11 +354,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       });
                                     }
                                     break;
+                                    case "ERROR_INVALID_EMAIL":
+                                    {
+                                       setState(() {
+                                        errorMsg = "The enter mail is invalid";
+                                        _loading = false;
+                                      });
+                                    }
+                                    break;
                                     default:
                                     {
                                       setState(() {
                                         errorMsg = "";
                                       });
+                                      Navigator.push(context, MaterialPageRoute(builder: (context)=>Dashboard(userId: result.toString(),)));
                                     }
                                   }
                                 } 

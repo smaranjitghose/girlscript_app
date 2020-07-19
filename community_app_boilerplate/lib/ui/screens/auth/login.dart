@@ -1,4 +1,5 @@
 import 'package:communityappboilerplate/services/auth.dart';
+import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:communityappboilerplate/ui/screens/auth/signUpScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -13,9 +14,15 @@ class _LoginScreenState extends State<LoginScreen> {
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
   final AuthService _auth = AuthService();
   bool _loading=false;
-  String _email,_password,error;
+  String _email,_password,errorMsg;
   final FocusNode logInNodeEmailLogin = FocusNode();
   final FocusNode logInNodePasswordLogin = FocusNode();
+
+  @override
+  void initState() {
+    errorMsg="";
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -98,11 +105,46 @@ class _LoginScreenState extends State<LoginScreen> {
                   if(_formKey.currentState.validate()){
                     setState(() => _loading =true);
                     dynamic result = await _auth.signInWithEmailAndPassword(_email,_password);
-                    if(result == null){
-                      setState(() {
-                        error = 'Invalid Credentials';
-                        _loading = false;
-                      });
+                    switch (result) {
+                      case "ERROR_WRONG_PASSWORD":
+                      {
+                        setState(() {
+                          errorMsg = "Wrong Password. Try Again.";
+                          _loading = false;
+                        });
+                      }
+                      break;
+                      case "ERROR_USER_NOT_FOUND":
+                      {
+                        setState(() {
+                          errorMsg = "User Not Found. Register First.";
+                          _loading = false;
+                        });
+                      }
+                      break;
+                      case "ERROR_USER_DISABLED":
+                      {
+                          setState(() {
+                          errorMsg = "Your Account is diaabled.";
+                          _loading = false;
+                        });
+                      }
+                      break;
+                      case "ERROR_TOO_MANY_REQUESTS":
+                      {
+                          setState(() {
+                          errorMsg = "Too many requestes.";
+                          _loading = false;
+                        });
+                      }
+                      break;
+                      default:
+                      {
+                        setState(() {
+                          errorMsg = "";
+                        });
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Dashboard(userId: result.toString(),)));
+                      }
                     }
                   }
                 },
@@ -142,7 +184,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
             ),
-            SizedBox(height: 80),
+            SizedBox(height: 15),
+            Text(
+              errorMsg,
+              style: TextStyle(
+                color: Colors.red
+              ),
+            ),
+            SizedBox(height: 60),
             _signupRedirect(),
             SizedBox(height: 40)
           ],

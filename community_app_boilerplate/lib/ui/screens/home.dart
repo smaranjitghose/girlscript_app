@@ -33,6 +33,7 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
+    print(widget.userId);
   }
 
   Future<void> initSpeechState() async {
@@ -102,6 +103,7 @@ class _HomeState extends State<Home> {
             child: CircularProgressIndicator(),
           );
         } else{
+          print(snapshot.data);
           User user= User.fromDoc(snapshot.data);
           return SingleChildScrollView(
             primary: false,

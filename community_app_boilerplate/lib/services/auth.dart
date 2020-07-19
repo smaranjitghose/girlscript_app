@@ -61,18 +61,18 @@ class AuthService{
 
   Stream<User> get user {
     return _auth.onAuthStateChanged
-      //.map((FirebaseUser user) => _userFromFirebaseUser(user)); 
-      .map(_userFromFirebaseUser);
+      .map((FirebaseUser user) => _userFromFirebaseUser(user));
   }
 
   Future signInWithEmailAndPassword(String email, String password) async {
     try{
       AuthResult result = await _auth.signInWithEmailAndPassword(email: email,password: password);
       FirebaseUser user = result.user;
-      return _userFromFirebaseUser(user);
+      _userFromFirebaseUser(user);
+      return user.uid;
     } catch(e){
       print(e.toString());
-      return null;
+      return e.code;
     }
   }
 
@@ -87,7 +87,8 @@ class AuthService{
           'profileImageUrl': '',
         });
       }
-      return _userFromFirebaseUser(user);
+      _userFromFirebaseUser(user);
+      return user.uid;
     } catch(e){
       print(e.toString());
       return e.code;
