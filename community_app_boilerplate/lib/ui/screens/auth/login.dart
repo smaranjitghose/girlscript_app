@@ -49,7 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SizedBox(height: height*0.04,),
+            // SizedBox(height: height*0.04,),
             _displaygslogo(),
             Text(
               "Welcome",
@@ -215,7 +215,7 @@ class _LoginScreenState extends State<LoginScreen> {
         image: DecorationImage(
           image: AssetImage("assets/images/gs.png"),
           alignment: Alignment.center,
-          fit: BoxFit.fill 
+          fit: BoxFit.contain 
         )
       ),
     );
