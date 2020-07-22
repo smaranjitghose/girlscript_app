@@ -25,10 +25,10 @@ dependencies:
   speech_to_text: ^2.2.0
   firebase_analytics: ^5.0.2
   firebase_auth: ^0.16.1
-  cloud_firestore: ^0.13.6
+  cloud_firestore: ^0.13.7
   google_sign_in: ^4.5.1
   url_launcher: ^5.4.5
-  flutter_svg: ^0.17.3+1
+  flutter_svg: ^0.18.0
   provider:
 
   # The following adds the Cupertino Icons font to your application.
