@@ -1,6 +1,3 @@
-gssoc20:
-  - community_app_boilerplate/*
-
 hacktoberfest:
   - community_app_boilerplate/*
   - ./*
