@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72ae8d76-1db7-49f4-aaf8-361938aa0d12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/community_app_boilerplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/community_app_boilerplate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/auth/signUpScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/auth/signUpScreen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="C:/tools/dart-sdk/bin" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,10 +66,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1601535663993">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1601535663993" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1595399388559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595399388559" />
+    <state width="1876" height="155" key="GridCell.Tab.0.bottom" timestamp="1601535554565">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="155" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1601535554565" />
+    <state width="1876" height="155" key="GridCell.Tab.0.center" timestamp="1601535554564">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="155" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1601535554564" />
+    <state width="1876" height="155" key="GridCell.Tab.0.left" timestamp="1601535554562">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="155" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1601535554562" />
+    <state width="1876" height="155" key="GridCell.Tab.0.right" timestamp="1601535554564">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="155" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1601535554564" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1595400047619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -72,10 +98,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1595399940585" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595398963356">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="581" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1601533874906">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595398963356" />
+    <state x="581" y="329" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1601533874906" />
+    <state x="1060" y="127" width="760" height="853" key="dock-window-1" timestamp="1601535402055">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1060" y="127" width="760" height="853" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1601535402055" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1595400051768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
