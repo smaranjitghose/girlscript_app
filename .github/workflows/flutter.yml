@@ -11,7 +11,7 @@ jobs:
     steps:
     
     # Access app source directory
-    - run: cd community_app_boilerplate
+    - run: cd ./community_app_boilerplate
     
     # Setup Java environment in order to build the Android app.
     - uses: actions/checkout@v1
