@@ -2,6 +2,7 @@ import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 final AuthService _authService = AuthService();
 
@@ -575,5 +576,21 @@ class _SignUpScreenState extends State<SignUpScreen> {
         ),
       ),
     );
+  }
+
+  void onClickGitHubLoginButton() async {
+    const String url = "https://github.com/login/oauth/authorize" +
+        "?client_id=" + '841cad1c253905cedb95' +
+        "&scope=public_repo%20read:user%20user:email";
+
+    if (await canLaunch(url)) {
+      await launch(
+        url,
+        forceSafariVC: false,
+        forceWebView: false,
+      );
+    } else {
+      print("CANNOT LAUNCH THIS URL!");
+    }
   }
 }
