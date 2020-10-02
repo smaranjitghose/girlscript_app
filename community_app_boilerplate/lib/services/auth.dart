@@ -116,10 +116,8 @@ class AuthService {
   // Githu
   Future<AuthResult> signInWithGitHub(BuildContext context) async {
     // Create a GitHubSignIn instance
-    final GitHubSignIn gitHubSignIn = GitHubSignIn(
-        clientId: "841cad1c253905cedb95",
-        clientSecret: "744fd93d598f84105d4dd7a8d2faf434cbd2c4ac",
-        redirectUrl: 'https://girlscript-chennai-b25ae.firebaseapp.com/__/auth/handler');
+    final GitHubSignIn gitHubSignIn =
+        GitHubSignIn(clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUrl: 'https://girlscript-chennai-b25ae.firebaseapp.com/__/auth/handler');
 
     // Trigger the sign-in flow
     final result = await gitHubSignIn.signIn(context);
