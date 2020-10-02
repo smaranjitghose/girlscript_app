@@ -5,6 +5,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:github_sign_in/github_sign_in.dart';
 
+import '../secret.dart';
+
 final FirebaseAuth _auth = FirebaseAuth.instance;
 final GoogleSignIn googleSignIn = GoogleSignIn();
 final Firestore _firestore = Firestore.instance;
@@ -16,12 +18,14 @@ class AuthService {
   }
 
   Stream<User> get user {
-    return _auth.onAuthStateChanged.map((FirebaseUser user) => _userFromFirebaseUser(user));
+    return _auth.onAuthStateChanged
+        .map((FirebaseUser user) => _userFromFirebaseUser(user));
   }
 
   Future signInWithEmailAndPassword(String email, String password) async {
     try {
-      AuthResult result = await _auth.signInWithEmailAndPassword(email: email, password: password);
+      AuthResult result = await _auth.signInWithEmailAndPassword(
+          email: email, password: password);
       FirebaseUser user = result.user;
       _userFromFirebaseUser(user);
       return user.uid;
@@ -31,9 +35,11 @@ class AuthService {
     }
   }
 
-  Future registerWithEmailAndPassword(String name, String email, String password) async {
+  Future registerWithEmailAndPassword(
+      String name, String email, String password) async {
     try {
-      AuthResult result = await _auth.createUserWithEmailAndPassword(email: email, password: password);
+      AuthResult result = await _auth.createUserWithEmailAndPassword(
+          email: email, password: password);
       FirebaseUser user = result.user;
       if (user != null) {
         _firestore.collection('/users').document(user.uid).setData({
@@ -56,7 +62,8 @@ class AuthService {
 
   Future<String> signInWithGoogle() async {
     final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
-    final GoogleSignInAuthentication googleSignInAuthentication = await googleSignInAccount.authentication;
+    final GoogleSignInAuthentication googleSignInAuthentication =
+        await googleSignInAccount.authentication;
 
     final AuthCredential credential = GoogleAuthProvider.getCredential(
       accessToken: googleSignInAuthentication.accessToken,
@@ -116,18 +123,22 @@ class AuthService {
   // Githu
   Future<AuthResult> signInWithGitHub(BuildContext context) async {
     // Create a GitHubSignIn instance
-    final GitHubSignIn gitHubSignIn =
-        GitHubSignIn(clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUrl: 'https://girlscript-chennai-b25ae.firebaseapp.com/__/auth/handler');
+    final GitHubSignIn gitHubSignIn = GitHubSignIn(
+        clientId: CLIENT_ID,
+        clientSecret: CLIENT_SECRET,
+        redirectUrl: REDIRECT_URL);
 
     // Trigger the sign-in flow
     final result = await gitHubSignIn.signIn(context);
 
     // Create a credential from the access token
-    final AuthCredential githubAuthCredential = GithubAuthProvider.getCredential(token: result.token);
+    final AuthCredential githubAuthCredential =
+        GithubAuthProvider.getCredential(token: result.token);
 
     // Once signed in, return the UserCredential
     //
-    var user = await FirebaseAuth.instance.signInWithCredential(githubAuthCredential);
+    var user =
+        await FirebaseAuth.instance.signInWithCredential(githubAuthCredential);
 
     name = user.user.displayName;
     email = user.user.email;
