@@ -1,6 +1,0 @@
-hacktoberfest:
-  - community_app_boilerplate/*
-  - .github/*
-
-root:
-  - ./*
