@@ -2,10 +2,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:communityappboilerplate/services/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:github_sign_in/github_sign_in.dart'; //TODO
+import 'package:linkedin_login/linkedin_login.dart';
 
-//TODO: import '../secret.dart';
+import '../secret.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 final GoogleSignIn googleSignIn = GoogleSignIn();
@@ -18,14 +20,12 @@ class AuthService {
   }
 
   Stream<User> get user {
-    return _auth.onAuthStateChanged
-        .map((FirebaseUser user) => _userFromFirebaseUser(user));
+    return _auth.onAuthStateChanged.map((FirebaseUser user) => _userFromFirebaseUser(user));
   }
 
   Future signInWithEmailAndPassword(String email, String password) async {
     try {
-      AuthResult result = await _auth.signInWithEmailAndPassword(
-          email: email, password: password);
+      AuthResult result = await _auth.signInWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
       _userFromFirebaseUser(user);
       return user.uid;
@@ -35,11 +35,10 @@ class AuthService {
     }
   }
 
-  Future registerWithEmailAndPassword(
-      String name, String email, String password) async {
+  Future registerWithEmailAndPassword(String name, String email, String password) async {
     try {
-      AuthResult result = await _auth.createUserWithEmailAndPassword(
-          email: email, password: password);
+      AuthResult result =
+          await _auth.createUserWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
       if (user != null) {
         _firestore.collection('/users').document(user.uid).setData({
@@ -125,10 +124,8 @@ class AuthService {
   /*
   Future<AuthResult> signInWithGitHub(BuildContext context) async {
     // Create a GitHubSignIn instance
-    final GitHubSignIn gitHubSignIn = GitHubSignIn(
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
-        redirectUrl: REDIRECT_URL);
+    final GitHubSignIn gitHubSignIn =
+        GitHubSignIn(clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUrl: REDIRECT_URL);
 
     // Trigger the sign-in flow
     final result = await gitHubSignIn.signIn(context);
@@ -139,8 +136,7 @@ class AuthService {
 
     // Once signed in, return the UserCredential
     //
-    var user =
-        await FirebaseAuth.instance.signInWithCredential(githubAuthCredential);
+    var user = await FirebaseAuth.instance.signInWithCredential(githubAuthCredential);
 
     name = user.user.displayName;
     email = user.user.email;
@@ -163,4 +159,58 @@ class AuthService {
     _userFromFirebaseUser(user.user);
     return user;
   }*/
+
+  Widget signInWithLinkedIn(BuildContext context) {
+    return LinkedInUserWidget(
+      appBar: AppBar(
+        title: Text('GirlScript'),
+      ),
+      destroySession: false,
+      redirectUrl: REDIRECT_URL_LINKEDIN,
+      clientId: CLIENT_ID_LINKEDIN,
+      clientSecret: CLIENT_SECRET_LINKEDIN,
+      projection: [
+        ProjectionParameters.id,
+        ProjectionParameters.localizedFirstName,
+        ProjectionParameters.localizedLastName,
+        ProjectionParameters.firstName,
+        ProjectionParameters.lastName,
+        ProjectionParameters.profilePicture,
+      ],
+      onGetUserProfile: (LinkedInUserModel linkedInUser) {
+        final user = linkedInLoginFireBase(linkedInUser.token.accessToken);
+        if (user != null) Navigator.pop(context);
+      },
+      catchError: (LinkedInErrorObject error) {
+        print('Error description: ${error.description},'
+            ' Error code: ${error.statusCode.toString()}');
+        Navigator.pop(context);
+      },
+    );
+  }
+
+  linkedInLoginFireBase(String token) async {
+    final user = await _auth.signInWithCustomToken(token: token);
+
+    name = user.user.displayName;
+    email = user.user.email;
+    imageUrl = user.user.photoUrl;
+
+    if (user != null) {
+      await _firestore.collection('/users').document(user.user.uid).setData({
+        'name': name,
+        'email': email,
+        'profileImageUrl': imageUrl,
+      });
+    }
+
+    assert(!user.user.isAnonymous);
+    assert(await user.user.getIdToken() != null);
+
+    final FirebaseUser currentUser = await _auth.currentUser();
+    assert(user.user.uid == currentUser.uid);
+
+    _userFromFirebaseUser(user.user);
+    return user;
+  }
 }
