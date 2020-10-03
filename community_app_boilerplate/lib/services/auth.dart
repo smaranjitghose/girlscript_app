@@ -18,14 +18,12 @@ class AuthService {
   }
 
   Stream<User> get user {
-    return _auth.onAuthStateChanged
-        .map((FirebaseUser user) => _userFromFirebaseUser(user));
+    return _auth.onAuthStateChanged.map((FirebaseUser user) => _userFromFirebaseUser(user));
   }
 
   Future signInWithEmailAndPassword(String email, String password) async {
     try {
-      AuthResult result = await _auth.signInWithEmailAndPassword(
-          email: email, password: password);
+      AuthResult result = await _auth.signInWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
       _userFromFirebaseUser(user);
       return user.uid;
@@ -35,11 +33,10 @@ class AuthService {
     }
   }
 
-  Future registerWithEmailAndPassword(
-      String name, String email, String password) async {
+  Future registerWithEmailAndPassword(String name, String email, String password) async {
     try {
-      AuthResult result = await _auth.createUserWithEmailAndPassword(
-          email: email, password: password);
+      AuthResult result =
+          await _auth.createUserWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
       if (user != null) {
         _firestore.collection('/users').document(user.uid).setData({
@@ -123,10 +120,8 @@ class AuthService {
   // Githu
   Future<AuthResult> signInWithGitHub(BuildContext context) async {
     // Create a GitHubSignIn instance
-    final GitHubSignIn gitHubSignIn = GitHubSignIn(
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
-        redirectUrl: REDIRECT_URL);
+    final GitHubSignIn gitHubSignIn =
+        GitHubSignIn(clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUrl: REDIRECT_URL);
 
     // Trigger the sign-in flow
     final result = await gitHubSignIn.signIn(context);
@@ -137,8 +132,7 @@ class AuthService {
 
     // Once signed in, return the UserCredential
     //
-    var user =
-        await FirebaseAuth.instance.signInWithCredential(githubAuthCredential);
+    var user = await FirebaseAuth.instance.signInWithCredential(githubAuthCredential);
 
     name = user.user.displayName;
     email = user.user.email;
