@@ -2,7 +2,7 @@ import 'package:communityappboilerplate/ui/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:url_launcher/url_launcher.dart';
+//TODO:import 'package:url_launcher/url_launcher.dart';
 
 final AuthService _authService = AuthService();
 
@@ -434,7 +434,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               elevation: 6,
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
                               onPressed: () async {
-                                await _authService.signInWithGitHub(context).whenComplete(() {
+                             //   await _authService.signInWithGitHub(context).whenComplete(() {//TODO:uncomment
                                   Navigator.of(context).push(
                                     MaterialPageRoute(
                                       builder: (context) {
@@ -442,7 +442,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       },
                                     ),
                                   );
-                                });
+                             //   });//TODO:uncomment
                               },
                               color: Colors.black,
                               padding: EdgeInsets.all(9),
