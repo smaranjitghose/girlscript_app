@@ -3,9 +3,9 @@ import 'package:communityappboilerplate/services/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:github_sign_in/github_sign_in.dart';
+import 'package:github_sign_in/github_sign_in.dart'; //TODO
 
-//import '../secret.dart';
+//TODO: import '../secret.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 final GoogleSignIn googleSignIn = GoogleSignIn();
@@ -120,7 +120,8 @@ class AuthService {
     }
   }
 
-  // Githu
+//TODO:
+  // Github
   /*
   Future<AuthResult> signInWithGitHub(BuildContext context) async {
     // Create a GitHubSignIn instance
