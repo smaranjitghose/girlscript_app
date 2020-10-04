@@ -11,8 +11,7 @@ class Milestone extends StatefulWidget {
 }
 
 class _MilestoneState extends State<Milestone> {
-
-  String name="User Name";
+  String name = "User Name";
 
   @override
   void initState() {
@@ -21,17 +20,16 @@ class _MilestoneState extends State<Milestone> {
 
   @override
   Widget build(BuildContext context) {
-    final height=MediaQuery.of(context).size.height;
-    final width=MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
+    final width = MediaQuery.of(context).size.width;
     return FutureBuilder(
       future: userRef.document(widget.userId).get(),
-      builder: (BuildContext context, AsyncSnapshot snapshot){
-        if(!snapshot.hasData){
+      builder: (BuildContext context, AsyncSnapshot snapshot) {
+        if (!snapshot.hasData) {
           return Center(
             child: CircularProgressIndicator(),
           );
-        } else{
-          User user = User.fromDoc(snapshot.data);
+        } else {
           return Container(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30.0),
@@ -42,11 +40,7 @@ class _MilestoneState extends State<Milestone> {
                   ),
                   Text(
                     'MILESTONE',
-                    style:TextStyle(
-                      fontSize: 25.0, 
-                      fontWeight: FontWeight.w700,
-                      letterSpacing: 0.5
-                    ),
+                    style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.w700, letterSpacing: 0.5),
                   ),
                   SizedBox(
                     height: width * 0.01,
@@ -73,21 +67,17 @@ class _MilestoneState extends State<Milestone> {
                   ),
                   Card(
                     elevation: 6.0,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10)
-                    ),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Row(
                         children: <Widget>[
                           Container(
-                            width: width*0.2,
-                            height: height*0.13,
+                            width: width * 0.2,
+                            height: height * 0.13,
                             child: Card(
                               color: Colors.grey[300],
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10)
-                              ),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                               elevation: 3.0,
                               child: Padding(
                                 padding: const EdgeInsets.all(8.0),
@@ -98,31 +88,29 @@ class _MilestoneState extends State<Milestone> {
                               ),
                             ),
                           ),
-                          SizedBox(width: width*0.01,),
+                          SizedBox(
+                            width: width * 0.01,
+                          ),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
                               Text(
                                 'Won Hackathon',
-                                style: TextStyle(
-                                  fontSize: 18.0,
-                                  fontWeight: FontWeight.bold
-                                ),
+                                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                               ),
                               Text(
-                                user.name,
+                                User.name,
                                 style: TextStyle(
                                   fontSize: 15.0,
                                 ),
                               ),
-                              SizedBox(height: height*0.014,),
+                              SizedBox(
+                                height: height * 0.014,
+                              ),
                               Text(
                                 'datadatadatadatadatadata',
-                                style: TextStyle(
-                                  fontSize: 13.0,
-                                  color: Colors.amber[800]
-                                ),
+                                style: TextStyle(fontSize: 13.0, color: Colors.amber[800]),
                               )
                             ],
                           )

@@ -1,4 +1,6 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:communityappboilerplate/ui/dashboard.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:communityappboilerplate/services/auth.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -434,15 +436,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               elevation: 6,
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
                               onPressed: () async {
-                             //   await _authService.signInWithGitHub(context).whenComplete(() {//TODO:uncomment
-                                  Navigator.of(context).push(
-                                    MaterialPageRoute(
-                                      builder: (context) {
-                                        return Dashboard();
-                                      },
-                                    ),
-                                  );
-                             //   });//TODO:uncomment
+                                //   await _authService.signInWithGitHub(context).whenComplete(() {//TODO:uncomment
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) {
+                                      return Dashboard();
+                                    },
+                                  ),
+                                );
+                                //   });//TODO:uncomment
                               },
                               color: Colors.black,
                               padding: EdgeInsets.all(9),
@@ -504,11 +506,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             child: RaisedButton(
                               elevation: 6,
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-                              onPressed: () {
+                              onPressed: () async {
                                 setState(() {
                                   _loading = true;
                                 });
-                                _authService.signInWithGoogle().whenComplete(() {
+                                await _authService.signInWithGoogle().whenComplete(() {
                                   Navigator.of(context).push(
                                     MaterialPageRoute(
                                       builder: (context) {
