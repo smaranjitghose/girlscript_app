@@ -16,7 +16,7 @@ final Firestore _firestore = Firestore.instance;
 class AuthService {
   User _userFromFirebaseUser(FirebaseUser user) {
     print(user);
-    return user != null ? User(uid: user.uid) : null;
+    return user != null ? User() : null;
   }
 
   Stream<User> get user {
@@ -59,10 +59,9 @@ class AuthService {
   String email;
   String imageUrl;
 
-  Future<String> signInWithGoogle() async {
+  Future<FirebaseUser> signInWithGoogle() async {
     final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
-    final GoogleSignInAuthentication googleSignInAuthentication =
-        await googleSignInAccount.authentication;
+    final GoogleSignInAuthentication googleSignInAuthentication = await googleSignInAccount.authentication;
 
     final AuthCredential credential = GoogleAuthProvider.getCredential(
       accessToken: googleSignInAuthentication.accessToken,
@@ -101,7 +100,7 @@ class AuthService {
 
     _userFromFirebaseUser(user);
 
-    return user.uid;
+    return user;
   }
 
   void signOutGoogle() async {
