@@ -32,7 +32,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final AuthService _auth = AuthService();
 
   String emailValidator(String value) {
-    Pattern pattern = r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
+    Pattern pattern =
+        r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
     RegExp regex = new RegExp(pattern);
     if (value.isEmpty) return '*Required';
     if (!regex.hasMatch(value))
@@ -232,7 +233,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       });
                                     },
                                     validator: (value) => value.isEmpty ? '*Required' : null,
-                                    decoration: inputTextDecoration.copyWith(labelText: "Username", icon: Icon(Icons.person_outline, color: Colors.black87, size: 30)),
+                                    decoration: inputTextDecoration.copyWith(
+                                        labelText: "Username",
+                                        icon: Icon(Icons.person_outline,
+                                            color: Colors.black87, size: 30)),
                                   ),
                                 ),
                                 SizedBox(height: height * 0.015),
@@ -248,7 +252,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       });
                                     },
                                     validator: (value) => value.isEmpty ? '*Required' : null,
-                                    decoration: inputTextDecoration.copyWith(labelText: "Password", icon: Icon(Icons.lock_outline, color: Colors.black87, size: 30)),
+                                    decoration: inputTextDecoration.copyWith(
+                                        labelText: "Password",
+                                        icon: Icon(Icons.lock_outline,
+                                            color: Colors.black87, size: 30)),
                                   ),
                                 ),
                                 SizedBox(height: height * 0.015),
@@ -263,7 +270,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       });
                                     },
                                     validator: emailValidator,
-                                    decoration: inputTextDecoration.copyWith(labelText: "Email", icon: Icon(Icons.mail_outline, color: Colors.black87, size: 30)),
+                                    decoration: inputTextDecoration.copyWith(
+                                        labelText: "Email",
+                                        icon: Icon(Icons.mail_outline,
+                                            color: Colors.black87, size: 30)),
                                   ),
                                 ),
                                 SizedBox(height: height * 0.015),
@@ -308,7 +318,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                         setState(() {
                                           _loading = true;
                                         });
-                                        dynamic result = await _auth.registerWithEmailAndPassword(_userName, _email, _password);
+                                        dynamic result = await _auth.registerWithEmailAndPassword(
+                                            _userName, _email, _password);
                                         print(result);
                                         switch (result) {
                                           case "ERROR_EMAIL_ALREADY_IN_USE":
@@ -322,7 +333,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                           case "ERROR_WEAK_PASSWORD":
                                             {
                                               setState(() {
-                                                errorMsg = "The password must be 6 characters long or more.";
+                                                errorMsg =
+                                                    "The password must be 6 characters long or more.";
                                                 _loading = false;
                                               });
                                             }
@@ -476,7 +488,12 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             child: RaisedButton(
                               elevation: 6,
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-                              onPressed: () {},
+                              onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => _auth.signInWithLinkedIn(context),
+                                ),
+                              ),
                               color: Color(0xff2867B2),
                               padding: EdgeInsets.all(9),
                               child: Row(
