@@ -57,17 +57,13 @@ flutter:
   assets:
     - assets/images/gs_launcher.png
     - assets/images/code.png
-    - assets/images/github.png
     - assets/images/google.png
-    - assets/images/linkedin.png
     - assets/images/flutter1.png
     - assets/images/announcement1.jpg
     - assets/images/announcement2.jpg
     - assets/images/gs.png
     - assets/images/code2.png
     - assets/images/events/event1.jpg
-    - assets/images/linkedinblue.png
-    - assets/images/githubblack.png
     - assets/images/team.png
     - assets/images/custom.svg
     - assets/images/html.png
