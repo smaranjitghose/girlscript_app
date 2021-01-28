@@ -45,31 +45,31 @@ class _TeamScreenState extends State<TeamsScreen> {
       "name": "Suhrid Datta",
       "linkedin": "https://www.linkedin.com/in/suhrid-datta-834863157/",
       "github": "https://github.com/suhriddatta",
-      "imgUrl": "assets/images/team/suhrid_datta.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106131610-e9bf3180-6188-11eb-8e6b-cd254b847d14.jpg",
     },
     {
       "name": "Bidisha Mukherjee",
       "linkedin": " ",
       "github": " ",
-      "imgUrl": "assets/images/team/bidisha_mukherjea.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106131700-05c2d300-6189-11eb-84f3-332a5d558c7c.jpg",
     },
     {
       "name": "Ambarish Dattar",
       "linkedin": " ",
       "github": " ",
-      "imgUrl": "assets/images/team/ambarish_datar.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106131775-1d9a5700-6189-11eb-88ee-d4c9c15e7047.jpg",
     },
     {
       "name": "Apoorva Gupta",
       "linkedin": "https://www.linkedin.com/in/apoorvagupta30/",
       "github": " ",
-      "imgUrl": "assets/images/team/apoorva_gupta.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106131877-399df880-6189-11eb-8ede-6999b61a7006.jpg",
     },
     {
       "name": "Rishabh Verma",
       "linkedin": "",
       "github": " ",
-      "imgUrl": "assets/images/team/Rishabh_Verma.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106131929-4a4e6e80-6189-11eb-84da-2c6a88d445ef.jpg",
     },
   ];
 
@@ -78,26 +78,26 @@ class _TeamScreenState extends State<TeamsScreen> {
       "name": "Ram Maheshwari",
       "linkedin": "",
       "github": " ",
-      "imgUrl": "assets/images/team/ram_maheshwari.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106132609-2b9ca780-618a-11eb-94b0-b862c7db5724.jpg",
     },
     {
       "name": "Jasprit Kaur",
       "linkedin": "https://www.linkedin.com/in/kaurjasprit/",
       "github": " ",
-      "imgUrl": "assets/images/team/jasprit_kaur.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106132741-57b82880-618a-11eb-8ce7-d1c153dddf7d.jpg",
     },
     {
       "name": "Sriyash",
       "linkedin": " ",
       "github": " ",
-      "imgUrl": "assets/images/team/sriyash.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106132666-3a835a00-618a-11eb-8ff4-3a89e4a70d69.jpg",
     },
     {
       "name": "Rahul Sarvadevabhatla",
       "linkedin":
           "https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/",
       "github": " ",
-      "imgUrl": "assets/images/team/rahul_sarvadevabhatla.jpg",
+      "imgUrl": "https://user-images.githubusercontent.com/74055102/106132785-656dae00-618a-11eb-886e-ee6fdb49cb26.jpg",
     },
   ];
   var designTeam = [
@@ -345,19 +345,20 @@ class _TeamScreenState extends State<TeamsScreen> {
                                   Container(
                                     width: 100,
                                     height: 100,
-                                    decoration: new BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        boxShadow: [
-                                          BoxShadow(
-                                              color: Color(0x29000000),
-                                              offset: Offset(0, 0),
-                                              blurRadius: 8,
-                                              spreadRadius: 0)
-                                        ],
-                                        image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                            image: AssetImage(
-                                                technicalTeam[index]["imgUrl"]))),
+                                    child: CachedNetworkImage(
+                                      imageUrl: technicalTeam[index]["imgUrl"],
+                                      imageBuilder: (context, imageProvider) => Container(
+                                        width: 100.0,
+                                        height: 100.0,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          image: DecorationImage(
+                                              image: imageProvider, fit: BoxFit.cover),
+                                        ),
+                                      ),
+                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                      errorWidget: (context, url, error) => Icon(Icons.error),
+                                    ),
                                   ),
                                   Container(
                                     margin: EdgeInsets.only(top: 10),
@@ -443,7 +444,7 @@ class _TeamScreenState extends State<TeamsScreen> {
                     margin: EdgeInsets.only(top: 20),
                     alignment: Alignment.center,
                     child: Text(
-                      "Buisness Team",
+                      "Business Team",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,
@@ -466,21 +467,20 @@ class _TeamScreenState extends State<TeamsScreen> {
                                   Container(
                                     width: 100,
                                     height: 100,
-                                    decoration: new BoxDecoration(
-                                        color: Colors.white,
-                                        shape: BoxShape.circle,
-                                        boxShadow: [
-                                          BoxShadow(
-                                              color: Color(0xff000000)
-                                                  .withOpacity(0.16),
-                                              offset: Offset(0.00, 3.00),
-                                              blurRadius: 8,
-                                              spreadRadius: 0)
-                                        ],
-                                        image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                            image: AssetImage(
-                                                managementTeam[index]["imgUrl"]))),
+                                    child: CachedNetworkImage(
+                                      imageUrl: managementTeam[index]["imgUrl"],
+                                      imageBuilder: (context, imageProvider) => Container(
+                                        width: 100.0,
+                                        height: 100.0,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          image: DecorationImage(
+                                              image: imageProvider, fit: BoxFit.cover),
+                                        ),
+                                      ),
+                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                      errorWidget: (context, url, error) => Icon(Icons.error),
+                                    ),
                                   ),
                                   Container(
                                     margin: EdgeInsets.only(top: 10),
