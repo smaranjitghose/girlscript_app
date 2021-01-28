@@ -266,11 +266,19 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                   shape: new CircleBorder(),
                                                   elevation: 10,
-                                                  child: Image(
-                                                    image: AssetImage(
-                                                        'assets/images/linkedinblue.png'),
-                                                    width: 14.2,
-                                                    height: 14.2,
+                                                  child: CachedNetworkImage(
+                                                    imageUrl: 'https://img.icons8.com/color/48/000000/linkedin.png',
+                                                    imageBuilder: (context, imageProvider) => Container(
+                                                      width: 100.0,
+                                                      height: 100.0,
+                                                      decoration: BoxDecoration(
+                                                        shape: BoxShape.circle,
+                                                        image: DecorationImage(
+                                                            image: imageProvider, fit: BoxFit.cover),
+                                                      ),
+                                                    ),
+                                                    placeholder: (context, url) => CircularProgressIndicator(),
+                                                    errorWidget: (context, url, error) => Icon(Icons.error),
                                                   ),
                                                   onPressed: () async {
                                                     await launch(
@@ -299,10 +307,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                     shape: new CircleBorder(),
                                                     elevation: 10,
-                                                    child: Image(
-                                                      image: AssetImage(
-                                                          'assets/images/githubblack.png'),
-                                                      width: 16,
+                                                    child: CachedNetworkImage(
+                                                      imageUrl: 'https://img.icons8.com/fluent/50/000000/github.png',
+                                                      imageBuilder: (context, imageProvider) => Container(
+                                                        width: 100.0,
+                                                        height: 100.0,
+                                                        decoration: BoxDecoration(
+                                                          shape: BoxShape.circle,
+                                                          image: DecorationImage(
+                                                              image: imageProvider, fit: BoxFit.cover),
+                                                        ),
+                                                      ),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -389,11 +404,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                     shape: new CircleBorder(),
                                                     elevation: 10,
-                                                    child: Image(
-                                                      image: AssetImage(
-                                                          'assets/images/linkedinblue.png'),
-                                                      width: 14.2,
-                                                      height: 14.2,
+                                                    child: CachedNetworkImage(
+                                                        imageUrl: 'https://img.icons8.com/color/48/000000/linkedin.png',
+                                                        imageBuilder: (context, imageProvider) => Container(
+                                                          width: 100.0,
+                                                          height: 100.0,
+                                                          decoration: BoxDecoration(
+                                                            shape: BoxShape.circle,
+                                                            image: DecorationImage(
+                                                                image: imageProvider, fit: BoxFit.cover),
+                                                          ),
+                                                        ),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -421,10 +442,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                     shape: new CircleBorder(),
                                                     elevation: 10,
-                                                    child: Image(
-                                                      image: AssetImage(
-                                                          'assets/images/githubblack.png'),
-                                                      width: 16,
+                                                    child: CachedNetworkImage(
+                                                      imageUrl: 'https://img.icons8.com/fluent/50/000000/github.png',
+                                                      imageBuilder: (context, imageProvider) => Container(
+                                                        width: 100.0,
+                                                        height: 100.0,
+                                                        decoration: BoxDecoration(
+                                                          shape: BoxShape.circle,
+                                                          image: DecorationImage(
+                                                              image: imageProvider, fit: BoxFit.cover),
+                                                        ),
+                                                      ),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -511,11 +539,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                   shape: new CircleBorder(),
                                                   elevation: 10,
-                                                  child: Image(
-                                                    image: AssetImage(
-                                                        'assets/images/linkedinblue.png'),
-                                                    width: 14.2,
-                                                    height: 14.2,
+                                                  child: CachedNetworkImage(
+                                                    imageUrl: 'https://img.icons8.com/color/48/000000/linkedin.png',
+                                                    imageBuilder: (context, imageProvider) => Container(
+                                                      width: 100.0,
+                                                      height: 100.0,
+                                                      decoration: BoxDecoration(
+                                                        shape: BoxShape.circle,
+                                                        image: DecorationImage(
+                                                            image: imageProvider, fit: BoxFit.cover),
+                                                      ),
+                                                    ),
                                                   ),
                                                   onPressed: () async {
                                                     await launch(
@@ -544,10 +578,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                     shape: new CircleBorder(),
                                                     elevation: 10,
-                                                    child: Image(
-                                                      image: AssetImage(
-                                                          'assets/images/githubblack.png'),
-                                                      width: 16,
+                                                    child: CachedNetworkImage(
+                                                      imageUrl: 'https://img.icons8.com/fluent/50/000000/github.png',
+                                                      imageBuilder: (context, imageProvider) => Container(
+                                                        width: 100.0,
+                                                        height: 100.0,
+                                                        decoration: BoxDecoration(
+                                                          shape: BoxShape.circle,
+                                                          image: DecorationImage(
+                                                              image: imageProvider, fit: BoxFit.cover),
+                                                        ),
+                                                      ),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -636,11 +677,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                   shape: new CircleBorder(),
                                                   elevation: 10,
-                                                  child: Image(
-                                                    image: AssetImage(
-                                                        'assets/images/linkedinblue.png'),
-                                                    width: 14.2,
-                                                    height: 14.2,
+                                                  child: CachedNetworkImage(
+                                                    imageUrl: 'https://img.icons8.com/color/48/000000/linkedin.png',
+                                                    imageBuilder: (context, imageProvider) => Container(
+                                                      width: 100.0,
+                                                      height: 100.0,
+                                                      decoration: BoxDecoration(
+                                                        shape: BoxShape.circle,
+                                                        image: DecorationImage(
+                                                            image: imageProvider, fit: BoxFit.cover),
+                                                      ),
+                                                    ),
                                                   ),
                                                   onPressed: () async {
                                                     await launch(
@@ -669,10 +716,17 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                 child: new RawMaterialButton(
                                                     shape: new CircleBorder(),
                                                     elevation: 10,
-                                                    child: Image(
-                                                      image: AssetImage(
-                                                          'assets/images/githubblack.png'),
-                                                      width: 16,
+                                                    child: CachedNetworkImage(
+                                                      imageUrl: 'https://img.icons8.com/fluent/50/000000/github.png',
+                                                      imageBuilder: (context, imageProvider) => Container(
+                                                        width: 100.0,
+                                                        height: 100.0,
+                                                        decoration: BoxDecoration(
+                                                          shape: BoxShape.circle,
+                                                          image: DecorationImage(
+                                                              image: imageProvider, fit: BoxFit.cover),
+                                                        ),
+                                                      ),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
