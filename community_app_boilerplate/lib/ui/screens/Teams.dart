@@ -318,6 +318,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                               image: imageProvider, fit: BoxFit.cover),
                                                         ),
                                                       ),
+                                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                                      errorWidget: (context, url, error) => Icon(Icons.error),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -415,6 +417,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                                 image: imageProvider, fit: BoxFit.cover),
                                                           ),
                                                         ),
+                                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                                      errorWidget: (context, url, error) => Icon(Icons.error),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -453,6 +457,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                               image: imageProvider, fit: BoxFit.cover),
                                                         ),
                                                       ),
+                                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                                      errorWidget: (context, url, error) => Icon(Icons.error),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -550,6 +556,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                             image: imageProvider, fit: BoxFit.cover),
                                                       ),
                                                     ),
+                                                    placeholder: (context, url) => CircularProgressIndicator(),
+                                                    errorWidget: (context, url, error) => Icon(Icons.error),
                                                   ),
                                                   onPressed: () async {
                                                     await launch(
@@ -589,6 +597,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                               image: imageProvider, fit: BoxFit.cover),
                                                         ),
                                                       ),
+                                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                                      errorWidget: (context, url, error) => Icon(Icons.error),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
@@ -688,6 +698,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                             image: imageProvider, fit: BoxFit.cover),
                                                       ),
                                                     ),
+                                                    placeholder: (context, url) => CircularProgressIndicator(),
+                                                    errorWidget: (context, url, error) => Icon(Icons.error),
                                                   ),
                                                   onPressed: () async {
                                                     await launch(
@@ -727,6 +739,8 @@ class _TeamScreenState extends State<TeamsScreen> {
                                                               image: imageProvider, fit: BoxFit.cover),
                                                         ),
                                                       ),
+                                                      placeholder: (context, url) => CircularProgressIndicator(),
+                                                      errorWidget: (context, url, error) => Icon(Icons.error),
                                                     ),
                                                     onPressed: () async {
                                                       await launch(
